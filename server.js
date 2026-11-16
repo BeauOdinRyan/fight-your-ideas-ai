@@ -16,6 +16,9 @@
 
 import http from "node:http";
 import zlib from "node:zlib";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
 import Anthropic from "@anthropic-ai/sdk";
 
 const PORT = Number(process.env.PORT || 8787);
@@ -35,13 +38,111 @@ if (!process.env.ANTHROPIC_API_KEY) {
   console.warn("Warning: ANTHROPIC_API_KEY is empty. The helper will run, but every prompt will fall back to the game's word engine.");
 }
 
-// The game waits about 8 seconds, so fail fast instead of retrying.
-const client = new Anthropic({ timeout: 7000, maxRetries: 0 });
+// The game waits about 11 seconds, so fail fast instead of retrying.
+const client = new Anthropic({ timeout: 10000, maxRetries: 0 });
 
 let vocab = null; // sent by the game when its server starts, so the word list never drifts
 let systemPrompt = null;
 const cache = new Map(); // typed prompt -> phrase
 const stats = { requests: 0, input: 0, cached: 0, output: 0 }; // token totals since the helper started (see /health)
+
+// --- knowledge base ---------------------------------------------------------------------------
+// The kb folder holds facts about characters, items, abilities and vehicles from games, anime,
+// films, shows, books and memes (see kb/FORMAT.md). When a prompt names one of them, its entry
+// is handed to the model as a reference note, so "ahri with bork" comes out true to the source
+// and inside the game's power limits. To teach the game something new, add an entry to a file
+// in kb (or add a new .json file there) and restart the helper.
+const KB_DIR = path.join(path.dirname(fileURLToPath(import.meta.url)), "kb");
+const kbIndex = new Map(); // normalised name -> entry
+const kbSingles = []; // one-word names of 6+ letters, for forgiving typos
+let kbCount = 0;
+const norm = (s) => String(s ?? "").toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
+
+function loadKb() {
+  let files = [];
+  try {
+    files = fs.readdirSync(KB_DIR).filter((f) => f.endsWith(".json"));
+  } catch {
+    console.warn("No kb folder found: the helper will work without reference notes.");
+    return;
+  }
+  for (const file of files) {
+    try {
+      const entries = JSON.parse(fs.readFileSync(path.join(KB_DIR, file), "utf8"));
+      for (const e of entries) {
+        if (!e || !Array.isArray(e.names) || !e.facts) continue;
+        kbCount += 1;
+        for (const name of e.names) {
+          const key = norm(name);
+          if (key.length < 2 || kbIndex.has(key)) continue;
+          kbIndex.set(key, e);
+          if (!key.includes(" ") && key.length >= 6) kbSingles.push(key);
+          const squashed = key.replace(/ /g, ""); // "kai sa" also answers to "kaisa"
+          if (squashed !== key && squashed.length >= 5 && !kbIndex.has(squashed)) kbIndex.set(squashed, e);
+        }
+      }
+    } catch (err) {
+      console.warn(`Could not read kb/${file}: ${err.message}`);
+    }
+  }
+  console.log(`knowledge base: ${kbCount} entries, ${kbIndex.size} names`);
+}
+
+// true when two words differ by one typo (one letter changed, added, dropped or two swapped)
+function oneTypo(a, b) {
+  if (a === b || Math.abs(a.length - b.length) > 1 || a[0] !== b[0]) return false;
+  let i = 0;
+  while (i < a.length && i < b.length && a[i] === b[i]) i++;
+  const restA = a.slice(i), restB = b.slice(i);
+  return (
+    restA.slice(1) === restB.slice(1) || restA.slice(1) === restB || restA === restB.slice(1) ||
+    (restA.length > 1 && restB.length > 1 && restA[0] === restB[1] && restA[1] === restB[0] && restA.slice(2) === restB.slice(2))
+  );
+}
+
+// The entries a prompt names, longest names first, at most six.
+function lookupKb(text) {
+  const words = norm(text).split(" ").filter(Boolean).slice(0, 40);
+  const taken = new Array(words.length).fill(false);
+  const found = [];
+  for (let len = Math.min(5, words.length); len >= 1 && found.length < 6; len--) {
+    for (let i = 0; i + len <= words.length && found.length < 6; i++) {
+      if (taken.slice(i, i + len).some(Boolean)) continue;
+      const phrase = words.slice(i, i + len).join(" ");
+      let entry = kbIndex.get(phrase);
+      if (!entry && len === 1) {
+        const w = words[i];
+        if (w.endsWith("s") && w.length > 3) entry = kbIndex.get(w.slice(0, -1)); // plurals
+        if (!entry && w.length >= 6) {
+          const close = kbSingles.find((k) => oneTypo(w, k));
+          if (close) entry = kbIndex.get(close);
+        }
+      }
+      if (entry && !found.includes(entry)) {
+        found.push(entry);
+        for (let k = i; k < i + len; k++) taken[k] = true;
+      }
+    }
+  }
+  return found;
+}
+
+function kbNote(e) {
+  const bits = [`- ${e.names[0]} [${e.kind || "thing"}${e.from ? ", from " + e.from : ""}]: ${e.facts}`];
+  if (e.look) bits.push(`Looks like: ${e.look}.`);
+  const hints = [];
+  if (e.use) hints.push(`becomes a ${e.use}`);
+  if (e.trait && e.trait !== "none") hints.push(`trait ${e.trait}`);
+  if (e.attack) hints.push(`attack ${e.attack}`);
+  if (e.element && e.element !== "none") hints.push(`element ${e.element}`);
+  if (e.flies) hints.push("flies");
+  if (e.speed) hints.push(`speed ${e.speed} strength ${e.strength} toughness ${e.toughness}`);
+  if (Array.isArray(e.specials) && e.specials.length) hints.push(`specials ${e.specials.join(", ")}`);
+  if (e.color) hints.push(`glow ${e.color}`);
+  if (hints.length) bits.push(`In the game: ${hints.join("; ")}.`);
+  return bits.join(" ");
+}
+loadKb();
 
 function buildSystemPrompt(v) {
   const list = (words) => words.join(", ");
@@ -88,9 +189,13 @@ RULES:
     flies    true only if it really flies or hovers.
     speed, strength, toughness   1 (feeble) to 5 (legendary). Be honest: a speedster is speed 5, toughness 2;
              a tank is toughness 5, speed 1. The three together must not exceed 12.
-    special  ONE signature trick: teleport (blinks, instant movement), heal (regenerates), shield (force fields,
+    specials Up to THREE signature tricks, the ones the character is actually known for, most famous first (an
+             empty list if none fit): teleport (blinks, instant movement), heal (regenerates), shield (force fields,
              invulnerable moments), adapt (gets tougher the more it is hit), leap (jumps in and slams the ground),
-             pull (webs, grapples, telekinesis, gravity), aura (hurts everything nearby), clones (comes with copies), none.
+             pull (webs, grapples, telekinesis, gravity), aura (hurts everything nearby), clones (comes with copies),
+             grow (turns giant: titans, rage giants, size-changers), lifesteal (drains life: vampires, soul eaters).
+             Be ACCURATE to the source: only give a power the character really has. A web-slinger gets pull and leap,
+             not flight. A caped flying strongman gets shield, flies true, beam attack for heat vision.
     source   anime, superhero or myth when it is a NAMED character from one; otherwise none.
   Examples: a web-slinging hero -> ranged, pull, speed 4. A caped flying strongman -> melee, flies, strength 5,
   toughness 5, special shield. A spiky-haired martial artist who powers up -> beam, flies, special aura. A wheel-backed
@@ -115,10 +220,64 @@ RULES:
   the phrase, look and character block for that character exactly as if it were summoned (is_character true), so
   the game knows what powers and appearance to give the player. false for everything else, including a plain name
   ("superman" alone summons him).
-- VEHICLES the player can drive have their own words. Any car, truck, bike or other road vehicle -> "car". Any plane,
-  jet, helicopter or bomber -> "plane". An armoured or weaponised vehicle (tank, killdozer, battle mech you sit in)
-  -> "killdozer". A plain "bulldozer" stays "bulldozer" (it drives itself and fights for the player). Use the single
-  word alone, with self false and is_character false.
+- "skin": when "self" is true, ALSO fill in "skin": how to dress the player's blocky Roblox avatar as that
+  character. Every colour is a hex code like "#1E3A8A"; use "" for "none / not there". Be accurate to the character:
+    skin_color (face and any bare limbs; green, blue, grey etc. for non-human skin), hair (none, short, spiky, long,
+    ponytail, twin_tails) and hair_color, top_color (shirt or suit torso), sleeves (long = arms covered in the top
+    colour, short = upper arms only, none = bare arms), gloves_color, pants_color, boots_color, emblem (none, circle,
+    diamond: a chest symbol) and emblem_color, belt_color, mask (none, full = whole head covered like a web-slinger
+    or armoured hero, eyes = a band across the eyes, cowl = top of the head with pointed ears) and mask_color,
+    eye_glow_color (only for glowing eyes or mask lenses), headgear (none, headband, horns, crown, helmet, hat,
+    halo, ears) and headgear_color, back (none, cape, wings, sword, shell, tail, jetpack) and back_color, aura_color
+    (a glowing aura, e.g. gold for a powered-up martial artist).
+  When "self" is false, set every skin colour to "" and every choice to "none".
+- VEHICLES the player can drive have their own words. A plain car, truck, bike or other road vehicle -> "car". A
+  plain plane, jet, helicopter or bomber -> "plane". A plain tank or killdozer -> "killdozer". A plain "bulldozer"
+  stays "bulldozer" (it drives itself and fights for the player). Use the single word alone, with self false and
+  is_character false.
+- RIDING ANYTHING ELSE: when the player asks to ride, drive, pilot or fly something that is not a plain car, plane
+  or tank ("let me ride a star destroyer", "pilot a giant drill robot", "ride a dragon", "drive the batmobile"),
+  set vehicle.is_vehicle true and describe it: kind (ground = wheels, tracks, hovering low; air = flies; walker =
+  walks on legs: mechs, giant robots, ridden beasts), size 1 (bike) to 5 (capital ship), speed and toughness 1 to 5,
+  and weapon (none, guns = rapid fire, cannon = big explosive shots, laser, bombs = dropped from the air, melee =
+  rams, punches, drills). "look" must then describe the VEHICLE itself for a 3D artist (shape, colours, engines,
+  weapons), never a name. The phrase can be the closest word ("mecha", "plane", "dragon"). Otherwise is_vehicle false.
+  Only the PLAYER asking to ride counts. "a knight riding a dragon" or "goku riding a creeper" is a summoned creature
+  on a mount: is_vehicle false, phrase "THING riding THING", and the character block describes the rider.
+- "look" never contains a name, even when the reference notes or the prompt use one: write what it looks like instead
+  ("silver spiky haired martial artist in an orange and blue gi", not the character's name). It describes ONE of the
+  thing, never "a hundred cowboys".
+- MIXED IDEAS: when a prompt combines two things, the result must clearly be BOTH. The phrase carries the mechanics
+  and "look" carries the blend, described as one object or figure:
+    a theme on a vehicle or object ("super saiyan plane") -> phrase "plane", look = a plane in that character's
+    colours with their signature features (orange and blue paint, golden spiky flame crest, glowing golden aura);
+    a character holding something ("purple titan with a lightsaber") -> phrase "... titan with sword", attack melee,
+    and the look MUST show the character holding that exact item (a glowing red energy sword in his hand);
+    a creature made of or dressed as something ("pizza dragon", "cowboy shark") -> both parts visible in the look.
+  Never drop one half of a mix.
+- "color": the one signature glow colour of the idea, as a hex code: an energy sword's blade colour, a powered-up
+  form's aura (gold), a cursed blade's purple, a fire sword's orange. It colours weapon trails, slashes and auras.
+  "" when the idea has no obvious glow.
+- REFERENCE NOTES: the player's message may come with notes about characters, items, abilities or vehicles it
+  names, taken from the game's own knowledge base. Trust them over your memory: build the phrase, look, character
+  block, trait and colour from the note's facts, and use the note's "In the game" hints (what it becomes, attack,
+  element, speed/strength/toughness, specials, glow) as your starting point. When the prompt combines several noted
+  things ("ahri with bork", "creeper riding a hog rider"), blend them: the character keeps its own powers, the item
+  becomes what it holds and adds its trait and glow. Ignore a note that clearly is not what the player meant.
+- LONG SENTENCES: read the whole thing, then decide in this order: (1) what it IS (the one main thing: a creature,
+  a weapon, a disaster, a vehicle, a transformation); (2) how many and how big; (3) at most THREE extras that change
+  how it plays, picked by what the player stressed most: what it holds, what it rides, what it shoots, its element,
+  one special power. Put those in the phrase. EVERYTHING else the player described (hats, colours, extra limbs,
+  accessories, mood) goes into "look", so the model still shows it. Never drop the main thing, never return only
+  an accessory, and never answer a long prompt with a random unrelated word.
+- WEAPON TRAIT: for a weapon or item, set "trait" to the one effect it is known for: lifesteal (heals the wielder),
+  burn, freeze, shock, poison, knockback, rapid (fast weak hits), heavy (slow huge hits), else none.
+- KEEP IT FAIR. This is a multiplayer game, so nothing may be overpowered, however the prompt is worded:
+    speed + strength + toughness is 12 at most, and 10 at most unless the thing is top-tier in its source;
+    at most three specials, and "shield" plus "heal" plus "adapt" never all together;
+    huge numbers ("a million", "infinite", "9999") become "army of" (the game caps how many appear);
+    claims like "one shot", "unkillable", "invincible", "infinite damage", "instant kill", "god mode" are flavour
+    only: keep the idea, give it normal power. Size words stop at "giant"/"colossal".
 - For a drawing, decide what it most looks like. If a caption is given, trust the caption over the picture.
 - "Instant win", "kill everyone", "infinite health" and similar become something weak and funny, e.g. "tiny chicken".
 - If the prompt is sexual, hateful, or about a real person, reply exactly: blob`;
@@ -181,6 +340,13 @@ async function interpret(text, doodle) {
   } else {
     content.push({ type: "text", text: `Player's prompt: "${text}"` });
   }
+  const notes = text ? lookupKb(text) : [];
+  if (notes.length) {
+    content.push({
+      type: "text",
+      text: "REFERENCE NOTES for things this prompt seems to name (use a note only if it fits what the player means):\n" + notes.map(kbNote).join("\n"),
+    });
+  }
 
   const useFallback = FALLBACK_MODELS.has(MODEL);
   const response = await client.beta.messages.create({
@@ -210,13 +376,61 @@ async function interpret(text, doodle) {
                 speed: { type: "integer", enum: [1, 2, 3, 4, 5] },
                 strength: { type: "integer", enum: [1, 2, 3, 4, 5] },
                 toughness: { type: "integer", enum: [1, 2, 3, 4, 5] },
-                special: { type: "string", enum: ["none", "teleport", "heal", "shield", "adapt", "leap", "pull", "aura", "clones"] },
+                specials: {
+                  type: "array",
+                  description: "Up to three signature tricks the character really has, most famous first. Empty if none.",
+                  items: { type: "string", enum: ["teleport", "heal", "shield", "adapt", "leap", "pull", "aura", "clones", "grow", "lifesteal"] },
+                },
               },
-              required: ["is_character", "source", "attack", "element", "flies", "speed", "strength", "toughness", "special"],
+              required: ["is_character", "source", "attack", "element", "flies", "speed", "strength", "toughness", "specials"],
+              additionalProperties: false,
+            },
+            color: { type: "string", description: "Signature glow colour as a hex code like #FFD700, or empty." },
+            trait: { type: "string", enum: ["none", "lifesteal", "burn", "freeze", "shock", "poison", "knockback", "rapid", "heavy"], description: "For a weapon or item: the one effect it is known for." },
+            skin: {
+              type: "object",
+              description: "How to dress the player's Roblox avatar as the character, when self is true. Colours are hex codes like #1E3A8A, or empty for none.",
+              properties: {
+                skin_color: { type: "string" },
+                hair: { type: "string", enum: ["none", "short", "spiky", "long", "ponytail", "twin_tails"] },
+                hair_color: { type: "string" },
+                top_color: { type: "string" },
+                sleeves: { type: "string", enum: ["long", "short", "none"] },
+                gloves_color: { type: "string" },
+                pants_color: { type: "string" },
+                boots_color: { type: "string" },
+                emblem: { type: "string", enum: ["none", "circle", "diamond"] },
+                emblem_color: { type: "string" },
+                belt_color: { type: "string" },
+                mask: { type: "string", enum: ["none", "full", "eyes", "cowl"] },
+                mask_color: { type: "string" },
+                eye_glow_color: { type: "string" },
+                headgear: { type: "string", enum: ["none", "headband", "horns", "crown", "helmet", "hat", "halo", "ears"] },
+                headgear_color: { type: "string" },
+                back: { type: "string", enum: ["none", "cape", "wings", "sword", "shell", "tail", "jetpack"] },
+                back_color: { type: "string" },
+                aura_color: { type: "string" },
+              },
+              required: ["skin_color", "hair", "hair_color", "top_color", "sleeves", "gloves_color", "pants_color", "boots_color", "emblem", "emblem_color",
+                "belt_color", "mask", "mask_color", "eye_glow_color", "headgear", "headgear_color", "back", "back_color", "aura_color"],
+              additionalProperties: false,
+            },
+            vehicle: {
+              type: "object",
+              description: "Filled in when the player asks to ride, drive or pilot something that is not a plain car, plane or tank.",
+              properties: {
+                is_vehicle: { type: "boolean" },
+                kind: { type: "string", enum: ["ground", "air", "walker"] },
+                size: { type: "integer", enum: [1, 2, 3, 4, 5] },
+                speed: { type: "integer", enum: [1, 2, 3, 4, 5] },
+                toughness: { type: "integer", enum: [1, 2, 3, 4, 5] },
+                weapon: { type: "string", enum: ["none", "guns", "cannon", "laser", "bombs", "melee"] },
+              },
+              required: ["is_vehicle", "kind", "size", "speed", "toughness", "weapon"],
               additionalProperties: false,
             },
           },
-          required: ["phrase", "look", "shot", "self", "character"],
+          required: ["phrase", "look", "shot", "self", "character", "color", "trait", "skin", "vehicle"],
           additionalProperties: false,
         },
       },
@@ -235,13 +449,29 @@ async function interpret(text, doodle) {
   let shot = "";
   let character = null;
   let self = false;
+  let skin = null;
+  let vehicle = null;
+  let color = null;
+  let trait = null;
   try {
     const parsed = JSON.parse(phrase);
     phrase = String(parsed.phrase ?? "");
     look = String(parsed.look ?? "").replace(/[^A-Za-z0-9 ,'-]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 260);
+    // belt and braces: a name must never reach the 3D generator, so strip any knowledge-base name that slipped in
+    for (const e of notes) {
+      for (const n of e.names) {
+        if (n.length >= 4) look = look.replace(new RegExp(`\\b${n.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "gi"), "");
+      }
+    }
+    look = look.replace(/\s+/g, " ").replace(/^[ ,]+/, "").trim();
     shot = String(parsed.shot ?? "").toLowerCase().replace(/[^a-z ]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 30);
     if (parsed.character && parsed.character.is_character === true) character = parsed.character;
     self = parsed.self === true;
+    if (character) character.special = (character.specials && character.specials[0]) || "none"; // older game versions read one
+    if (self && parsed.skin && typeof parsed.skin === "object") skin = parsed.skin;
+    if (parsed.vehicle && parsed.vehicle.is_vehicle === true) vehicle = parsed.vehicle;
+    if (/^#[0-9a-fA-F]{6}$/.test(String(parsed.color ?? ""))) color = parsed.color;
+    if (typeof parsed.trait === "string" && parsed.trait !== "none") trait = parsed.trait;
   } catch {
     // not JSON (should not happen with the schema above): fall through and clean up whatever came back
   }
@@ -252,7 +482,7 @@ async function interpret(text, doodle) {
   stats.cached += u.cache_read_input_tokens ?? 0;
   stats.output += u.output_tokens;
   phrase = phrase.toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 80);
-  return phrase ? { text: phrase, look, shot, self, power: character } : null;
+  return phrase ? { text: phrase, look, shot, self, power: character, skin, vehicle, color, trait } : null;
 }
 
 // --- HTTP -----------------------------------------------------------------------------------
@@ -288,7 +518,7 @@ function readJson(req) {
 const isWordList = (v) => Array.isArray(v) && v.length > 0 && v.length < 2000 && v.every((w) => typeof w === "string" && /^[a-z0-9]{1,24}$/.test(w));
 
 const server = http.createServer(async (req, res) => {
-  if (req.method === "GET" && req.url === "/health") return send(res, 200, { ok: true, model: MODEL, hasVocab: vocab !== null, stats });
+  if (req.method === "GET" && req.url === "/health") return send(res, 200, { ok: true, model: MODEL, hasVocab: vocab !== null, knowledge: kbCount, stats });
   if (req.method !== "POST") return send(res, 404, { error: "not found" });
   if (req.headers["x-game-secret"] !== SECRET) return send(res, 401, { error: "wrong secret" });
 
