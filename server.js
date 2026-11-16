@@ -193,7 +193,15 @@ RULES:
              empty list if none fit): teleport (blinks, instant movement), heal (regenerates), shield (force fields,
              invulnerable moments), adapt (gets tougher the more it is hit), leap (jumps in and slams the ground),
              pull (webs, grapples, telekinesis, gravity), aura (hurts everything nearby), clones (comes with copies),
-             grow (turns giant: titans, rage giants, size-changers), lifesteal (drains life: vampires, soul eaters).
+             grow (turns giant: titans, rage giants, size-changers), lifesteal (drains life: vampires, soul eaters),
+             spin (whirls blades, chains, a tail or itself: chainsaw fighters, spinning-top and tornado attackers),
+             freeze (freezes or stuns enemies in place: ice powers, stone gazes, time stops, paralysis),
+             slide (glides on its own path: ice slides, surfing, grinding rails, skating, snowboarding),
+             dash (a burst of super speed that bowls enemies over: speedsters, charging bulls, rolling attacks).
+             When the player BECOMES the character, these are what the F key does, so choose the moves a fan
+             would expect to press a button for. A chainsaw-headed devil hunter: leap, spin, heal. An ice hero who
+             skates on ice: freeze, slide, shield. A red-suited speedster: dash, heal. A hedgehog who rolls: dash,
+             spin. A rubber pirate: leap, grow, pull. A web-slinger: pull, leap. A gravity or time witch: freeze, pull.
              Be ACCURATE to the source: only give a power the character really has. A web-slinger gets pull and leap,
              not flight. A caped flying strongman gets shield, flies true, beam attack for heat vision.
     source   anime, superhero or myth when it is a NAMED character from one; otherwise none.
@@ -219,7 +227,9 @@ RULES:
   "i am goku", "turn me into a dragon", "become a werewolf", "give me spiderman abilities", "flash speed". Still write
   the phrase, look and character block for that character exactly as if it were summoned (is_character true), so
   the game knows what powers and appearance to give the player. false for everything else, including a plain name
-  ("superman" alone summons him).
+  ("superman" alone summons him). When self is true the phrase is ALWAYS the character as a creature ("ice human",
+  "fast ninja"), never a disaster, weapon or buff, even if their power is ice, fire or storms: "make me an ice
+  hero" is the hero, not a blizzard.
 - "skin": when "self" is true, ALSO fill in "skin": how to dress the player's blocky Roblox avatar as that
   character. Every colour is a hex code like "#1E3A8A"; use "" for "none / not there". Be accurate to the character:
     skin_color (face and any bare limbs; green, blue, grey etc. for non-human skin), hair (none, short, spiky, long,
@@ -379,7 +389,7 @@ async function interpret(text, doodle) {
                 specials: {
                   type: "array",
                   description: "Up to three signature tricks the character really has, most famous first. Empty if none.",
-                  items: { type: "string", enum: ["teleport", "heal", "shield", "adapt", "leap", "pull", "aura", "clones", "grow", "lifesteal"] },
+                  items: { type: "string", enum: ["teleport", "heal", "shield", "adapt", "leap", "pull", "aura", "clones", "grow", "lifesteal", "spin", "freeze", "slide", "dash"] },
                 },
               },
               required: ["is_character", "source", "attack", "element", "flies", "speed", "strength", "toughness", "specials"],

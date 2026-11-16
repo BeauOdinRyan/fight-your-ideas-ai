@@ -1,0 +1,264 @@
+[
+ {
+  "names": [
+   "chainsawman",
+   "chainsaw devil",
+   "chainsaw man form"
+  ],
+  "kind": "character",
+  "from": "Chainsaw Man",
+  "facts": "Devil hunter who pulls a cord in his chest to grow roaring chainsaws from his head and both arms. Leaps huge distances, spins and slashes wildly with the chainsaws, hooks enemies with chains, and regenerates by drinking.",
+  "look": "lean young man with an orange chainsaw-shaped head with a long saw blade and sharp teeth, chainsaw blades sticking out of both forearms, white shirt, black tie, dark trousers",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "spin",
+   "heal"
+  ],
+  "color": "#FF6A00"
+ },
+ {
+  "names": [
+   "frozone",
+   "fro zone",
+   "lucius best"
+  ],
+  "kind": "character",
+  "from": "The Incredibles",
+  "facts": "Ice superhero who freezes moisture in the air. Shoots ice from his hands to freeze enemies solid, makes ice walls, and skates at high speed on a path of ice he creates in front of him, like a snowboarder.",
+  "look": "tall athletic man in a sleek white and light blue super suit with a dark blue visor over his eyes, white gloves and boots, riding a disc of ice",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "ice",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "freeze",
+   "slide",
+   "shield"
+  ],
+  "color": "#9FE3FF"
+ },
+ {
+  "names": [
+   "iceman",
+   "ice man",
+   "bobby drake"
+  ],
+  "kind": "character",
+  "from": "X-Men",
+  "facts": "Mutant who turns his whole body to ice. Fires freezing blasts that encase enemies, builds ice walls, and travels on ice slides he forms under his feet.",
+  "look": "young man whose whole body is smooth pale blue ice with a faint glow, short spiky ice hair, bare ice-sculpted torso shape with blue trunks and boots",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "ice",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "freeze",
+   "slide"
+  ],
+  "color": "#A8E6FF"
+ },
+ {
+  "names": [
+   "quicksilver",
+   "quick silver",
+   "pietro"
+  ],
+  "kind": "character",
+  "from": "Marvel",
+  "facts": "Speedster who moves faster than the eye can follow. Rushes through groups of enemies knocking them over, and hits many times before anyone can react.",
+  "look": "slim young man with swept-back silver white hair, light blue running suit with a white lightning streak across the chest, white gloves and boots",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "dash"
+  ],
+  "color": "#BFE8FF"
+ },
+ {
+  "names": [
+   "shadow the hedgehog",
+   "shadow hedgehog",
+   "shadow sonic"
+  ],
+  "kind": "character",
+  "from": "Sonic the Hedgehog",
+  "facts": "Black hedgehog who skates on rocket shoes. Uses Chaos Control to teleport and slow time, fires Chaos Spear energy bolts, and homing-dashes into enemies at super speed.",
+  "look": "black hedgehog with red stripes on upturned quills, red eyes, white chest fur tuft, white gloves with gold rings, white red and black rocket shoes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "electric",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "dash",
+   "teleport"
+  ],
+  "color": "#FF2A2A"
+ },
+ {
+  "names": [
+   "gon",
+   "gon freecs"
+  ],
+  "kind": "character",
+  "from": "Hunter x Hunter",
+  "facts": "Young hunter with huge strength. Charges all his aura into one fist for Jajanken: a crushing rock punch, a paper blast or a scissors blade. Leaps high and hits very hard.",
+  "look": "small boy with tall spiky black hair tipped green, big brown eyes, green jacket with red trim, green shorts, green boots, a fishing rod on his back",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap"
+  ],
+  "color": "#FFB347"
+ },
+ {
+  "names": [
+   "link zelda",
+   "link from zelda",
+   "hero of hyrule",
+   "toon link"
+  ],
+  "kind": "character",
+  "from": "The Legend of Zelda",
+  "facts": "Sword-and-shield hero. His spin attack whirls the sword in a full circle, he blocks with his shield, fires arrows and throws bombs.",
+  "look": "young elf-eared hero with blond hair, a long green pointed cap, green tunic over white leggings, brown boots, a blue-hilted sword and a blue shield with a golden crest",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "spin",
+   "shield"
+  ],
+  "color": "#7CFC9A"
+ },
+ {
+  "names": [
+   "vi arcane",
+   "vi league",
+   "piltover enforcer"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Brawler with giant hextech gauntlets. Charges up a Vault Breaker dash punch, shields herself with Blast Shield, dents armour, and her ultimate leaps onto one enemy and slams them into the ground.",
+  "look": "tough young woman with short pink hair shaved on one side, a VI tattoo on her cheek, dark red jacket, goggles on her head, two huge brass and steel mechanical fists",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "dash",
+   "shield",
+   "leap"
+  ],
+  "color": "#FF4FA3"
+ },
+ {
+  "names": [
+   "crash bandicoot",
+   "crash"
+  ],
+  "kind": "character",
+  "from": "Crash Bandicoot",
+  "facts": "Goofy bandicoot whose main attack is a tornado spin that sends enemies flying. Also jumps on heads, slides, and belly-flops.",
+  "look": "orange bandicoot with a big grin, bushy eyebrows, a tuft of red hair, blue jeans, brown fingerless gloves and red sneakers",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "spin",
+   "leap"
+  ],
+  "color": "#FF8A1F"
+ },
+ {
+  "names": [
+   "tasmanian devil",
+   "taz",
+   "taz devil"
+  ],
+  "kind": "creature",
+  "from": "Looney Tunes",
+  "facts": "Wild, always-hungry beast who travels as a spinning brown tornado that chews through anything in its path, growling and spitting.",
+  "look": "stocky brown furry beast with a huge mouth full of teeth, a cream belly and face, small horns of fur, short legs, spinning in a dust whirl",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "spin",
+   "dash"
+  ],
+  "color": "#B5651D"
+ },
+ {
+  "names": [
+   "jack frost"
+  ],
+  "kind": "character",
+  "from": "Rise of the Guardians",
+  "facts": "Winter spirit who flies on the wind and freezes whatever his staff touches. Fires frost blasts, covers the ground in ice to slide on, and makes it snow.",
+  "look": "barefoot teenage boy with messy white hair and bright blue eyes, a frosted blue hoodie, brown trousers tied at the calves, holding a crooked wooden staff",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "ice",
+  "flies": true,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "freeze",
+   "slide"
+  ],
+  "color": "#BDEBFF"
+ }
+]

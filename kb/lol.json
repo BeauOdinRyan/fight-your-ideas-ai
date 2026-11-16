@@ -40,7 +40,7 @@
   "strength": 4,
   "toughness": 2,
   "specials": [
-   "teleport",
+   "dash",
    "pull"
   ],
   "color": "#F7A6D5"
@@ -177,7 +177,8 @@
   "strength": 4,
   "toughness": 2,
   "specials": [
-   "shield"
+   "freeze",
+   "heal"
   ],
   "color": "#7FD4FF"
  },
@@ -418,7 +419,8 @@
   "strength": 2,
   "toughness": 5,
   "specials": [
-   "shield"
+   "shield",
+   "freeze"
   ],
   "color": "#4FA8E6"
  },
@@ -658,7 +660,7 @@
   "toughness": 1,
   "specials": [
    "teleport",
-   "leap"
+   "dash"
   ],
   "color": "#4EE8C8"
  },
@@ -863,7 +865,7 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "shield",
+   "spin",
    "heal"
   ],
   "color": "#4F9CFF"
@@ -975,8 +977,7 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "leap",
-   "pull"
+   "dash"
   ],
   "color": "#39E8D0"
  },
@@ -1158,7 +1159,7 @@
   "toughness": 3,
   "specials": [
    "leap",
-   "shield"
+   "spin"
   ],
   "color": "#E8A838"
  },
@@ -1355,6 +1356,7 @@
   "strength": 4,
   "toughness": 1,
   "specials": [
+   "spin",
    "teleport"
   ],
   "color": "#C8323C"
@@ -1575,7 +1577,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "leap"
+   "leap",
+   "dash"
   ],
   "color": "#E8A83A"
  },
@@ -1640,8 +1643,8 @@
   "strength": 4,
   "toughness": 2,
   "specials": [
-   "teleport",
-   "shield"
+   "freeze",
+   "teleport"
   ],
   "color": "#7ADCF5"
  },
@@ -1798,7 +1801,8 @@
   "strength": 4,
   "toughness": 1,
   "specials": [
-   "teleport"
+   "dash",
+   "heal"
   ],
   "color": "#4AB8E8"
  },
@@ -2338,8 +2342,8 @@
   "strength": 2,
   "toughness": 5,
   "specials": [
-   "pull",
-   "adapt"
+   "dash",
+   "spin"
   ],
   "color": "#C8A878"
  },
@@ -2474,7 +2478,7 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "leap",
+   "dash",
    "shield"
   ],
   "color": "#6AA88C"
@@ -2539,7 +2543,8 @@
   "strength": 4,
   "toughness": 2,
   "specials": [
-   "leap"
+   "spin",
+   "dash"
   ],
   "color": "#E83A8C"
  },
@@ -2561,7 +2566,8 @@
   "strength": 2,
   "toughness": 5,
   "specials": [
-   "leap"
+   "freeze",
+   "dash"
   ],
   "color": "#7AC8E8"
  },
@@ -3107,8 +3113,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "leap",
-   "shield"
+   "spin",
+   "heal"
   ],
   "color": "#E83A3A"
  },
@@ -3448,7 +3454,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "clones"
+   "clones",
+   "spin"
   ],
   "color": "#E8C83A"
  },
@@ -3533,7 +3540,8 @@
   "strength": 4,
   "toughness": 1,
   "specials": [
-   "teleport"
+   "dash",
+   "spin"
   ],
   "color": "#6AC8E8"
  },
@@ -3555,6 +3563,7 @@
   "strength": 4,
   "toughness": 1,
   "specials": [
+   "dash",
    "teleport"
   ],
   "color": "#3AC8E8"
@@ -3687,8 +3696,8 @@
   "strength": 4,
   "toughness": 1,
   "specials": [
-   "teleport",
-   "clones"
+   "clones",
+   "teleport"
   ],
   "color": "#3A3A8C"
  },

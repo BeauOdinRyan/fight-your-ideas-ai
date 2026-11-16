@@ -87,7 +87,7 @@
   "toughness": 4,
   "specials": [
    "leap",
-   "adapt"
+   "grow"
   ],
   "color": "#43A047"
  },
@@ -110,7 +110,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "leap"
+   "leap",
+   "spin"
   ],
   "color": "#4FC3F7"
  },
@@ -173,7 +174,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "shield"
+   "shield",
+   "leap"
   ],
   "color": "#2979FF"
  },
@@ -260,7 +262,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "adapt"
+   "leap",
+   "dash"
   ],
   "color": "#9575CD"
  },
@@ -375,7 +378,8 @@
   "strength": 4,
   "toughness": 2,
   "specials": [
-   "pull"
+   "pull",
+   "leap"
   ],
   "color": "#D32F2F"
  },
@@ -443,7 +447,8 @@
   "toughness": 3,
   "specials": [
    "pull",
-   "adapt"
+   "leap",
+   "heal"
   ],
   "color": "#212121"
  },
@@ -664,7 +669,8 @@
   "toughness": 3,
   "specials": [
    "heal",
-   "adapt"
+   "leap",
+   "spin"
   ],
   "color": "#FDD835"
  },
@@ -770,7 +776,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "heal"
+   "heal",
+   "teleport"
   ],
   "color": "#C62828"
  },
@@ -1090,7 +1097,10 @@
   "speed": 4,
   "strength": 5,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "slide",
+   "shield"
+  ],
   "color": "#CFD8DC"
  },
  {
@@ -1298,7 +1308,8 @@
   "strength": 4,
   "toughness": 4,
   "specials": [
-   "shield"
+   "shield",
+   "dash"
   ],
   "color": "#1E88E5"
  },
@@ -1321,7 +1332,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "teleport"
+   "pull",
+   "leap"
   ],
   "color": "#424242"
  },
@@ -1343,6 +1355,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
+   "pull",
+   "leap",
    "shield"
   ],
   "color": "#D32F2F"
@@ -1365,7 +1379,8 @@
   "strength": 2,
   "toughness": 3,
   "specials": [
-   "teleport"
+   "dash",
+   "heal"
   ],
   "color": "#FFC107"
  },
@@ -6121,6 +6136,7 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
+   "freeze",
    "shield"
   ],
   "color": "#81D4FA"
@@ -7427,7 +7443,9 @@
   "speed": 3,
   "strength": 4,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "freeze"
+  ],
   "color": "#81D4FA"
  },
  {
@@ -8503,7 +8521,9 @@
   "speed": 3,
   "strength": 4,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "freeze"
+  ],
   "color": "#66BB6A"
  },
  {

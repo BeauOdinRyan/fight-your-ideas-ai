@@ -18,8 +18,7 @@
   "strength": 3,
   "toughness": 2,
   "specials": [
-   "teleport",
-   "leap"
+   "dash"
   ],
   "color": "#BFE8FF"
  },
@@ -642,7 +641,7 @@
   "toughness": 2,
   "specials": [
    "teleport",
-   "heal"
+   "dash"
   ],
   "color": "#FF9B1A"
  },
@@ -686,8 +685,8 @@
   "strength": 4,
   "toughness": 2,
   "specials": [
-   "teleport",
-   "shield"
+   "dash",
+   "spin"
   ],
   "color": "#7CFF4F"
  },
@@ -794,8 +793,8 @@
   "strength": 4,
   "toughness": 4,
   "specials": [
-   "shield",
-   "leap"
+   "dash",
+   "shield"
   ],
   "color": "#C9A227"
  },
@@ -900,6 +899,7 @@
   "strength": 3,
   "toughness": 3,
   "specials": [
+   "freeze",
    "shield"
   ],
   "color": "#7FD4FF"
@@ -1132,7 +1132,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "leap"
+   "leap",
+   "dash"
   ],
   "color": "#C84B2E"
  },
@@ -1198,8 +1199,8 @@
   "strength": 3,
   "toughness": 3,
   "specials": [
-   "pull",
-   "leap"
+   "dash",
+   "spin"
   ],
   "color": "#E0A23B"
  },
@@ -3930,8 +3931,7 @@
   "strength": 3,
   "toughness": 2,
   "specials": [
-   "teleport",
-   "lifesteal"
+   "dash"
   ],
   "color": "#7A4DB8"
  },
@@ -4297,7 +4297,7 @@
   "strength": 3,
   "toughness": 2,
   "specials": [
-   "leap"
+   "dash"
   ],
   "color": "#E8A66A"
  },
@@ -5075,27 +5075,6 @@
  },
  {
   "names": [
-   "link zelda"
-  ],
-  "kind": "character",
-  "from": "Zelda",
-  "facts": "Hero in green who swings the Master Sword, blocks with a shield, shoots arrows and throws bombs.",
-  "look": "young man with blond hair and pointed ears, green tunic and hat, sword and blue shield",
-  "use": "summon",
-  "trait": "none",
-  "attack": "melee",
-  "element": "none",
-  "flies": false,
-  "speed": 4,
-  "strength": 3,
-  "toughness": 3,
-  "specials": [
-   "shield"
-  ],
-  "color": "#4CAF50"
- },
- {
-  "names": [
    "zelda",
    "princess zelda"
   ],
@@ -5277,7 +5256,10 @@
   "speed": 2,
   "strength": 4,
   "toughness": 4,
-  "specials": [],
+  "specials": [
+   "spin",
+   "leap"
+  ],
   "color": "#F5A623"
  },
  {
@@ -5755,8 +5737,8 @@
   "strength": 3,
   "toughness": 2,
   "specials": [
-   "teleport",
-   "leap"
+   "dash",
+   "spin"
   ],
   "color": "#2F6FE0"
  },
@@ -5798,28 +5780,6 @@
   "toughness": 3,
   "specials": [
    "leap"
-  ],
-  "color": "#E52521"
- },
- {
-  "names": [
-   "shadow the hedgehog",
-   "shadow hedgehog"
-  ],
-  "kind": "character",
-  "from": "Sonic",
-  "facts": "Dark hedgehog who uses chaos control to teleport and stop time and chaos spear.",
-  "look": "black hedgehog with red stripes and gold rings on wrists, hover shoes",
-  "use": "summon",
-  "trait": "none",
-  "attack": "ranged",
-  "element": "none",
-  "flies": false,
-  "speed": 4,
-  "strength": 4,
-  "toughness": 2,
-  "specials": [
-   "teleport"
   ],
   "color": "#E52521"
  },
@@ -5920,7 +5880,8 @@
   "strength": 3,
   "toughness": 3,
   "specials": [
-   "adapt"
+   "adapt",
+   "leap"
   ],
   "color": "#FF9ECF"
  },
@@ -7356,6 +7317,7 @@
   "strength": 3,
   "toughness": 4,
   "specials": [
+   "spin",
    "leap"
   ],
   "color": "#C0392B"
@@ -8238,7 +8200,10 @@
   "speed": 3,
   "strength": 4,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "freeze",
+   "slide"
+  ],
   "color": "#4DC4FF"
  },
  {

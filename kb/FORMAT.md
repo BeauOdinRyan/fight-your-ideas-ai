@@ -62,7 +62,10 @@ Fields:
   `shield` (force fields, invulnerable moments), `adapt` (tougher the more it is hit), `leap`
   (jumps in and slams), `pull` (hooks, webs, grapples, telekinesis), `aura` (hurts everything
   nearby), `clones` (comes with copies or minions), `grow` (turns giant), `lifesteal` (drains
-  life). Only ones the thing really has, most famous first.
+  life), `spin` (whirls blades, chains or itself), `freeze` (freezes or stuns enemies in place),
+  `slide` (glides on its own path: ice slides, surfing, skating), `dash` (a burst of super speed
+  that bowls enemies over). Only ones the thing really has, most famous first. When a player
+  becomes the character, `leap`, `dash`, `freeze` and `spin` are what the F key does.
 - `color`: the signature glow colour as `#RRGGBB`, or `""`.
 
 Rules: valid JSON, UTF-8, no comments, no trailing commas. One entry per distinct thing (forms

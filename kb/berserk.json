@@ -1,0 +1,2180 @@
+[
+ {
+  "names": [
+   "guts",
+   "gatsu",
+   "gutts",
+   "gats",
+   "black swordsman",
+   "guts berserk",
+   "berserk guts",
+   "the black swordsman",
+   "hundred man slayer"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Huge swordsman who swings a giant iron slab sword in wide spinning sweeps that knock whole groups flying. Leaps in with crushing overhead chops, fires a cannon hidden in his metal arm, shoots a repeater crossbow and never gives up.",
+  "look": "tall muscular man with short spiky black hair and one closed eye, black plate armour, long tattered black cape, metal left forearm, enormous wide iron slab sword held over one shoulder",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "spin",
+   "leap",
+   "dash"
+  ],
+  "color": "#B0122A"
+ },
+ {
+  "names": [
+   "berserker armor guts",
+   "berserk armor guts",
+   "beast guts",
+   "berserker guts",
+   "berserker armour guts",
+   "berserk armour guts",
+   "guts berserker armor",
+   "guts beast form",
+   "rage guts"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Swordsman lost in the rage of cursed armour. Moves in blinding bursts, whirls his giant sword like a storm and feels no pain: the armour snaps itself back into shape so he keeps fighting, howling like a beast.",
+  "look": "large warrior fully covered in jagged black plate armour, helmet shaped like a snarling wolf head with glowing red eyes, ragged black cape, enormous wide iron slab sword, dark red mist around him",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 5,
+  "strength": 5,
+  "toughness": 2,
+  "specials": [
+   "dash",
+   "spin",
+   "heal"
+  ],
+  "color": "#D0102A"
+ },
+ {
+  "names": [
+   "griffith",
+   "grifith",
+   "griffeth",
+   "grifit",
+   "griffth",
+   "white hawk",
+   "white falcon",
+   "falcon of light",
+   "griffith berserk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Graceful commander and the fastest sabre in the land. Darts in with lightning thrusts that find every gap in armour, slips past attacks, appears where nobody expects him and rallies his soldiers to charge with him.",
+  "look": "slender young man with long wavy silver-white hair, shining white plate armour with a helmet shaped like a hawk head, white cape, thin silver sabre, calm proud pose",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 5,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "dash",
+   "teleport"
+  ],
+  "color": "#EAF2FF"
+ },
+ {
+  "names": [
+   "femto",
+   "femto berserk",
+   "femto griffith",
+   "dark griffith",
+   "wings of darkness",
+   "femto the dark hawk",
+   "fempto"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Dark winged angel who bends space with his hand. Crushes enemies with invisible force, drags them toward him, folds space into a shield that turns attacks aside, and vanishes to reappear across the arena.",
+  "look": "slim dark figure in a smooth glossy black armoured suit, helmet shaped like a hawk head with a sharp beak visor, huge black bat-like wings spread wide, long clawed gauntlets",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": true,
+  "speed": 5,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "pull",
+   "teleport",
+   "shield"
+  ],
+  "color": "#7A1FD0"
+ },
+ {
+  "names": [
+   "casca",
+   "caska",
+   "kaska",
+   "casca berserk",
+   "cascka"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Quick, skilled swordswoman and unit commander. Fights with fast precise cuts and nimble footwork, parries bigger enemies, and leads soldiers into battle with fierce courage.",
+  "look": "athletic woman with short black hair and brown complexion, light silver plate armour over a pink tunic, short cape, slim straight sword, determined face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "dash"
+  ],
+  "color": "#D98AA0"
+ },
+ {
+  "names": [
+   "judeau",
+   "judo berserk",
+   "judeau berserk",
+   "jude berserk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Clever all-rounder who throws knives with perfect aim, several at once, from hidden belts. Agile, hard to pin down, and always has a trick ready.",
+  "look": "slim young man with blond hair tied in a short ponytail, light leather armour with belts of small throwing knives across the chest, a knife in each hand, friendly smile",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E6C45A"
+ },
+ {
+  "names": [
+   "pippin berserk",
+   "pippin the giant",
+   "pippin band of the hawk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Silent giant of a soldier who smashes through enemy lines with a huge war hammer and his fists. Very strong, very tough, and shields his friends with his own bulk.",
+  "look": "enormous broad man with a small round helmet, squinting eyes, heavy grey plate armour over a brown tunic, carrying a massive spiked war hammer",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "leap"
+  ],
+  "color": "#8C8C8C"
+ },
+ {
+  "names": [
+   "corkus",
+   "corcus",
+   "korkus"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Loud, boastful soldier who fights with an ordinary sword and a lot of shouting. Not very strong, but stubborn, and happier when he has friends beside him.",
+  "look": "wiry man with a long face and a shaggy dark mullet, simple steel breastplate over a red tunic, plain sword, cocky grin",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#B5553C"
+ },
+ {
+  "names": [
+   "rickert",
+   "rikert",
+   "ricket berserk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Young inventor and blacksmith. Fights from range with a repeating crossbow and gadgets he built himself, including a heavy pump weapon and a spiked shield.",
+  "look": "small teenage boy with short fluffy blond hair, leather workshop apron over a tunic, tool belt, holding a wooden repeating crossbow",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#D9B45A"
+ },
+ {
+  "names": [
+   "puck berserk",
+   "puck the elf",
+   "puck elf",
+   "puk berserk",
+   "chestnut puck"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Tiny wind elf who zips around the fight. His glowing dust heals his friends, he dazzles enemies with a bright flash, and he bonks them with a prickly chestnut.",
+  "look": "tiny fairy boy the size of a hand with spiky blue hair, pointed ears, see-through insect wings, a small blue tunic, leaving a trail of sparkling dust",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": true,
+  "speed": 5,
+  "strength": 1,
+  "toughness": 1,
+  "specials": [
+   "heal"
+  ],
+  "color": "#8FD8FF"
+ },
+ {
+  "names": [
+   "schierke",
+   "shierke",
+   "sherke",
+   "schirke",
+   "shirke",
+   "schierke berserk",
+   "witch schierke"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Young witch who calls on great spirits. Raises a glowing barrier that monsters cannot cross, summons a flood to sweep them away, a wheel of fire to burn them, and holds raging beasts still with her mind.",
+  "look": "small girl with short green hair, very tall pointed dark witch hat, long dark hooded cloak over a robe, wooden staff with a curled top, serious face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "shield",
+   "freeze",
+   "aura"
+  ],
+  "color": "#7FE0A0"
+ },
+ {
+  "names": [
+   "serpico",
+   "serpiko",
+   "sirpico",
+   "serpico berserk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Calm fencer armed with a wind spirit's sword and cloak. Glides and darts on gusts of air, flings cutting blades of wind from a distance and spins up whirlwinds that carry him out of reach.",
+  "look": "slim young man with a blond bowl haircut and nearly closed eyes, dark tunic, cloak and feathered hood made of pale green swirling wind, thin feather-shaped rapier",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "dash",
+   "spin"
+  ],
+  "color": "#A8F0C8"
+ },
+ {
+  "names": [
+   "isidro",
+   "isidoro",
+   "isidro berserk",
+   "ishidro"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Scrappy boy thief who throws stones with deadly aim, ducks under bigger enemies and slashes with a fiery dagger and a short cutlass. Fast, sneaky and hard to hit.",
+  "look": "small boy with spiky red-brown hair, patched tunic and scarf, small round shield on his back, a wavy flame-shaped dagger in one hand and a short curved sword in the other",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "dash"
+  ],
+  "color": "#FF7A2A"
+ },
+ {
+  "names": [
+   "farnese",
+   "farneze",
+   "farnese berserk",
+   "lady farnese"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Noble lady turned apprentice witch. Guards her friends with silver chainmail and a silver dagger that evil spirits cannot touch, and casts a ring of thorny vines to protect and trap.",
+  "look": "young woman with short blonde hair, practical travelling dress with a hooded cloak, a vest of fine silver chainmail, small silver dagger held in both hands",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#F0E8C0"
+ },
+ {
+  "names": [
+   "ivalera",
+   "evarella",
+   "ivarela",
+   "ivalera berserk"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Tiny bossy wind elf who flutters beside the witch. Heals small hurts with glowing dust, scouts ahead and warns everyone when evil is near.",
+  "look": "tiny fairy girl the size of a hand with red hair in a long braid, pointed ears, dragonfly wings, a small leaf-green dress, sparkling dust around her",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": true,
+  "speed": 5,
+  "strength": 1,
+  "toughness": 1,
+  "specials": [
+   "heal"
+  ],
+  "color": "#FF9FB0"
+ },
+ {
+  "names": [
+   "skull knight",
+   "skullknight",
+   "skull night",
+   "skeleton knight berserk",
+   "the skull knight"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Ancient armoured rider and enemy of all demons. Strikes with a thorn-covered sword, blocks with a rose shield, charges on his ghostly horse and cuts open doorways in space to appear and vanish anywhere.",
+  "look": "tall knight in dark grey armour sculpted like bones with a helmet shaped like a skull and glowing eyes, long ragged cape, thorny sword, round shield with a rose emblem, riding an armoured black horse",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "teleport",
+   "dash",
+   "shield"
+  ],
+  "color": "#B8C4FF"
+ },
+ {
+  "names": [
+   "nosferatu zodd",
+   "zodd",
+   "zod berserk",
+   "zodd the immortal",
+   "zodd berserk",
+   "nosferatu zod"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Legendary beast warrior who has fought for three hundred years. Transforms into a giant horned winged beast, pounces from the sky, swings a massive sword, charges like a bull and shrugs off hits that would stop anyone else.",
+  "look": "towering dark-furred beast with a lion-like face, huge curved bull horns, long tail, big leathery bat wings, thick muscular arms and a giant chipped cleaver sword",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": true,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "leap",
+   "grow",
+   "heal"
+  ],
+  "color": "#8A1A1A"
+ },
+ {
+  "names": [
+   "grunbeld",
+   "grunbelt",
+   "grunbeld berserk",
+   "great flame dragon",
+   "flame dragon knight"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Giant knight with a huge war hammer and a shield that hides a cannon. Hits like a falling tower, then transforms into an enormous crystal dragon that breathes fire and is almost impossible to crack.",
+  "look": "gigantic knight in heavy dark red armour with a dragon-crested helmet, enormous war hammer, a large shield with a cannon barrel in its centre, hard pale crystal plates on the shoulders",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 5,
+  "specials": [
+   "shield",
+   "grow",
+   "aura"
+  ],
+  "color": "#FF5A2A"
+ },
+ {
+  "names": [
+   "locus",
+   "locus berserk",
+   "moonlight knight",
+   "lokus"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Champion lancer who rides down enemies with a great lance. Merges with his horse into a gleaming metal centaur for unstoppable charges and pinpoint thrusts.",
+  "look": "elegant knight with long dark hair in smooth silver full plate armour, very long jousting lance, mounted on a silver armoured horse",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "dash"
+  ],
+  "color": "#C8D4E8"
+ },
+ {
+  "names": [
+   "irvine",
+   "irvine berserk",
+   "irvine the archer",
+   "irvin berserk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Silent master archer. His horn bow fires arrows that split into many, bend around cover and hit from far away. Transforms into a wolf-bodied hunter who shoots spines.",
+  "look": "lean hooded man with a wide-brimmed hat and a dark scarf over his face, long travelling cloak, large curved bow made of horn, quiver of long arrows",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#7A6A9A"
+ },
+ {
+  "names": [
+   "rakshas",
+   "rakshasa berserk",
+   "raksas"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Shadowy assassin who looks like a flowing black cloak with a mask. Slips through tiny gaps, wraps around enemies to trap them and strikes with hidden blades.",
+  "look": "tall thin shape made of a billowing black cloak with a flat white three-eyed mask where a face would be, long dark ribbons trailing, curved daggers poking out",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "pull",
+   "teleport"
+  ],
+  "color": "#5A3A7A"
+ },
+ {
+  "names": [
+   "sonia berserk",
+   "sonia the seer",
+   "priestess sonia"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Young seer who reads minds and sees far away. Speaks to allies in their thoughts, calms monsters so they obey her, and warns her side of every attack before it comes.",
+  "look": "teenage girl with long straight brown hair, white hooded priestess robe with gold trim, hands clasped, pale glowing eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "freeze"
+  ],
+  "color": "#FFF2B0"
+ },
+ {
+  "names": [
+   "mozgus",
+   "mosgus",
+   "father mozgus",
+   "mozgus berserk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Giant stern priest who slams enemies with a heavy holy book. Powers up into a winged stone angel covered in hard feather scales, breathes fire and smashes the ground with rocky fists.",
+  "look": "very large man with a flat square face in a brown and white priest robe and cap, holding a thick iron-bound book; grey stone feathered wings on his back",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": true,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "shield",
+   "aura"
+  ],
+  "color": "#E0B050"
+ },
+ {
+  "names": [
+   "wyald",
+   "wyld berserk",
+   "wyald berserk",
+   "black dog knight leader"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Wild brute who transforms into a giant three-eyed ape. Bounds around the battlefield, swings whole tree trunks as clubs and laughs off most hits.",
+  "look": "gigantic dark-furred ape monster with three eyes in a row, wide grinning fanged mouth across its chest, long arms, holding an uprooted tree trunk",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "grow"
+  ],
+  "color": "#6A4A2A"
+ },
+ {
+  "names": [
+   "rosine",
+   "rosine berserk",
+   "rosine the moth",
+   "queen of the misty valley"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Moth-winged fairy queen who flies faster than the eye can follow, rams enemies at full speed, scatters stinging dust and sends a swarm of small insect fairies to mob them.",
+  "look": "small girl with short red hair and long feathery antennae, big green and pink moth wings with eye spots, leaf-green dress, pointed insect-like arms and legs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": true,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "dash",
+   "clones"
+  ],
+  "color": "#9FE86A"
+ },
+ {
+  "names": [
+   "the count berserk",
+   "slug count",
+   "count apostle",
+   "slug apostle",
+   "the slug count"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Fat nobleman who swells into a towering slug monster. Crushes enemies under its bulk, lashes out with long tentacles, swallows things whole and regrows what it loses.",
+  "look": "enormous pale grey slug creature as tall as a house with a round wide-mouthed face, rows of teeth, many thick tentacles and a nobleman's purple collar and cape",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "heal",
+   "grow"
+  ],
+  "color": "#A8B890"
+ },
+ {
+  "names": [
+   "snake baron",
+   "the snake baron",
+   "baron of koka castle",
+   "snake lord berserk"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Cruel baron in cobra armour who transforms into a giant snake man. Coils around enemies and squeezes, bites with long fangs and swings a heavy pole axe.",
+  "look": "tall warrior in dark green scale armour with a helmet shaped like a hooded cobra, long thick serpent tail in place of legs, large pole axe",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#3F8A4A"
+ },
+ {
+  "names": [
+   "emperor ganishka",
+   "ganishka",
+   "ganiska",
+   "kanishka berserk",
+   "kushan emperor"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Sorcerer emperor whose body is living storm fog. Blades pass straight through him, he hurls lightning bolts and scorching breath, grows as tall as a tower and commands an army of beast soldiers.",
+  "look": "towering bearded emperor with three eyes, tall golden crown, heavy gold jewellery and red royal robes, lower body fading into swirling grey storm cloud with sparks of lightning",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "electric",
+  "flies": true,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "shield",
+   "grow",
+   "clones"
+  ],
+  "color": "#FFD23F"
+ },
+ {
+  "names": [
+   "ganishka fog form",
+   "fog ganishka",
+   "giant ganishka",
+   "shiva ganishka",
+   "ganishka final form",
+   "end of the world ganishka"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Mountain-sized being of fog and tentacles taller than the clouds. Every step shakes the land, lightning pours from its many faces and swarms of small monsters drop from its body.",
+  "look": "colossal dark grey figure taller than mountains with many faces and arms, a body of twisting root-like tentacles and thick fog, crowned head lost in storm clouds, crackling yellow lightning",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "electric",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 5,
+  "specials": [
+   "grow",
+   "aura",
+   "clones"
+  ],
+  "color": "#C9B037"
+ },
+ {
+  "names": [
+   "daiba",
+   "daiba berserk",
+   "daiba the sorcerer",
+   "wizard daiba"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Old Kushan sorcerer who floats cross-legged and commands monsters with chants. Calls water serpents, whirlwinds and lightning spirits, and sends sea beasts and flying beasts to fight for him.",
+  "look": "thin old man with a very long white beard and turban, loose orange and white robes, sitting cross-legged in the air, prayer beads, a swirl of water and lightning around him",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "water",
+  "flies": true,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "clones",
+   "aura"
+  ],
+  "color": "#5AC8E8"
+ },
+ {
+  "names": [
+   "silat",
+   "silat berserk",
+   "shilat",
+   "silat bakiraka"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Acrobatic assassin leader with exotic weapons. Hurls spinning ring blades that curve back to him, lashes with whip-like flexible swords and flips out of reach with flying kicks.",
+  "look": "lean athletic man with a white turban and face veil, dark fitted warrior outfit with gold armbands, a steel throwing ring in one hand and a long flexible ribbon sword in the other",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "spin",
+   "dash"
+  ],
+  "color": "#E8C870"
+ },
+ {
+  "names": [
+   "bakiraka",
+   "the bakiraka",
+   "bakiraka clan",
+   "bakiraka assassins",
+   "tapasa"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Clan of elite assassins who attack as a team. Include acrobatic knife fighters and huge bodyguards with fists as hard as iron who break weapons with a single punch.",
+  "look": "group of masked fighters in dark wrapped clothes and turbans, some slim with curved knives, two very large guards with thick iron-coloured forearms",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "clones",
+   "leap"
+  ],
+  "color": "#A07840"
+ },
+ {
+  "names": [
+   "god hand members",
+   "the five angels",
+   "five angels",
+   "five dark angels",
+   "berserk angels"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Five dark angels who appear together: a huge-brained leader who warps space, a winged queen, a tiny grinning trickster, a floating plague bringer and a black-winged hawk. They twist the arena and attack from every side.",
+  "look": "five dark floating figures: a tall cloaked one with an oversized dome head, a winged woman in a black gown, a tiny round one with glasses, a bulky shelled one, a slim black-winged one",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": true,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "clones",
+   "teleport",
+   "pull"
+  ],
+  "color": "#5A1A8A"
+ },
+ {
+  "names": [
+   "void berserk",
+   "void the angel",
+   "void dark angel",
+   "void god of the abyss"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Leader of the dark angels. Opens holes in space so attacks fly back at whoever made them, marks enemies with a glowing brand and crushes them with unseen force.",
+  "look": "very tall thin figure in a long dark high-collared cloak with an enormous exposed dome-shaped head, stitched-shut eyes, long six-fingered hands",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": true,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 5,
+  "specials": [
+   "shield",
+   "teleport",
+   "pull"
+  ],
+  "color": "#6A2AB0"
+ },
+ {
+  "names": [
+   "slan",
+   "slan berserk",
+   "slann berserk",
+   "queen slan"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Winged queen of the dark angels. Appears out of smoke and shadows, grabs enemies with dark force, flies on great bat wings and keeps reforming when struck.",
+  "look": "tall woman in a long flowing black gown with enormous dark bat wings, very long dark hair braided like tentacles, pale face, sharp smile",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": true,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "teleport",
+   "pull",
+   "heal"
+  ],
+  "color": "#B02A6A"
+ },
+ {
+  "names": [
+   "ubik",
+   "ubik berserk",
+   "ubick"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Tiny grinning dark angel who tricks minds. Shows enemies confusing illusions that stop them in their tracks, then pops up somewhere else.",
+  "look": "small round floating figure with an oversized grinning face, tiny round dark glasses, pointed ears, short curled legs and little hands, dark blue colour",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": true,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "teleport",
+   "freeze"
+  ],
+  "color": "#3A4AA0"
+ },
+ {
+  "names": [
+   "conrad berserk",
+   "conrad the plague angel",
+   "konrad berserk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Slow, heavy dark angel who brings sickness. Floats forward surrounded by swarms of rats and a sickly cloud that weakens everything near him.",
+  "look": "bulky hunched floating figure with a ridged shell like a giant pill bug, a small wrinkled bald face with a frown, short stubby arms, greenish haze and small rats around it",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": true,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 5,
+  "specials": [
+   "aura",
+   "clones"
+  ],
+  "color": "#8A9A3A"
+ },
+ {
+  "names": [
+   "sea god",
+   "the sea god",
+   "sea god berserk",
+   "berserk sea god"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Sea monster as big as an island. Drags ships under with countless tentacles, pulls everything toward its vast mouth with a whirlpool, and its booming heartbeat stuns whoever gets close.",
+  "look": "island-sized dark blue sea creature shaped like a giant shell-backed leviathan, cavern-like mouth ringed with teeth, hundreds of long tentacles, glowing eyes under the waves",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 5,
+  "specials": [
+   "pull",
+   "aura",
+   "clones"
+  ],
+  "color": "#1F5A8A"
+ },
+ {
+  "names": [
+   "beast of darkness",
+   "guts inner beast",
+   "hellhound berserk",
+   "guts hellhound",
+   "inner beast guts",
+   "the beast of darkness"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Shadow hound made of pure rage. Lunges with huge jaws, races around the arena in a blur and its howl fills every nearby enemy with fear and dark fire.",
+  "look": "large wolf-like hound made of black shadow with jagged spiky fur, glowing red slit eyes, long fangs in a wide grin and dark smoke trailing from its body",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 5,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "dash",
+   "aura"
+  ],
+  "color": "#C01030"
+ },
+ {
+  "names": [
+   "kushan war elephants",
+   "kushan elephants",
+   "kushan war elephant",
+   "berserk war elephants"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Armoured war elephants that charge in a line, trampling and tossing enemies with their tusks while archers shoot from the towers on their backs.",
+  "look": "big grey elephant in gold and red plate armour with blades on its tusks, a small wooden tower on its back holding turbaned archers",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "dash",
+   "clones"
+  ],
+  "color": "#C8A040"
+ },
+ {
+  "names": [
+   "pishacha",
+   "pisacha",
+   "pishaca",
+   "kushan demon beasts",
+   "makara",
+   "kushan beast soldiers"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Animals turned into monster soldiers by sorcery: tiger beasts that pounce, crocodile beasts that swim and snap, giant elephant beasts and a huge whale monster that floods the field.",
+  "look": "pack of large upright beasts with tiger, crocodile and elephant heads, thick scaly or striped hides, glowing eyes, wearing gold-trimmed harness armour and carrying curved swords",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "clones",
+   "leap"
+  ],
+  "color": "#4A8A6A"
+ },
+ {
+  "names": [
+   "berserk trolls",
+   "qliphoth trolls",
+   "trolls berserk",
+   "enoch village trolls"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Swarm of ugly furry trolls that pour out of the dark. Weak one by one, but they come in dozens, armed with clubs, bone spears and stones.",
+  "look": "pack of hunched grey-furred creatures the size of a man with long snouts, small eyes, big ears and clawed hands, holding crude clubs and spears",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#7A6A5A"
+ },
+ {
+  "names": [
+   "berserk ogre",
+   "qliphoth ogre",
+   "ogre berserk"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Massive lumbering ogre from the dark realm. Slow but brutally strong: grabs, pounds the ground with both fists and bites with a mouth full of big teeth.",
+  "look": "huge fat grey ogre three times a man's height with tiny eyes, a wide mouth of blunt teeth, a long drooping nose and thick arms, wearing a rough hide wrap",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "leap"
+  ],
+  "color": "#8A7A6A"
+ },
+ {
+  "names": [
+   "kelpie",
+   "kelpie berserk",
+   "kelpy",
+   "water horse berserk"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Water spirit horse that controls rain and river water. Fires jets of water as sharp as blades and traps enemies' heads in floating water bubbles.",
+  "look": "horse-shaped creature with slick dark green frog-like hide, webbed hooves, a mane of dripping water weeds and bulging yellow eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "water",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "freeze"
+  ],
+  "color": "#3FA0A0"
+ },
+ {
+  "names": [
+   "golems of flora",
+   "flora golems",
+   "floras golems",
+   "berserk golems",
+   "mud golems berserk"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Clay guardians made by a witch. Faceless, tireless and strong; when smashed they pull themselves back together unless the hidden paper charm inside is destroyed.",
+  "look": "tall featureless humanoid statues made of brown clay and earth with thick arms, no face, moss and roots on the shoulders and a glowing symbol on the chest",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [
+   "heal",
+   "clones"
+  ],
+  "color": "#9A7A4A"
+ },
+ {
+  "names": [
+   "apostle spawn",
+   "pseudo apostles",
+   "pseudo apostle",
+   "apostle spawns",
+   "apostles berserk",
+   "apostle"
+  ],
+  "kind": "creature",
+  "from": "Berserk",
+  "facts": "Ordinary soldiers and animals changed into small monsters by a stronger demon. They attack in swarms with claws, stingers and too many teeth, and fall apart when their master is beaten.",
+  "look": "swarm of misshapen monsters in broken soldier armour, each different: extra eyes, insect legs, long jaws, tentacle arms, in dark purple and grey colours",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#6A3A7A"
+ },
+ {
+  "names": [
+   "flora the witch",
+   "witch flora",
+   "flora berserk",
+   "flora of the spirit tree"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Wise old forest witch. Protects her home with barriers and clay golems, and in her last stand becomes a towering wall of living fire that holds back even the strongest demons.",
+  "look": "kind elderly woman with long white hair, dark hooded robe and shawl, a necklace of charms, a gnarled wooden staff, surrounded by tall orange flames shaped like a figure",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "shield",
+   "aura",
+   "clones"
+  ],
+  "color": "#FF9A3A"
+ },
+ {
+  "names": [
+   "moonlight boy",
+   "the moonlight boy",
+   "moon boy berserk",
+   "moonlight child"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Silent mysterious child who appears on nights of the full moon. Cannot fight, but monsters grow calm around him and he snaps raging warriors out of their fury.",
+  "look": "small quiet boy with long straight black hair to his shoulders and large dark eyes, wearing a plain pale tunic, standing in soft silver moonlight",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 1,
+  "toughness": 2,
+  "specials": [
+   "shield",
+   "freeze"
+  ],
+  "color": "#DDE8FF"
+ },
+ {
+  "names": [
+   "azan",
+   "azan berserk",
+   "azan the bridge knight",
+   "iron staff azan"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Honourable old knight famed for holding a bridge alone. Fights with a long, heavy iron staff, spinning it to block and sweeping enemies off their feet.",
+  "look": "stocky bearded knight in a rounded bucket-shaped helmet and heavy steel plate armour with a tabard, holding a long thick iron staff",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [
+   "spin",
+   "shield"
+  ],
+  "color": "#B0B8C0"
+ },
+ {
+  "names": [
+   "bazuso",
+   "bazuzo",
+   "bazuso the bear slayer",
+   "thirty man slayer"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Giant boastful mercenary in thick armour with a great axe. Strong and slow; famous for beating thirty men, then losing a duel to a young swordsman.",
+  "look": "huge man in rounded dark grey full plate armour with a closed barrel helmet with a small plume, carrying a large single-bladed battle axe",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#6A6A72"
+ },
+ {
+  "names": [
+   "gambino berserk",
+   "gambino the mercenary",
+   "gambino guts dad"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Tough veteran mercenary captain who taught a young boy the sword. Fights with a plain broadsword, dirty tricks and years of battlefield experience.",
+  "look": "grim middle-aged soldier with a bandana over long dark hair, stubble, a patch over one eye, worn leather and chain armour, broadsword and a wooden crutch",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#7A5A3A"
+ },
+ {
+  "names": [
+   "godo",
+   "godot berserk",
+   "godo the blacksmith",
+   "blacksmith godo"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Master blacksmith who forged the giant slab sword and tough black armour. Not a fighter, but swings a heavy smith's hammer and sparks fly wherever he works.",
+  "look": "short sturdy old man with a bald head and a long grey moustache, leather blacksmith apron, thick gloves, heavy hammer, glowing forge sparks around him",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 1,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#FF8A3A"
+ },
+ {
+  "names": [
+   "erica berserk",
+   "erica godo daughter",
+   "erika berserk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Cheerful little girl raised at a mountain forge. Too small to fight, but she is quick, brave and distracts enemies while her friends do the work.",
+  "look": "small girl with short brown bob hair and a big smile, simple orange dress with an apron and boots, carrying a basket of flowers",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 1,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FFB86A"
+ },
+ {
+  "names": [
+   "roderick",
+   "roderick berserk",
+   "captain roderick",
+   "roderick of the seahorse",
+   "rodrick berserk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Dashing navy captain known as the prince of the seas. Fences well with a cutlass, but his real weapon is his warship: he outsails enemies and blasts them with rows of cannons.",
+  "look": "handsome man with long dark hair tied back, navy blue captain's coat with gold buttons, tall boots, feathered tricorn hat and a curved cutlass",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#2A5AA0"
+ },
+ {
+  "names": [
+   "magnifico berserk",
+   "magnifico de vandimion",
+   "manifico berserk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Scheming, cowardly young nobleman. Hopeless in a fight: he mostly runs, shouts and gets picked on by elves, but sometimes gets lucky.",
+  "look": "slim nobleman with a dark bowl haircut and a thin moustache, fancy puffed doublet with a lace collar, tights and buckled shoes, nervous face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 1,
+  "toughness": 2,
+  "specials": [],
+  "color": "#A070C0"
+ },
+ {
+  "names": [
+   "danan",
+   "danann",
+   "flower storm monarch",
+   "queen danan",
+   "elf queen berserk"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Gentle queen of the elves. Scatters storms of flower petals that heal friends and hide them, enters dreams to mend minds and wraps her island in a protective barrier.",
+  "look": "tall graceful woman with very long pale hair crowned with flowers, large shimmering butterfly wings, a long white and pink petal gown",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "holy",
+  "flies": true,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "heal",
+   "shield"
+  ],
+  "color": "#FFB8E0"
+ },
+ {
+  "names": [
+   "morda",
+   "morda berserk",
+   "morda the witch",
+   "witch morda"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Mischievous young witch who swoops in on a broomstick. Dives at enemies, throws tricky magic from above and rarely does what she is told.",
+  "look": "teenage girl with long dark messy hair, wide-brimmed pointed black witch hat, short dark cloak over a striped dress and leggings, riding a wooden broomstick",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": true,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "dash"
+  ],
+  "color": "#9A4AC0"
+ },
+ {
+  "names": [
+   "gedflynn",
+   "gedfring",
+   "gedflin",
+   "gedflynn berserk",
+   "archmage gedflynn"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Great elder wizard of the elf island. Calls spirits to do his bidding, raises mighty barriers and teaches the strongest protective magic there is.",
+  "look": "very old man with an extremely long white beard reaching his feet, tall pointed wizard hat, layered grey and green robes, long twisted wooden staff",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "shield",
+   "teleport"
+  ],
+  "color": "#B8E0C0"
+ },
+ {
+  "names": [
+   "band of the hawk",
+   "band of the falcon",
+   "the band of the hawk",
+   "band of hawk",
+   "hawks berserk",
+   "berserk hawks"
+  ],
+  "kind": "character",
+  "from": "Berserk",
+  "facts": "Famous mercenary army. Armoured riders charge in a tight wedge with lances and swords behind a hawk banner, backed by crossbowmen, and they never break formation.",
+  "look": "squad of soldiers in matching silver plate armour and open helmets on armoured horses, carrying lances, swords and a white banner with a spread-winged bird emblem",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "clones",
+   "dash"
+  ],
+  "color": "#DCE6F5"
+ },
+ {
+  "names": [
+   "dragonslayer",
+   "dragon slayer",
+   "dragonslayer sword",
+   "dragon slayer sword",
+   "guts sword",
+   "gutts sword",
+   "guts big sword",
+   "berserk sword"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Sword too big to be called a sword: a massive, thick, heavy slab of raw iron. Slow to swing, but each sweep cleaves through several enemies at once and it is wide enough to block like a shield.",
+  "look": "enormous sword taller than a man with a very wide thick dark iron blade, chipped rough edges, simple crossguard and a long cloth-wrapped two-handed grip",
+  "use": "melee weapon",
+  "trait": "heavy",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 5,
+  "specials": [
+   "spin"
+  ],
+  "color": "#8A8F99"
+ },
+ {
+  "names": [
+   "berserker armor",
+   "berserker armour",
+   "berserk armor",
+   "berserk armour",
+   "armor of the berserker",
+   "berserker armor berserk"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Cursed dwarf-made armour. Removes the wearer's limits: far more speed and strength, no feeling of pain, and it clamps itself tight to hold the wearer together, but rage takes over.",
+  "look": "full suit of jagged black plate armour with sharp overlapping segments, a helmet shaped like a snarling wolf head with glowing red eye slits, and a ragged black cape",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 5,
+  "strength": 5,
+  "toughness": 2,
+  "specials": [
+   "dash",
+   "heal"
+  ],
+  "color": "#D0102A"
+ },
+ {
+  "names": [
+   "cannon arm",
+   "arm cannon guts",
+   "prosthetic cannon",
+   "guts cannon",
+   "guts arm cannon",
+   "guts cannon arm",
+   "berserk cannon arm"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Metal false arm with a small cannon hidden inside. One huge point-blank blast that knocks back whatever it hits, and the recoil can whip the user round into a spinning sword swing.",
+  "look": "mechanical left forearm made of dark steel plates with jointed fingers, the hand folded down to show a short round cannon barrel with smoke curling out",
+  "use": "ranged weapon",
+  "trait": "knockback",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FF8A2A"
+ },
+ {
+  "names": [
+   "repeater crossbow",
+   "repeating crossbow",
+   "guts crossbow",
+   "guts repeater crossbow",
+   "berserk crossbow"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Small crank-fed crossbow that straps to the forearm. Turning the handle sprays a rapid stream of light bolts, great for thinning out swarms of small monsters.",
+  "look": "compact wooden and steel crossbow mounted on an arm bracer with a box magazine of short bolts on top and a small hand crank on the side",
+  "use": "ranged weapon",
+  "trait": "rapid",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 2,
+  "toughness": 1,
+  "specials": [],
+  "color": "#A07A4A"
+ },
+ {
+  "names": [
+   "guts throwing knives",
+   "berserk throwing knives",
+   "judeau throwing knives",
+   "judeau knives"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Small balanced knives carried in belts across the chest. Thrown several at a time with perfect aim to stop enemies before they get close.",
+  "look": "set of slim leaf-shaped steel throwing knives with ring-ended grips, held in a brown leather chest belt",
+  "use": "thrown weapon",
+  "trait": "rapid",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 1,
+  "specials": [],
+  "color": "#C0C8D0"
+ },
+ {
+  "names": [
+   "miniature bombs",
+   "guts bombs",
+   "mini bombs berserk",
+   "guts mini bombs",
+   "berserk bombs"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Tiny fused bombs made by fairy craftsmen. Tossed into a group or into a monster's mouth, they go off with a burst far bigger than their size.",
+  "look": "handful of small round black iron balls the size of walnuts, each with a short sparking fuse, in a leather pouch",
+  "use": "thrown weapon",
+  "trait": "burn",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FF6A1A"
+ },
+ {
+  "names": [
+   "behelit",
+   "beherit",
+   "egg of the king",
+   "crimson behelit",
+   "behelith",
+   "bejelit",
+   "red behelit"
+  ],
+  "kind": "event",
+  "from": "Berserk",
+  "facts": "Egg-shaped stone that awakens and screams. Darkness falls over the whole arena, the ground turns strange, and a swarm of monsters pours out of the gloom to chase everyone.",
+  "look": "egg-shaped smooth crimson red stone on a cord with scattered eyes, a nose and a mouth arranged in the wrong places, the eyes wide open and the mouth crying out",
+  "use": "disaster",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "clones",
+   "aura"
+  ],
+  "color": "#C4162A"
+ },
+ {
+  "names": [
+   "brand of sacrifice",
+   "the brand of sacrifice",
+   "sacrifice brand",
+   "berserk brand",
+   "guts brand",
+   "berserk mark"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Cursed mark that stings and glows when evil is near. It warns its bearer of every monster and makes them fight harder, but it also draws spirits and monsters toward them.",
+  "look": "glowing dark red symbol shaped like a jagged upright rune with a crossbar and a hooked tail, floating in the air with a faint red haze",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "aura"
+  ],
+  "color": "#E0182A"
+ },
+ {
+  "names": [
+   "sword of resonance",
+   "skull knight sword",
+   "skull knights sword",
+   "sword of thorns",
+   "skullknight sword"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Ancient knight's longsword with a blade ringed in thorns. Cuts spirits and demons that ordinary weapons cannot touch.",
+  "look": "long dark steel sword with a thorny vine pattern twisting along the blade, small sharp thorns on the edges and a rose-shaped guard",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#9AA8E0"
+ },
+ {
+  "names": [
+   "sword of actuation",
+   "sword of beherits",
+   "sword of behelits",
+   "behelit sword",
+   "beherit sword"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Sword coated in dozens of crimson egg stones. One swing slices open space itself, tearing a glowing rift that drags enemies in or lets the wielder step through to somewhere else.",
+  "look": "long sword whose blade is covered in small red egg-shaped stones with tiny faces, glowing dark red, with a thorn-wrapped grip",
+  "use": "melee weapon",
+  "trait": "heavy",
+  "attack": "beam",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "teleport",
+   "pull"
+  ],
+  "color": "#D0203A"
+ },
+ {
+  "names": [
+   "sylph sword",
+   "sylph blade",
+   "wind sword berserk",
+   "serpico sword",
+   "sylphe sword"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Feather-light sword blessed by wind spirits. Every swing flings a cutting gust of wind, so it slashes enemies from far away and blows them back.",
+  "look": "thin rapier with a blade shaped like a long pale green feather, a swirl of wind lines around it and a small winged guard",
+  "use": "ranged weapon",
+  "trait": "knockback",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#A8F0C8"
+ },
+ {
+  "names": [
+   "sylph cloak",
+   "sylphe cloak",
+   "wind cloak berserk",
+   "serpico cloak"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Cloak woven from wind. Wraps the wearer in gusts that turn arrows aside, lets them leap high and glide, and can whip up a whirlwind around them.",
+  "look": "long hooded cloak made of pale green feathery streams of swirling wind, with a feathered collar and loose ribbons floating upward",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "shield",
+   "leap",
+   "spin"
+  ],
+  "color": "#B8F5D8"
+ },
+ {
+  "names": [
+   "salamander dagger",
+   "salamander dagger berserk",
+   "isidro dagger",
+   "fire dagger berserk",
+   "salamander knife"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Short dagger blessed by fire spirits. Its blade burns red hot, so every cut sets the target alight.",
+  "look": "short dagger with a wavy flame-shaped orange-red glowing blade, small flames along the edge and a brass lizard-shaped guard",
+  "use": "melee weapon",
+  "trait": "burn",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 5,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FF6A2A"
+ },
+ {
+  "names": [
+   "silver chainmail",
+   "silver chain mail",
+   "silver dagger berserk",
+   "farnese chainmail",
+   "silver chainmail and dagger"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Enchanted silver mail vest and matching dagger. Evil spirits cannot touch the wearer, and the silver hurts ghosts and demons that shrug off ordinary steel.",
+  "look": "vest of fine shining silver chainmail with a high collar, and a small silver dagger with a leaf-shaped blade lying across it",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E8EEF5"
+ },
+ {
+  "names": [
+   "zodds sword",
+   "zodd sword",
+   "zodd cleaver",
+   "nosferatu zodd sword"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Gigantic notched cleaver sword carried by a legendary beast warrior. Heavy enough to cut a charging horse and rider in one swing.",
+  "look": "very large single-edged cleaver sword with a thick dark blade, a notched chipped edge, a hooked tip and a long leather-wrapped handle",
+  "use": "melee weapon",
+  "trait": "heavy",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [],
+  "color": "#7A2020"
+ },
+ {
+  "names": [
+   "griffiths sabre",
+   "griffith sabre",
+   "griffith saber",
+   "griffiths saber",
+   "griffith sword",
+   "white hawk sabre"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Slim, elegant cavalry sabre used for lightning-fast thrusts. Weak against heavy armour, but it strikes many times before the enemy can answer.",
+  "look": "thin slightly curved silver sabre with a polished blade, a swept white and gold hand guard and a small hawk wing motif",
+  "use": "melee weapon",
+  "trait": "rapid",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#EAF2FF"
+ },
+ {
+  "names": [
+   "grunbeld hammer",
+   "grunbelds hammer",
+   "grunbeld war hammer",
+   "grunbeld shield cannon",
+   "grunbeld shield",
+   "shield cannon berserk"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Giant's war hammer paired with a tower shield that hides a cannon. The hammer flattens anything it lands on, and the shield fires a heavy shot that blows enemies backward.",
+  "look": "huge long-handled war hammer with a square dark red steel head, beside a tall thick shield with a dragon crest and a cannon barrel in the centre",
+  "use": "melee weapon",
+  "trait": "heavy",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#C8401A"
+ },
+ {
+  "names": [
+   "irvines bow",
+   "irvine bow",
+   "irvine horn bow",
+   "demon bow berserk"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Great bow made from curved horns. Fires arrows of dark energy that split into several in flight and curve round cover to find their target.",
+  "look": "large recurve bow made of two long dark curved horns joined by a carved grip with a single eye-shaped gem, glowing purple string",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [],
+  "color": "#8A5AC0"
+ },
+ {
+  "names": [
+   "four cardinal kings",
+   "four kings of the world",
+   "four cardinal kings barrier",
+   "schierke barrier",
+   "four kings barrier"
+  ],
+  "kind": "ability",
+  "from": "Berserk",
+  "facts": "Witch's prayer to the four great spirits of earth, water, fire and wind. Raises a glowing dome that monsters and evil spirits cannot cross while friends stay safe inside.",
+  "look": "large see-through dome of pale golden light over a stone circle, with four tall faint spirit figures in brown, blue, red and green standing guard around it",
+  "use": "structure",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 1,
+  "strength": 3,
+  "toughness": 5,
+  "specials": [
+   "shield",
+   "aura"
+  ],
+  "color": "#FFE9A0"
+ },
+ {
+  "names": [
+   "rotting root lord",
+   "lord of the rotting roots",
+   "rotten root lord",
+   "schierke flood",
+   "lady of the depths"
+  ],
+  "kind": "ability",
+  "from": "Berserk",
+  "facts": "Witch's spell calling the spirit of the deep waters. A roaring flood bursts out and sweeps every enemy across the arena, washing swarms away.",
+  "look": "towering wave of dark blue-green water shaped like a tall robed woman with long flowing hair, tangled roots and water weeds swirling inside it",
+  "use": "disaster",
+  "trait": "none",
+  "attack": "blast",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#2A8AB0"
+ },
+ {
+  "names": [
+   "fire wheel",
+   "wheel of fire berserk",
+   "schierke fire wheel",
+   "fire wheel spell"
+  ],
+  "kind": "ability",
+  "from": "Berserk",
+  "facts": "Witch's fire spell. A great spinning wheel of flame rolls around the caster and across the ground, burning every enemy it touches.",
+  "look": "large spinning ring of bright orange and yellow flame standing upright like a cartwheel, with sparks and small flame spirits shaped like lizards inside it",
+  "use": "disaster",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "spin",
+   "aura"
+  ],
+  "color": "#FF7A1A"
+ },
+ {
+  "names": [
+   "the eclipse",
+   "eclipse berserk",
+   "berserk eclipse",
+   "the eclipse berserk",
+   "eclipse ceremony"
+  ],
+  "kind": "event",
+  "from": "Berserk",
+  "facts": "The sun turns black and the arena is swallowed by a strange red realm. Countless monsters crawl out of the ground and hunt everyone at once while five dark angels watch from above.",
+  "look": "black sun with a thin glowing red ring in a dark crimson sky, above a ground of countless stone faces, with a giant stone hand rising in the middle",
+  "use": "disaster",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "clones",
+   "aura"
+  ],
+  "color": "#A00A1A"
+ },
+ {
+  "names": [
+   "vortex of souls",
+   "the vortex of souls",
+   "soul vortex berserk",
+   "abyss vortex berserk"
+  ],
+  "kind": "event",
+  "from": "Berserk",
+  "facts": "Giant whirlpool of glowing spirits that opens in the middle of the arena. Drags everything nearby toward its centre and spins it round and round.",
+  "look": "vast swirling whirlpool of pale blue-white wispy spirits spiralling down into a dark centre, like a storm seen from above",
+  "use": "disaster",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "pull",
+   "spin"
+  ],
+  "color": "#8AB8FF"
+ },
+ {
+  "names": [
+   "fantasia berserk",
+   "world spiral tree",
+   "world tree berserk",
+   "spiral world tree",
+   "berserk world tree"
+  ],
+  "kind": "event",
+  "from": "Berserk",
+  "facts": "Colossal glowing tree that bursts from the ground and reaches past the clouds. Its light brings legends to life: unicorns, dragons, hydras and fairies start wandering the arena.",
+  "look": "unbelievably tall tree with a twisted spiral trunk and branches spreading above the clouds, glowing soft white-green, tiny winged creatures flying around it",
+  "use": "structure",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 1,
+  "strength": 3,
+  "toughness": 5,
+  "specials": [
+   "clones",
+   "heal"
+  ],
+  "color": "#C8FFD8"
+ },
+ {
+  "names": [
+   "falconia",
+   "falconia city",
+   "city of falconia",
+   "falconia berserk"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Shining white capital city that rises at the foot of a giant tree. Its towering walls cannot be broken by monsters and its soldiers defend whoever shelters inside.",
+  "look": "gleaming white walled city with tall slender spires, grand domes, wide marble stairs and long banners showing a spread-winged bird",
+  "use": "structure",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 1,
+  "strength": 3,
+  "toughness": 5,
+  "specials": [
+   "shield",
+   "clones"
+  ],
+  "color": "#F5F8FF"
+ },
+ {
+  "names": [
+   "tower of conviction",
+   "the tower of conviction",
+   "conviction tower",
+   "albion tower",
+   "saint albion tower"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Grim stone tower on a mountain top. Looms over the arena, dark spirits gather around it and enemies who come close are caught and held.",
+  "look": "very tall round grey stone tower on a rocky peak with narrow windows, iron spikes around the top and dark swirling mist at its base",
+  "use": "structure",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 1,
+  "strength": 3,
+  "toughness": 5,
+  "specials": [
+   "pull",
+   "aura"
+  ],
+  "color": "#5A5A6A"
+ },
+ {
+  "names": [
+   "sea horse ship",
+   "seahorse ship",
+   "the sea horse",
+   "the seahorse berserk",
+   "rodericks ship",
+   "sea horse warship"
+  ],
+  "kind": "vehicle",
+  "from": "Berserk",
+  "facts": "Fast three-masted warship. Outruns pirates, turns sharply for its size and fires rows of cannons from both sides.",
+  "look": "three-masted wooden sailing warship with white sails, dark hull with a row of cannon ports on each side and a carved seahorse figurehead at the bow",
+  "use": "vehicle",
+  "trait": "none",
+  "attack": "blast",
+  "element": "water",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#2A5AA0"
+ },
+ {
+  "names": [
+   "elfhelm",
+   "elf helm",
+   "skellig island",
+   "elfhelm berserk",
+   "island of the elves"
+  ],
+  "kind": "item",
+  "from": "Berserk",
+  "facts": "Hidden island home of the elves. A magic barrier keeps evil out, illusions confuse intruders, and everyone inside slowly recovers in its gentle light.",
+  "look": "small green island with a huge blossoming cherry tree at its centre, mushroom-roofed cottages, glowing fairy lights and pink petals drifting in the air",
+  "use": "structure",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "heal",
+   "shield"
+  ],
+  "color": "#FFC8E8"
+ }
+]

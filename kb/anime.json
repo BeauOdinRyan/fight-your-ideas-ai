@@ -20,7 +20,7 @@
   "toughness": 3,
   "specials": [
    "teleport",
-   "leap"
+   "aura"
   ],
   "color": "#F58B1F"
  },
@@ -197,7 +197,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "leap"
+   "aura",
+   "dash"
   ],
   "color": "#2A5AD6"
  },
@@ -1092,7 +1093,8 @@
   "strength": 3,
   "toughness": 3,
   "specials": [
-   "clones"
+   "clones",
+   "dash"
   ],
   "color": "#F58B1F"
  },
@@ -1187,7 +1189,8 @@
   "strength": 3,
   "toughness": 3,
   "specials": [
-   "teleport"
+   "teleport",
+   "dash"
   ],
   "color": "#6A5AE0"
  },
@@ -1344,7 +1347,8 @@
   "strength": 3,
   "toughness": 3,
   "specials": [
-   "teleport"
+   "teleport",
+   "dash"
   ],
   "color": "#FFD21F"
  },
@@ -1426,7 +1430,10 @@
   "speed": 5,
   "strength": 3,
   "toughness": 2,
-  "specials": [],
+  "specials": [
+   "dash",
+   "spin"
+  ],
   "color": "#2AA84A"
  },
  {
@@ -1448,7 +1455,8 @@
   "strength": 4,
   "toughness": 2,
   "specials": [
-   "aura"
+   "dash",
+   "leap"
   ],
   "color": "#2AA84A"
  },
@@ -1947,7 +1955,9 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "leap"
+   "leap",
+   "grow",
+   "pull"
   ],
   "color": "#E24A3A"
  },
@@ -2060,7 +2070,10 @@
   "speed": 3,
   "strength": 4,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "spin",
+   "dash"
+  ],
   "color": "#3AA84A"
  },
  {
@@ -2080,7 +2093,10 @@
   "speed": 4,
   "strength": 3,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "spin",
+   "leap"
+  ],
   "color": "#FF7A1F"
  },
  {
@@ -2465,7 +2481,10 @@
   "speed": 3,
   "strength": 3,
   "toughness": 4,
-  "specials": [],
+  "specials": [
+   "freeze",
+   "slide"
+  ],
   "color": "#7AD6FF"
  },
  {
@@ -2594,7 +2613,8 @@
   "toughness": 4,
   "specials": [
    "teleport",
-   "shield"
+   "shield",
+   "pull"
   ],
   "color": "#6AA8FF"
  },
@@ -2617,7 +2637,8 @@
   "strength": 5,
   "toughness": 3,
   "specials": [
-   "aura"
+   "aura",
+   "heal"
   ],
   "color": "#C42A2A"
  },
@@ -2722,7 +2743,10 @@
   "speed": 3,
   "strength": 4,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "dash",
+   "leap"
+  ],
   "color": "#555555"
  },
  {
@@ -2962,7 +2986,10 @@
   "speed": 4,
   "strength": 3,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "dash",
+   "spin"
+  ],
   "color": "#2A8AD6"
  },
  {
@@ -3005,7 +3032,9 @@
   "speed": 5,
   "strength": 3,
   "toughness": 2,
-  "specials": [],
+  "specials": [
+   "dash"
+  ],
   "color": "#FFE24A"
  },
  {
@@ -3025,7 +3054,10 @@
   "speed": 4,
   "strength": 3,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "spin",
+   "leap"
+  ],
   "color": "#6A5A3A"
  },
  {
@@ -3406,7 +3438,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "leap"
+   "leap",
+   "dash"
   ],
   "color": "#3AD66A"
  },
@@ -3452,7 +3485,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
-   "leap"
+   "leap",
+   "aura"
   ],
   "color": "#FF8A1F"
  },
@@ -3473,7 +3507,10 @@
   "speed": 3,
   "strength": 4,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "freeze",
+   "slide"
+  ],
   "color": "#6AD6FF"
  },
  {
@@ -3513,7 +3550,9 @@
   "speed": 5,
   "strength": 2,
   "toughness": 2,
-  "specials": [],
+  "specials": [
+   "dash"
+  ],
   "color": "#2A8AD6"
  },
  {
@@ -3785,7 +3824,8 @@
   "strength": 3,
   "toughness": 2,
   "specials": [
-   "pull"
+   "dash",
+   "spin"
   ],
   "color": "#C42A2A"
  },
@@ -3808,8 +3848,8 @@
   "strength": 3,
   "toughness": 3,
   "specials": [
-   "pull",
-   "leap"
+   "spin",
+   "dash"
   ],
   "color": "#6A8A6A"
  },
@@ -4382,7 +4422,9 @@
   "speed": 5,
   "strength": 3,
   "toughness": 2,
-  "specials": [],
+  "specials": [
+   "dash"
+  ],
   "color": "#9AD6FF"
  },
  {
@@ -4547,7 +4589,10 @@
   "speed": 4,
   "strength": 5,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "leap",
+   "dash"
+  ],
   "color": "#FFD21F"
  },
  {
@@ -4754,6 +4799,8 @@
   "strength": 4,
   "toughness": 3,
   "specials": [
+   "leap",
+   "spin",
    "heal"
   ],
   "color": "#FF6A1F"
@@ -4999,7 +5046,9 @@
   "speed": 3,
   "strength": 4,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "freeze"
+  ],
   "color": "#6A5AE0"
  },
  {
@@ -5059,7 +5108,11 @@
   "speed": 4,
   "strength": 4,
   "toughness": 3,
-  "specials": [],
+  "specials": [
+   "freeze",
+   "teleport",
+   "heal"
+  ],
   "color": "#FFD21F"
  },
  {
@@ -6173,26 +6226,6 @@
    "shield"
   ],
   "color": "#2A6AD6"
- },
- {
-  "names": [
-   "guts",
-   "gatsu"
-  ],
-  "kind": "character",
-  "from": "Berserk",
-  "facts": "Black Swordsman swinging a giant slab sword, with a cannon arm and a crossbow.",
-  "look": "large muscular man with short dark hair, scar on nose, black armour, torn black cloak, huge iron slab sword, metal prosthetic arm",
-  "use": "summon",
-  "trait": "none",
-  "attack": "melee",
-  "element": "none",
-  "flies": false,
-  "speed": 3,
-  "strength": 5,
-  "toughness": 4,
-  "specials": [],
-  "color": "#222222"
  },
  {
   "names": [
@@ -7594,84 +7627,6 @@
   "toughness": 3,
   "specials": [],
   "color": "#6A9A3A"
- },
- {
-  "names": [
-   "griffith",
-   "femto"
-  ],
-  "kind": "character",
-  "from": "Berserk",
-  "facts": "Charismatic mercenary captain with fine sword skills, later a winged white demon.",
-  "look": "long white-silver hair, gleaming white armour and cape, thin sword; as the dark form with white feathered wings",
-  "use": "summon",
-  "trait": "none",
-  "attack": "melee",
-  "element": "none",
-  "flies": false,
-  "speed": 3,
-  "strength": 4,
-  "toughness": 3,
-  "specials": [],
-  "color": "#FFFFFF"
- },
- {
-  "names": [
-   "casca"
-  ],
-  "kind": "character",
-  "from": "Berserk",
-  "facts": "Swordswoman with a short blade and a strong spirit. She leads troops with fierce determination and fights with quick, accurate cuts.",
-  "look": "woman with short dark hair, silver armour with a short cape, a short sword and a determined face",
-  "use": "summon",
-  "trait": "none",
-  "attack": "melee",
-  "element": "none",
-  "flies": false,
-  "speed": 4,
-  "strength": 3,
-  "toughness": 3,
-  "specials": [],
-  "color": "#8A8A8A"
- },
- {
-  "names": [
-   "dragonslayer",
-   "guts sword"
-  ],
-  "kind": "item",
-  "from": "Berserk",
-  "facts": "Giant slab-like iron sword, so heavy it is more of a club than a blade.",
-  "look": "enormous thick slab-like black iron sword, rough edges",
-  "use": "melee weapon",
-  "trait": "heavy",
-  "attack": "melee",
-  "element": "none",
-  "flies": false,
-  "speed": 2,
-  "strength": 5,
-  "toughness": 3,
-  "specials": [],
-  "color": "#555555"
- },
- {
-  "names": [
-   "behelit"
-  ],
-  "kind": "item",
-  "from": "Berserk",
-  "facts": "Egg-shaped crimson stone with a screaming face that summons gods.",
-  "look": "egg-shaped red stone with a pair of closed eyes and a mouth",
-  "use": "self buff",
-  "trait": "none",
-  "attack": "melee",
-  "element": "dark",
-  "flies": false,
-  "speed": 3,
-  "strength": 3,
-  "toughness": 2,
-  "specials": [],
-  "color": "#C42A2A"
  },
  {
   "names": [
