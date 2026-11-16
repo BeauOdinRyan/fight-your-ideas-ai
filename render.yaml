@@ -1,0 +1,17 @@
+# Render blueprint: tells Render how to run the Fight Your Ideas AI helper.
+# The two secret values are NOT stored here; Render asks you to type them in when you create the service.
+services:
+  - type: web
+    name: fight-your-ideas-ai
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: GAME_SECRET
+        sync: false
+      - key: MODEL
+        value: claude-haiku-5-5

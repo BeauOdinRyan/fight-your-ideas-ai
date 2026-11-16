@@ -1,0 +1,16 @@
+{
+  "name": "prompt-brawl-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI helper for Fight Your Ideas: turns any player prompt or drawing into words the game engine understands.",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.js"
+  },
+  "engines": {
+    "node": ">=22.9"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0"
+  }
+}
