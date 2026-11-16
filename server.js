@@ -95,8 +95,30 @@ RULES:
   Examples: a web-slinging hero -> ranged, pull, speed 4. A caped flying strongman -> melee, flies, strength 5,
   toughness 5, special shield. A spiky-haired martial artist who powers up -> beam, flies, special aura. A wheel-backed
   adapting shikigami -> melee, special adapt, toughness 5. A copy ninja -> melee, special clones. A speedster -> speed 5.
-- "look" describes ONE of the thing so a 3D artist could model it without knowing the name: body, colours, outfit,
-  hair, what it holds. Never put a name in it. For a named character, describe their famous appearance.
+- "look" describes ONE of the thing so a 3D artist could model it without knowing the name. Never put a name in it.
+  For a NAMED character this must be accurate enough that a fan would recognise them instantly. Describe, in this
+  order: age and build, exact hairstyle and hair colour, eye colour and facial features or markings, each piece of
+  their signature outfit with its colours, and their signature weapon or item. Use the form fans picture first, which
+  is usually their most powerful or iconic one: a titan shifter in titan form (towering muscular giant with a red
+  muscle-patterned body, long dark hair, pointed ears, a wide toothy grimace, dark shorts), a transforming fighter in their powered-up form (golden spiky
+  hair, glowing aura), a ninja in their orange jumpsuit with whisker marks and headband. Get the details right:
+  wrong hair colour or outfit ruins it. Never describe a generic "boy", "man" or "girl" for a known character.
+- The "look" is sent to a 3D generator with strict child-safety moderation that REJECTS anything gory or
+  undressed. Never use words such as skinless, skin, naked, nude, bare, shirtless, flesh, blood, gore, wound, corpse,
+  dead, kill. Always dress the figure (shorts, armour, a suit). Describe scary things by colour and shape instead:
+  "red muscle-patterned body", "bone-white armour", "glowing red eyes".
+- WEAPONS: pick the weapon word that matches how it really works. A pistol, rifle or revolver is "gun" (one accurate
+  shot at a time). Only use "shotgun" for an actual shotgun, and "minigun" for an actual rapid-fire gun. Use a weapon
+  word in the SINGULAR unless the player asked for several. Fill in "shot" with what the weapon fires.
+- "self": true when the player wants to BE the thing or HAVE its powers rather than summon it: "superman's powers",
+  "i am goku", "turn me into a dragon", "become a werewolf", "give me spiderman abilities", "flash speed". Still write
+  the phrase, look and character block for that character exactly as if it were summoned (is_character true), so
+  the game knows what powers and appearance to give the player. false for everything else, including a plain name
+  ("superman" alone summons him).
+- VEHICLES the player can drive have their own words. Any car, truck, bike or other road vehicle -> "car". Any plane,
+  jet, helicopter or bomber -> "plane". An armoured or weaponised vehicle (tank, killdozer, battle mech you sit in)
+  -> "killdozer". A plain "bulldozer" stays "bulldozer" (it drives itself and fights for the player). Use the single
+  word alone, with self false and is_character false.
 - For a drawing, decide what it most looks like. If a caption is given, trust the caption over the picture.
 - "Instant win", "kill everyone", "infinite health" and similar become something weak and funny, e.g. "tiny chicken".
 - If the prompt is sexual, hateful, or about a real person, reply exactly: blob`;
@@ -173,7 +195,9 @@ async function interpret(text, doodle) {
           type: "object",
           properties: {
             phrase: { type: "string", description: "The engine phrase only: lowercase words from the word list, at most 12 words." },
-            look: { type: "string", description: "What ONE of it looks like, for a 3D artist: up to 15 plain words of appearance (body, colours, outfit, hair, held items). No names of people, characters, shows or brands. Empty for a disaster." },
+            look: { type: "string", description: "What ONE of it looks like, for a 3D artist: up to 35 plain words of appearance (build, hair, face, outfit pieces and colours, held items). No names of people, characters, shows or brands. Empty for a disaster." },
+            shot: { type: "string", description: "If the phrase is a weapon that shoots or throws something: 1 to 3 words for what comes out (bullet, arrow, laser bolt, rocket, fireball, water, lightning, or something silly like bees or music notes). Empty otherwise." },
+            self: { type: "boolean", description: "True when the player wants to become the thing or have its powers themselves, instead of summoning it." },
             character: {
               type: "object",
               description: "How it fights, when the prompt is a character, person or creature. Use the defaults (is_character false) otherwise.",
@@ -192,7 +216,7 @@ async function interpret(text, doodle) {
               additionalProperties: false,
             },
           },
-          required: ["phrase", "look", "character"],
+          required: ["phrase", "look", "shot", "self", "character"],
           additionalProperties: false,
         },
       },
@@ -208,12 +232,16 @@ async function interpret(text, doodle) {
     if (block.type === "text") phrase += block.text;
   }
   let look = "";
+  let shot = "";
   let character = null;
+  let self = false;
   try {
     const parsed = JSON.parse(phrase);
     phrase = String(parsed.phrase ?? "");
-    look = String(parsed.look ?? "").replace(/[^A-Za-z0-9 ,'-]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 120);
+    look = String(parsed.look ?? "").replace(/[^A-Za-z0-9 ,'-]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 260);
+    shot = String(parsed.shot ?? "").toLowerCase().replace(/[^a-z ]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 30);
     if (parsed.character && parsed.character.is_character === true) character = parsed.character;
+    self = parsed.self === true;
   } catch {
     // not JSON (should not happen with the schema above): fall through and clean up whatever came back
   }
@@ -224,7 +252,7 @@ async function interpret(text, doodle) {
   stats.cached += u.cache_read_input_tokens ?? 0;
   stats.output += u.output_tokens;
   phrase = phrase.toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 80);
-  return phrase ? { text: phrase, look, power: character } : null;
+  return phrase ? { text: phrase, look, shot, self, power: character } : null;
 }
 
 // --- HTTP -----------------------------------------------------------------------------------
