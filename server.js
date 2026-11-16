@@ -79,6 +79,24 @@ RULES:
   rage giant -> "brute"; a thunder god's hammer -> "thunderhammer"; a ki blast -> "energybeam"; a transformation or
   aura -> "powerup"; a three-headed hound -> "cerberus". If nothing special fits, describe them with ordinary words
   (e.g. "fast ninja with a katana", "giant flaming skeleton").
+- CHARACTERS GET THEIR OWN POWERS. When the prompt is a character, person or creature (named or not), the phrase
+  must be a creature (the closest body: human, ninja, knight, robot, wizard, an animal...) and you fill in "character"
+  so it fights the way that character really does:
+    attack   melee = punches, swords, claws.  ranged = guns, thrown things.  beam = energy beams, lasers, eye beams.
+             blast = explosions, big energy balls, bombs.
+    element  the element of its attacks, if any.
+    flies    true only if it really flies or hovers.
+    speed, strength, toughness   1 (feeble) to 5 (legendary). Be honest: a speedster is speed 5, toughness 2;
+             a tank is toughness 5, speed 1. The three together must not exceed 12.
+    special  ONE signature trick: teleport (blinks, instant movement), heal (regenerates), shield (force fields,
+             invulnerable moments), adapt (gets tougher the more it is hit), leap (jumps in and slams the ground),
+             pull (webs, grapples, telekinesis, gravity), aura (hurts everything nearby), clones (comes with copies), none.
+    source   anime, superhero or myth when it is a NAMED character from one; otherwise none.
+  Examples: a web-slinging hero -> ranged, pull, speed 4. A caped flying strongman -> melee, flies, strength 5,
+  toughness 5, special shield. A spiky-haired martial artist who powers up -> beam, flies, special aura. A wheel-backed
+  adapting shikigami -> melee, special adapt, toughness 5. A copy ninja -> melee, special clones. A speedster -> speed 5.
+- "look" describes ONE of the thing so a 3D artist could model it without knowing the name: body, colours, outfit,
+  hair, what it holds. Never put a name in it. For a named character, describe their famous appearance.
 - For a drawing, decide what it most looks like. If a caption is given, trust the caption over the picture.
 - "Instant win", "kill everyone", "infinite health" and similar become something weak and funny, e.g. "tiny chicken".
 - If the prompt is sexual, hateful, or about a real person, reply exactly: blob`;
@@ -153,8 +171,28 @@ async function interpret(text, doodle) {
         type: "json_schema",
         schema: {
           type: "object",
-          properties: { phrase: { type: "string", description: "The engine phrase only: lowercase words from the word list, at most 12 words." } },
-          required: ["phrase"],
+          properties: {
+            phrase: { type: "string", description: "The engine phrase only: lowercase words from the word list, at most 12 words." },
+            look: { type: "string", description: "What ONE of it looks like, for a 3D artist: up to 15 plain words of appearance (body, colours, outfit, hair, held items). No names of people, characters, shows or brands. Empty for a disaster." },
+            character: {
+              type: "object",
+              description: "How it fights, when the prompt is a character, person or creature. Use the defaults (is_character false) otherwise.",
+              properties: {
+                is_character: { type: "boolean" },
+                source: { type: "string", enum: ["none", "anime", "superhero", "myth"], description: "Where a NAMED character comes from; none for anything generic." },
+                attack: { type: "string", enum: ["melee", "ranged", "beam", "blast"] },
+                element: { type: "string", enum: ["none", "fire", "ice", "electric", "poison", "dark", "holy", "water"] },
+                flies: { type: "boolean" },
+                speed: { type: "integer", enum: [1, 2, 3, 4, 5] },
+                strength: { type: "integer", enum: [1, 2, 3, 4, 5] },
+                toughness: { type: "integer", enum: [1, 2, 3, 4, 5] },
+                special: { type: "string", enum: ["none", "teleport", "heal", "shield", "adapt", "leap", "pull", "aura", "clones"] },
+              },
+              required: ["is_character", "source", "attack", "element", "flies", "speed", "strength", "toughness", "special"],
+              additionalProperties: false,
+            },
+          },
+          required: ["phrase", "look", "character"],
           additionalProperties: false,
         },
       },
@@ -169,8 +207,13 @@ async function interpret(text, doodle) {
   for (const block of response.content) {
     if (block.type === "text") phrase += block.text;
   }
+  let look = "";
+  let character = null;
   try {
-    phrase = String(JSON.parse(phrase).phrase ?? "");
+    const parsed = JSON.parse(phrase);
+    phrase = String(parsed.phrase ?? "");
+    look = String(parsed.look ?? "").replace(/[^A-Za-z0-9 ,'-]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 120);
+    if (parsed.character && parsed.character.is_character === true) character = parsed.character;
   } catch {
     // not JSON (should not happen with the schema above): fall through and clean up whatever came back
   }
@@ -181,7 +224,7 @@ async function interpret(text, doodle) {
   stats.cached += u.cache_read_input_tokens ?? 0;
   stats.output += u.output_tokens;
   phrase = phrase.toLowerCase().replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 80);
-  return phrase || null;
+  return phrase ? { text: phrase, look, power: character } : null;
 }
 
 // --- HTTP -----------------------------------------------------------------------------------
@@ -252,17 +295,18 @@ const server = http.createServer(async (req, res) => {
   if (!text && !doodle) return send(res, 400, { error: "nothing to interpret" });
 
   const key = doodle ? null : text.toLowerCase();
-  if (key && cache.has(key)) return send(res, 200, { text: cache.get(key), cached: true });
+  if (key && cache.has(key)) return send(res, 200, { ...cache.get(key), cached: true });
 
   try {
-    const phrase = await interpret(text, doodle);
-    if (!phrase) return send(res, 200, { text: null });
+    const answer = await interpret(text, doodle); // { text, look, power }
+    if (!answer) return send(res, 200, { text: null });
     if (key) {
       if (cache.size > 5000) cache.clear();
-      cache.set(key, phrase);
+      cache.set(key, answer);
     }
-    console.log(`${doodle ? "[drawing] " : ""}"${text}" -> "${phrase}"`);
-    return send(res, 200, { text: phrase });
+    const p = answer.power;
+    console.log(`${doodle ? "[drawing] " : ""}"${text}" -> "${answer.text}"` + (p ? ` [${p.attack}, ${p.special}, spd ${p.speed} str ${p.strength} tgh ${p.toughness}${p.flies ? ", flies" : ""}]` : ""));
+    return send(res, 200, answer);
   } catch (error) {
     if (error instanceof Anthropic.AuthenticationError) {
       console.error("The API key was rejected. Check ANTHROPIC_API_KEY.");
