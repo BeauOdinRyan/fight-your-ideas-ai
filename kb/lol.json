@@ -1,0 +1,5949 @@
+[
+ {
+  "names": [
+   "aatrox",
+   "the darkin blade"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Darkin swordsman who slams huge sword arcs, knocks enemies up, heals by hitting and revives once after falling, with giant demon wings in his ultimate.",
+  "look": "huge tall warrior in dark red and black armour with giant jagged red-glowing greatsword and glowing red eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "leap",
+   "lifesteal"
+  ],
+  "color": "#B3122F"
+ },
+ {
+  "names": [
+   "ahri",
+   "ahri the fox"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Nine-tailed fox mage who throws a returning orb, charms enemies with a kiss, fires fox-fire and dashes three times with her ultimate.",
+  "look": "slender woman with long white hair, fox ears and nine fluffy tails, pink and white dress, glowing pink orb",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport",
+   "pull"
+  ],
+  "color": "#F7A6D5"
+ },
+ {
+  "names": [
+   "akali",
+   "akali the rogue assassin"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Ninja assassin who throws kunai, hides in a smoke cloud and dashes across the map with shuriken and twin kamas.",
+  "look": "ninja in black and green outfit with long ponytail, face mask, twin curved blades and smoke bombs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport",
+   "shield"
+  ],
+  "color": "#6AE04A"
+ },
+ {
+  "names": [
+   "akshan",
+   "akshan the rogue sentinel"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Swashbuckler who shoots around corners with a boomerang, swings on a grappling hook, revives allies and fires a long-range ultimate.",
+  "look": "young man with stylish brown scarf and open jacket, goggles, grapple gun and a slim silver rifle",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "pull",
+   "leap"
+  ],
+  "color": "#D8A35A"
+ },
+ {
+  "names": [
+   "alistar"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Minotaur bruiser who smashes the ground to launch enemies, headbutts them into place and shrugs off damage with his ultimate.",
+  "look": "huge muscular bull-headed warrior with golden horns, nose ring, armoured gauntlets and a chain belt",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "pull",
+   "heal"
+  ],
+  "color": "#8B5A2B"
+ },
+ {
+  "names": [
+   "ambessa",
+   "ambessa medarda"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Noxian warlord who lunges with a fast sword-and-gauntlet combo, drains life with dagger swings and dives onto a target with her ultimate.",
+  "look": "tall fierce woman in dark red heavy coat and armour with a long braid, big metal gauntlets and a sword",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "shield"
+  ],
+  "color": "#C8503C"
+ },
+ {
+  "names": [
+   "amumu",
+   "sad mummy"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Sad little mummy who throws bandage to stick to enemies, cries to hurt nearby foes and entangles everyone in a big area with his ultimate.",
+  "look": "small bandaged mummy with big sad eyes, tattered cloth wrappings and a ragged hat",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "ice",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "pull",
+   "aura"
+  ],
+  "color": "#E8D8A0"
+ },
+ {
+  "names": [
+   "anivia",
+   "cryophoenix"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Ice bird who throws a freezing orb, makes an ice wall and calls a hailstorm; she turns to an egg when defeated and returns.",
+  "look": "giant glowing blue and white bird with long icy feathers and a crystal crest, floating in cold mist",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "ice",
+  "flies": true,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "shield"
+  ],
+  "color": "#7FD4FF"
+ },
+ {
+  "names": [
+   "annie the dark child"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Little girl mage with a teddy bear who fireballs enemies, stuns with a flame passive and summons giant bear Tibbers with her ultimate.",
+  "look": "small girl with short dark hair and red bow, black dress, holding a teddy bear with a flaming shine",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#E8324A"
+ },
+ {
+  "names": [
+   "aphelios"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Marksman with five moonlight weapons: a pistol, a flaming cannon, a scythe, a chakram and a turret; fires a big moon bomb ultimate.",
+  "look": "pale young man with white hair and silver-blue hooded robe, carrying glowing moon-blue guns and blades",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "heal"
+  ],
+  "color": "#B9D8FF"
+ },
+ {
+  "names": [
+   "ashe the frost archer"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Frost archer whose arrows slow targets, fires a volley of arrows and shoots a huge frost arrow across the map to stun.",
+  "look": "woman with long white hair and blue hooded cloak with fur trim, carrying a glowing icy bow",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "ice",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#8FDDF5"
+ },
+ {
+  "names": [
+   "aurelion sol",
+   "asol",
+   "aurelion"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Star dragon who flies around, makes tiny stars orbit him, pulls in a comet and drops a blazing star ultimate.",
+  "look": "giant cosmic dragon with a deep purple starry body and long whiskers, orbiting small glowing stars",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": true,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "grow"
+  ],
+  "color": "#8E6BFF"
+ },
+ {
+  "names": [
+   "aurora",
+   "aurora the witch"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Witch between worlds who throws spirit bolts, shifts between realms and sends her rabbit friend to fight.",
+  "look": "young woman with white-and-teal braided hair, flowing robes with swirling spirit patterns, a small glowing rabbit companion",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#6DD3C0"
+ },
+ {
+  "names": [
+   "azir",
+   "emperor of the sands"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Sand emperor who commands soldiers made of sand to strike from afar, dashes and raises a wall of sand soldiers.",
+  "look": "tall bird-headed ruler in golden and blue armour with a sun disc, flowing cape and golden staff, sand around his feet",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#E3B73C"
+ },
+ {
+  "names": [
+   "bard",
+   "bard the wandering caretaker"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Wandering traveler who gathers chimes, shoots a magic bolt, opens portals and freezes everyone nearby with a magic ultimate.",
+  "look": "small mustachioed traveler in a teal cloak and big hat with a little tuft of beard, carrying a staff and sleigh bells",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "teleport",
+   "clones"
+  ],
+  "color": "#4DB8A4"
+ },
+ {
+  "names": [
+   "belveth",
+   "bel veth",
+   "empress of the void"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Void empress who tears enemies with razor tentacle blades, dashes, grows with every kill and calls a swarm of void creatures.",
+  "look": "tall slender creature in purple and black, with long glowing tendrils and spiky crown, blade-shaped limbs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "lifesteal"
+  ],
+  "color": "#A455E6"
+ },
+ {
+  "names": [
+   "blitzcrank",
+   "blitz"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Steam golem who shoots his fist out to grab enemies, boosts his speed and blasts everyone around him with electricity.",
+  "look": "big copper and green robot with huge round fists, glowing round eyes and steam pipes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "electric",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "pull",
+   "aura"
+  ],
+  "color": "#D8A23C"
+ },
+ {
+  "names": [
+   "brand",
+   "brand the burning vengeance"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Fire mage who sets enemies burning, throws fireballs that bounce and calls a huge column of flames.",
+  "look": "tall figure made of charcoal black rock and orange flames with a glowing flaming head",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "aura"
+  ],
+  "color": "#FF6A2A"
+ },
+ {
+  "names": [
+   "braum"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Cheerful hero with a giant door as a shield, freezes enemies with his stun and cracks the ground with his ultimate.",
+  "look": "huge friendly bearded man in a fur-lined blue armour holding a gigantic wooden door as a shield",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "ice",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "shield"
+  ],
+  "color": "#4FA8E6"
+ },
+ {
+  "names": [
+   "briar",
+   "briar the restrained hunger"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Berserker who charges at foes with spinning claws, leaps into walls to drain life and goes wild with her ultimate.",
+  "look": "wild young woman with spiky pink hair, red-black leather outfit and spiked wrist cuffs, big claws",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "lifesteal"
+  ],
+  "color": "#D6324B"
+ },
+ {
+  "names": [
+   "caitlyn",
+   "cait"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Sheriff sniper who shoots from long range, places traps, uses a big net to retreat and fires a homing sniper ultimate.",
+  "look": "stylish woman in a blue officer coat and tall hat with brown hair and a very long rifle",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#4668D8"
+ },
+ {
+  "names": [
+   "camille",
+   "camille the steel shadow"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Elegant fighter with blade legs who fires a grappling hook to dash across walls, spins her blades and traps a target in a box of walls.",
+  "look": "tall woman in silver-white suit with a long ponytail and metallic blade legs, hookshot",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "pull",
+   "leap"
+  ],
+  "color": "#8E9CB0"
+ },
+ {
+  "names": [
+   "cassiopeia",
+   "cassio"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Snake-bodied sorceress who spits poison clouds, fires poison blasts and turns enemies to stone when they face her.",
+  "look": "woman with a green scaly snake tail instead of legs, long dark hair and golden jewellery, green glowing eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "poison",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#4EC85B"
+ },
+ {
+  "names": [
+   "chogath",
+   "cho gath"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Giant void monster who bursts the ground, silences enemies with his scream, spikes his body and grows by eating things.",
+  "look": "giant lumpy purple creature with spikes, big jaws full of teeth and many glowing eyes ~",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "grow"
+  ],
+  "color": "#7B3FB0"
+ },
+ {
+  "names": [
+   "corki",
+   "corki the daring bombardier"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Pilot with a gyrocopter who throws bombs, drops a special bomb package and fires a barrage of missiles.",
+  "look": "small moustached pilot with big goggles and aviator cap in a small orange propeller aircraft",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E8A23C"
+ },
+ {
+  "names": [
+   "darius",
+   "darius the hand of noxus"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Mighty axeman who spins a big axe, hooks enemies with his axe, bleeds them with stacks and delivers a finishing blow with his ultimate.",
+  "look": "huge muscular warrior with big black and red armour, spiked helmet and giant two-handed axe",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "pull",
+   "leap"
+  ],
+  "color": "#B01E2E"
+ },
+ {
+  "names": [
+   "diana",
+   "diana scorn of the moon"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Moon warrior who throws a crescent, dashes to her enemies, pulls them together and slashes with a silver blade.",
+  "look": "woman in silver and blue armour with long pale hair and a crescent-shaped blade",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "shield"
+  ],
+  "color": "#8AA2FF"
+ },
+ {
+  "names": [
+   "dr mundo",
+   "doctor mundo",
+   "mundo"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Huge purple man who throws cleavers, goes where he pleases, heals at high speed and carries a massive cleaver.",
+  "look": "gigantic purple man in a green medical apron, large round mask, tiny pants, gruesome bandages, large cleaver",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "heal",
+   "adapt"
+  ],
+  "color": "#8A3FB5"
+ },
+ {
+  "names": [
+   "draven",
+   "draven the glorious executioner"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Showy marksman who spins and catches throwing axes, dashes with a speed boost and fires two giant axes in a line.",
+  "look": "showy man in red and black with a big moustache and slick hair, holding spinning axes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#D63A3A"
+ },
+ {
+  "names": [
+   "ekko"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Time kid who throws a time device, creates a copy that stays behind and uses it to rewind and strike back.",
+  "look": "lean young man with spiky teal hair and goggles, glowing green jacket and a big glowing device bat",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "electric",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport",
+   "leap"
+  ],
+  "color": "#4EE8C8"
+ },
+ {
+  "names": [
+   "elise",
+   "elise the spider queen"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Spider queen who switches between human and spider form, throws spiders, drops on enemies with a silk rope and bites.",
+  "look": "elegant woman in a red and black dress with spider legs on her back and a pale face, silk web",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "leap",
+   "pull"
+  ],
+  "color": "#7B2F8C"
+ },
+ {
+  "names": [
+   "evelynn",
+   "evelynn the widowmaker"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Demon who hides until she strikes, charms enemies with a lash of her claw and blasts the area in her ultimate.",
+  "look": "tall woman with purple hair and pink glow, dark purple outfit with long clawed hands, shimmering mist",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#C03AB8"
+ },
+ {
+  "names": [
+   "ezreal",
+   "ez",
+   "ezreal the prodigal explorer"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Adventurer who shoots magic bolts, blinks short distances and fires a huge long-range light beam.",
+  "look": "young explorer with blond tousled hair in blue and gold adventurer clothes, glowing gauntlet",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#F5D056"
+ },
+ {
+  "names": [
+   "fiddlesticks",
+   "fiddle",
+   "fiddle sticks"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Scarecrow who fears and silences enemies with terror and a drain, crowing with birds, then appears in a huge scary cloud.",
+  "look": "tall scarecrow in a ragged black robe and straw, with a sack head, glowing eyes and a staff with a crow",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "aura"
+  ],
+  "color": "#7A5A3C"
+ },
+ {
+  "names": [
+   "fiora",
+   "fiora the grand duelist"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Master fencer who lunges quickly with a rapier, parries to stop attacks and marks weak spots to hit for more.",
+  "look": "elegant woman with white hair and a fencing outfit in white and blue holding a thin rapier",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E0E8F5"
+ },
+ {
+  "names": [
+   "fizz",
+   "fizz the tidal trickster"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Tiny fish trickster who jumps on his trident, avoids damage in a jump and calls a hungry shark.",
+  "look": "small blue fish-like creature with a trident, big eyes and pointed fins",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport",
+   "leap"
+  ],
+  "color": "#3AB5E8"
+ },
+ {
+  "names": [
+   "galio",
+   "galio the colossus"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Giant stone statue who makes shields, whips up wind, taunts nearby enemies and flies down in a mighty ultimate.",
+  "look": "huge stone statue with large blue-and-grey wings and a glowing blue chest, round stone fists",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "shield",
+   "pull"
+  ],
+  "color": "#6D9DBE"
+ },
+ {
+  "names": [
+   "gangplank",
+   "gp",
+   "gangplank the saltwater scourge"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Pirate captain with a sword who shoots, hits and explodes powder barrels, swigs oranges to heal, and bombards areas with cannon fire.",
+  "look": "pirate in a long red captain's coat and hat with a beard, sabre and pistol, a barrel of gunpowder",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "aura",
+   "leap"
+  ],
+  "color": "#C04A2E"
+ },
+ {
+  "names": [
+   "garen",
+   "garen the might of demacia"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Strong knight who spins his sword, silences with a strike, heals out of combat and calls a big sword from above.",
+  "look": "strong knight in big blue and silver plate armour with a large sword and big shoulders",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "shield",
+   "heal"
+  ],
+  "color": "#4F9CFF"
+ },
+ {
+  "names": [
+   "gnar",
+   "gnar the missing link"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Small caveman who hurls a boomerang, builds rage and turns into a huge dinosaur-like brute with a stomp.",
+  "look": "small furry caveman with a boomerang that turns into a huge grey stone-covered beast",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "grow",
+   "leap"
+  ],
+  "color": "#E8A858"
+ },
+ {
+  "names": [
+   "gragas",
+   "gragas the rabble rouser"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Round brewmaster who rolls a barrel that explodes, drinks to heal, headbutts and blasts enemies away with his barrel.",
+  "look": "big round bearded man with a huge belly and a barrel on his back, wooden mug, wearing a stew-coloured outfit",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#D88F3C"
+ },
+ {
+  "names": [
+   "graves",
+   "graves the outlaw"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Outlaw with a double barrel shotgun who dashes forward, throws smoke and fires a blast explosion.",
+  "look": "rough man with a thick grey beard and cigar, long dusty coat and a huge double barrel shotgun",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#8F6A4A"
+ },
+ {
+  "names": [
+   "gwen",
+   "gwen the hallowed seamstress"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Doll-sized seamstress who snips with giant scissors, sews a protective mist and fires needle-like thread.",
+  "look": "young woman with a long blue and black ponytail and a ribbon dress, holding giant enchanted scissors",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#6EE0D8"
+ },
+ {
+  "names": [
+   "hecarim",
+   "hecarim the shadow of war"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Spectral horse rider who charges at enemies, builds speed as he runs and calls a spectral charge in a line.",
+  "look": "tall ghostly horse rider in dark armour with a blue flame mane and a long spear, glowing blue eyes ~",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "pull"
+  ],
+  "color": "#39E8D0"
+ },
+ {
+  "names": [
+   "heimerdinger",
+   "heimer",
+   "professor heimerdinger"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Inventor who sets up turrets, blasts rockets, shoots electric grenades and boosts the turrets in his upgrade.",
+  "look": "small old scientist with big goggles in a long blue coat and a tuft of white hair, small cannon turret",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "electric",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#E8C84A"
+ },
+ {
+  "names": [
+   "hwei",
+   "hwei the visionary"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Painter mage who splashes shapes with a magical brush, uses beams of light, and draws swirling storms with his art.",
+  "look": "calm man in an ink-stained robe with a topknot, holding a brush and a palette, swirling coloured paint",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#C84ABD"
+ },
+ {
+  "names": [
+   "illaoi",
+   "illaoi the kraken priestess"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Priestess who summons tentacles to smash enemies, hits enemies' spirits with her idol and calls tentacles in a huge ring.",
+  "look": "huge strong woman in teal and gold robes with a giant golden idol and large teal tentacles",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "clones"
+  ],
+  "color": "#3F9C9C"
+ },
+ {
+  "names": [
+   "irelia",
+   "irelia the blade dancer"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Blade dancer who floats blades in the air, dashes between enemies and calls a wall of blades.",
+  "look": "graceful young woman with dark hair and silver and blue armour, floating blades around her",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "shield"
+  ],
+  "color": "#6AA8E8"
+ },
+ {
+  "names": [
+   "ivern",
+   "ivern the green father"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Gentle green tree-man who plants bushes, calls a fighting forest creature to protect and roots foes with vines.",
+  "look": "friendly green tree-man in a leafy vest with a long nose and twigs for hair, carrying a bag of seeds",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "clones"
+  ],
+  "color": "#5FBF4A"
+ },
+ {
+  "names": [
+   "janna",
+   "janna the storms fury"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Wind sorceress who throws tornadoes, shields allies with a gust of wind and heals with a big gust that pushes enemies away.",
+  "look": "elegant woman with long white and blue clothes and floating wind-swirling hair, a staff, hovering",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "shield",
+   "pull"
+  ],
+  "color": "#A8E8F0"
+ },
+ {
+  "names": [
+   "jarvan iv",
+   "jarvan",
+   "jarvan 4",
+   "j4",
+   "jarvan the exemplar"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Prince who spears with his lance, pushes foes into a circle with a flag, creates a circle around the enemy and slams a banner.",
+  "look": "strong royal warrior in gold and red armour with a long spear, flag and plume",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "pull"
+  ],
+  "color": "#D8AA3C"
+ },
+ {
+  "names": [
+   "jax",
+   "jax the grandmaster at arms"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Master of weapons who leaps to enemies with a lamp post, dodges all attacks, and strikes with rapid hits.",
+  "look": "lean fighter with a large hat and orange vest, wearing a long beard and carrying a lamp post",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "shield"
+  ],
+  "color": "#E8A838"
+ },
+ {
+  "names": [
+   "jayce",
+   "jayce the defender of tomorrow"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Inventor with a transforming hammer who switches between melee and ranged mode, a cannon and an electric acceleration gate.",
+  "look": "young man with short dark hair and a blue and silver coat, holding a hammer that opens into a cannon",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap"
+  ],
+  "color": "#5AA8E8"
+ },
+ {
+  "names": [
+   "jhin",
+   "jhin the virtuoso"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Artist who fires four slow shots with the fourth powerful, sets traps, fires a huge shot ultimate.",
+  "look": "elegant man in a gold and white mask, white coat with a purple scarf and a big gun with an elegant barrel",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#D83A5C"
+ },
+ {
+  "names": [
+   "jinx",
+   "jinx the loose cannon"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Chaotic girl with a rocket launcher and a mini-gun, shoots rockets, snaps explosive jaws trap and fires a super rocket across the map.",
+  "look": "girl with very long blue braids, pink and black outfit, huge chunky rocket launcher",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "electric",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#5AD0F2"
+ },
+ {
+  "names": [
+   "kaisa",
+   "kai sa",
+   "daughter of the void"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Void-armoured marksman who fires missiles, builds up plasma, blinks and gives herself a shield.",
+  "look": "woman in sleek purple and silver armour with a long ponytail, glowing wing-like shoulder pieces",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#A25AE8"
+ },
+ {
+  "names": [
+   "kalista",
+   "kalista the spear of vengeance"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Ghostly spear thrower who hops while attacking, impales foes with spears and pulls them in.",
+  "look": "ghostly woman in dark green armour with a spiky crown, holding long spears with a glowing green mist",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "pull"
+  ],
+  "color": "#5ADDB8"
+ },
+ {
+  "names": [
+   "karma",
+   "karma the enlightened one"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Enlightened mage who fires a bolt of energy, makes a shield and ultimate-powered spells for each.",
+  "look": "serene woman in a red and gold robe and a long gold headdress, glowing orb",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E8A83C"
+ },
+ {
+  "names": [
+   "karthus",
+   "karthus the deathsinger"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Singing lich who casts wall of pain, fires blasts and finishes everyone on the map with a deadly ult.",
+  "look": "hooded spooky figure in a ragged blue-grey robe with glowing blue eyes and a tall staff",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "aura"
+  ],
+  "color": "#6A8CBF"
+ },
+ {
+  "names": [
+   "kassadin",
+   "kassadin the void walker"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Void walker who blinks short distances, resists magic, and a strong power spike at later levels.",
+  "look": "armoured warrior in purple and black with a big hood, glowing eyes, and a long blade",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport",
+   "aura"
+  ],
+  "color": "#8A4AD8"
+ },
+ {
+  "names": [
+   "katarina",
+   "kat",
+   "katarina the sinister blade"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Blade assassin who throws daggers, jumps to them, and spins to hit everything near with her blades.",
+  "look": "woman with red hair and a red scarf in dark leather, holding twin daggers",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#C8323C"
+ },
+ {
+  "names": [
+   "kayle",
+   "kayle the righteous"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Angel with a flaming sword that gains wings and range, shoots waves of fire, and has a short invulnerable ultimate.",
+  "look": "tall winged woman in gold and white armour with big golden wings and a flaming sword",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#F5D86A"
+ },
+ {
+  "names": [
+   "kayn",
+   "kayn the shadow reaper"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Scythe wielder who walks through walls and transforms with darkness or a shadow assassin.",
+  "look": "lean young man with a long red-and-purple ponytail, hooded outfit and a giant scythe with a living glowing blade",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "leap"
+  ],
+  "color": "#5A3AB8"
+ },
+ {
+  "names": [
+   "kennen"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Tiny ninja who throws lightning shurikens, stuns with a lightning storm and a spinning ultimate.",
+  "look": "small yellow and black ninja with a big hat, big eyes and tiny shuriken",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "electric",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#F5D83C"
+ },
+ {
+  "names": [
+   "khazix",
+   "kha zix",
+   "voidreaver"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Insect assassin who leaps to isolated targets, gets bigger claws, grows wings and hides in his ultimate.",
+  "look": "tall insect-like predator in a purple-black shell with scythe claws and large eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "leap"
+  ],
+  "color": "#A83A9C"
+ },
+ {
+  "names": [
+   "kindred",
+   "kindred the eternal hunters"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "A lamb and wolf duo who shoot arrows, dash and calm a zone where no one can fall.",
+  "look": "lamb in a pale mask beside a wolf in a black mask, a bow, floating ribbons and a tiny archer",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#E8E0D8"
+ },
+ {
+  "names": [
+   "kled",
+   "kled the cantankerous cavalier"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Angry little knight with a lizard mount who throws a lasso, charges with a giant lizard and cracks his ult.",
+  "look": "little angry warrior in a rusty helmet riding a green lizard, with a rope and a big axe",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "pull"
+  ],
+  "color": "#D8683C"
+ },
+ {
+  "names": [
+   "kogmaw",
+   "kog maw",
+   "mouth of the abyss"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Mouth monster who spits acid, shoots mouth beams at long range and fires large bursts of damage.",
+  "look": "squat green creature with a huge round mouth and a wide row of teeth, little arms",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "poison",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#8BD83A"
+ },
+ {
+  "names": [
+   "ksante",
+   "k sante",
+   "the pride of nazumah"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Armoured tank with an enormous shield who becomes a fighter with a mighty form and slams a big shield and dashes.",
+  "look": "big man in orange and black armour with a huge shield and a long weapon",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "grow"
+  ],
+  "color": "#E8A83C"
+ },
+ {
+  "names": [
+   "leblanc",
+   "le blanc",
+   "lb",
+   "the deceiver"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Master of illusions who blinks, makes copies of herself, chains foes and repeats the ability.",
+  "look": "stylish woman in a purple and white cloak with a mask and long hair, glowing purple mirrors",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport",
+   "clones"
+  ],
+  "color": "#A83AD8"
+ },
+ {
+  "names": [
+   "lee sin",
+   "blind monk"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Martial artist who kicks, dashes to marked foes, and kicks an enemy a long way back with his big ultimate.",
+  "look": "muscular monk in orange robes with a cloth blindfold, a red beard and big fists",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap"
+  ],
+  "color": "#E8A83A"
+ },
+ {
+  "names": [
+   "leona",
+   "leona the radiant dawn"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Warrior with a golden shield who stuns a target, charges at a foe, and calls a pillar of sun.",
+  "look": "strong woman in gold armour with a huge round shield and a sword shining like the sun",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "leap",
+   "shield"
+  ],
+  "color": "#F5C83C"
+ },
+ {
+  "names": [
+   "lillia",
+   "lillia the bashful bloom"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Shy fawn who runs fast and swings her magical staff, puts enemies to sleep with her ultimate.",
+  "look": "shy young faun with deer legs and antlers, pink and cream fur, a long staff with a glowing blossom",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#F5A8C8"
+ },
+ {
+  "names": [
+   "lissandra",
+   "lissandra the ice witch"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Ice witch who throws shards, freezes enemies, makes a wall of ice, and a frozen area.",
+  "look": "tall woman in dark icy armour with icy crown and glowing blue eyes, swirling frost",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "ice",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport",
+   "shield"
+  ],
+  "color": "#7ADCF5"
+ },
+ {
+  "names": [
+   "lucian",
+   "lucian the purifier"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Gunslinger with a pair of pistols who dashes, shoots twice, and fires a barrage of light.",
+  "look": "man in a long dark coat with a pair of glowing pistols and a green scarf",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#6ADCC8"
+ },
+ {
+  "names": [
+   "lulu",
+   "lulu the fae sorceress"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Magic girl with a fairy who throws bolts, turns enemies into harmless critters and makes allies huge.",
+  "look": "small purple girl with big pointed ears, a pointy hat and a staff with a fluffy fairy",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "grow"
+  ],
+  "color": "#B85AE8"
+ },
+ {
+  "names": [
+   "lux",
+   "lux the lady of luminosity"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Mage who throws light, shields her friends, and fires a long beam of light across the screen.",
+  "look": "young woman with blonde hair in silver and blue armoured dress, a glowing wand",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "shield"
+  ],
+  "color": "#F5E8A0"
+ },
+ {
+  "names": [
+   "malphite",
+   "malph"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Rock giant who armours up, slams the ground to slow and a big rock leap to knock up enemies.",
+  "look": "giant living stone golem with grey and blue crystals on his back and big rocky fists",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "leap",
+   "adapt"
+  ],
+  "color": "#8A9BA8"
+ },
+ {
+  "names": [
+   "malzahar",
+   "malz"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Prophet who calls void minions, silences foes, makes a rift of purple energy and grabs a foe.",
+  "look": "tall robed man in a purple hood with glowing eyes and floating swirling purple energy",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#9A4AC8"
+ },
+ {
+  "names": [
+   "maokai",
+   "maokai the twisted treant"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Living tree who throws saplings, pushes enemies away with a big root, and sends a huge wave of magic.",
+  "look": "giant mossy tree creature with glowing blue eyes and leafy branches",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "pull",
+   "heal"
+  ],
+  "color": "#4F9A3A"
+ },
+ {
+  "names": [
+   "master yi",
+   "yi",
+   "master yi the wuju bladesman"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Swordsman who disappears and flashes through enemies, heals, and goes very fast in his ultimate.",
+  "look": "lean fighter with a long sword in a blue and gold robe with a long ponytail and mask",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#4AB8E8"
+ },
+ {
+  "names": [
+   "mel",
+   "mel medarda",
+   "mel medarda lol",
+   "the souls reflection"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Mage whose abilities add bonus shots to her next attack. Radiant Volley fires explosive bolts, Rebuttal reflects incoming spells, Solar Snare roots and slows, and Golden Eclipse hits every marked enemy anywhere on the map.",
+  "look": "elegant woman with long dark hair swept back, a gold headpiece, a flowing black and gold gown with a gold collar and glowing golden orbs floating around her hands",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E8B83C"
+ },
+ {
+  "names": [
+   "milio",
+   "milio the gentle flame"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Gentle boy who throws fireballs, heals friends and cleans up bad effects.",
+  "look": "small cheerful boy in an orange cloak and big hat with a staff that glows with warm fire",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "shield",
+   "heal"
+  ],
+  "color": "#F5A83C"
+ },
+ {
+  "names": [
+   "miss fortune",
+   "mf",
+   "miss fortune the bounty hunter"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Pirate with pistols, shoots two enemies, rains bullets and fires a big barrage in a cone.",
+  "look": "red-haired woman in a long red coat and big hat with a pair of big pistols",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E8503C"
+ },
+ {
+  "names": [
+   "mordekaiser",
+   "mordekaiser the iron revenant",
+   "mord"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Ghostly knight with a mace who creates a metal shield, smashes and drags his foe to another world.",
+  "look": "huge dark metal knight with a giant spiked mace and glowing green eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "shield",
+   "pull"
+  ],
+  "color": "#6A8C5A"
+ },
+ {
+  "names": [
+   "morgana",
+   "morgana the fallen"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Dark angel who throws a bolt that roots, makes a fire zone, shields herself and chains nearby foes.",
+  "look": "tall woman with long dark wings and a purple dress with glowing eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": true,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "shield"
+  ],
+  "color": "#9A3AB8"
+ },
+ {
+  "names": [
+   "naafiri"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Dog-like warrior with blades who fires daggers, calls her pack of hounds and dashes into groups.",
+  "look": "woman in dark red armour with a mask, twin blades and a pack of dark hounds",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "clones"
+  ],
+  "color": "#C8503C"
+ },
+ {
+  "names": [
+   "nami the tidecaller"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Mermaid who traps enemies in a bubble, heals friends and sends a wave across the screen.",
+  "look": "pretty fish-woman in blue and aqua with tail fins and a staff with a pearl",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#4ABCE8"
+ },
+ {
+  "names": [
+   "nasus"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Jackal warrior who grows a stronger staff by hitting minions, saps speed, and becomes huge.",
+  "look": "tall dog-headed warrior in sand-coloured robe with a big staff and golden jewellery",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "grow"
+  ],
+  "color": "#C8A83C"
+ },
+ {
+  "names": [
+   "nautilus",
+   "naut"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Deep sea diver who hooks enemies, makes a shield, and shoots a depth charge at a foe.",
+  "look": "huge diver in a rusty brass suit and helmet with a giant anchor",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "pull"
+  ],
+  "color": "#3A7A8C"
+ },
+ {
+  "names": [
+   "neeko",
+   "neeko the curious chameleon"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Chameleon who looks like an ally, throws flowers, roots enemies and a stunning burst.",
+  "look": "cheerful girl with curly red hair and a lizard tail in green and pink, a flower",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#5AD84A"
+ },
+ {
+  "names": [
+   "nidalee",
+   "nidalee the bestial huntress"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Huntress who throws a spear, sets traps, heals and turns into a cougar to pounce.",
+  "look": "woman in a jungle outfit with a spear, long hair, and a cougar form",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "leap",
+   "heal"
+  ],
+  "color": "#6AB84A"
+ },
+ {
+  "names": [
+   "nilah",
+   "nilah the joy unbound"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Water whip fighter who fights with a long whip, dances through foes and pulls all enemies.",
+  "look": "joyful woman in turquoise outfit with a long watery whip",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#4ADCE8"
+ },
+ {
+  "names": [
+   "nocturne",
+   "nocturne the eternal nightmare"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Nightmare who hides in the dark, shields himself with a spell, fears foes and drops the lights.",
+  "look": "dark creature in a black cloak with blue blade arms and a long dark body",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport",
+   "shield"
+  ],
+  "color": "#4A3AB8"
+ },
+ {
+  "names": [
+   "nunu willump",
+   "nunu",
+   "nunu and willump",
+   "willump"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Boy riding a yeti who bites to heal, throws snowballs that grow as they roll, summons a frost blast and freezes a huge area with his ultimate Absolute Zero.",
+  "look": "small boy in a woolly hat and orange scarf riding a giant white furry yeti with big arms and a blue belly",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "ice",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "grow"
+  ],
+  "color": "#A8E8F5"
+ },
+ {
+  "names": [
+   "olaf",
+   "olaf the berserker"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Berserker who throws axes and picks them up to reset cooldowns, swings with life steal and becomes unstoppable with his ultimate Ragnarok.",
+  "look": "big red-bearded Viking with a horned helmet, a brown leather and fur vest and two huge axes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "lifesteal",
+   "heal"
+  ],
+  "color": "#D8603C"
+ },
+ {
+  "names": [
+   "orianna",
+   "orianna the lady of clockwork"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Clockwork girl whose floating ball is thrown to blast and carry shields to allies; her ultimate Shockwave pulls enemies toward the ball.",
+  "look": "slim woman made of brass and blue clockwork with a ruffled dress, pale face, and a glowing blue metal ball floating next to her",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "shield",
+   "pull"
+  ],
+  "color": "#6AB8E8"
+ },
+ {
+  "names": [
+   "ornn"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Mountain smith who makes pillars, charges with horns, and summons a huge fire ram that charges again in his ultimate Call of the Forge God.",
+  "look": "huge ram-horned muscular man with a big hammer and a thick beard, orange fiery patterns on dark armour",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E8683A"
+ },
+ {
+  "names": [
+   "pantheon",
+   "pantheon the unbreakable spear"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Warrior who thrusts his spear, blocks attacks with a shield, leaps with Aegis Assault and drops from the sky onto a target with his ultimate Grand Starfall.",
+  "look": "strong bearded warrior in red and gold Spartan armour with a crested helmet, round shield and a tall spear",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "shield"
+  ],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "poppy",
+   "poppy the iron ambassador"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Hammer-wielding little hero who slams her hammer, throws a shield, charges to pin enemies to walls and calls a big hit with Keeper's Verdict.",
+  "look": "small girl with a winged helmet, red braided pigtails, blue-grey armour and a huge hammer",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "shield"
+  ],
+  "color": "#8A9BD8"
+ },
+ {
+  "names": [
+   "pyke",
+   "pyke the bloodharbor ripper"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Sea assassin who hooks enemies with a harpoon chain, hides in water and finishes weak enemies in a big cross mark with Death from Below.",
+  "look": "tall sailor in dark teal clothes and a heavy coat with a pale face, a long harpoon and a hooked chain",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "pull",
+   "teleport"
+  ],
+  "color": "#4AB8A8"
+ },
+ {
+  "names": [
+   "qiyana",
+   "qiyana empress of the elements"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Empress who charges her weapon with water, grass or rock, dashes, and sends a huge shockwave that pushes enemies into walls with Supreme Display of Talent.",
+  "look": "woman in a golden headdress and green and gold outfit holding a big ring-shaped blade",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport",
+   "leap"
+  ],
+  "color": "#E8B83A"
+ },
+ {
+  "names": [
+   "quinn",
+   "quinn demacias wings",
+   "quinn and valor"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Ranger with eagle partner who shoots a crossbow, marks targets, blinds foes and leaps with Skystrike, and calls the eagle to carry her with Behind Enemy Lines.",
+  "look": "woman in blue and silver hooded ranger gear with a crossbow and a bird of prey with sharp talons",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport",
+   "leap"
+  ],
+  "color": "#5A8CE8"
+ },
+ {
+  "names": [
+   "rakan",
+   "rakan the charmer"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Showy bird who dashes forward with Grand Entrance, heals allies, charms foes with Battle Dance and flies to friends.",
+  "look": "colourful bird-like man with red and gold feathers, long tail plumes and a showy outfit",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "teleport",
+   "pull"
+  ],
+  "color": "#E8503C"
+ },
+ {
+  "names": [
+   "rammus",
+   "rammus the armordillo"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Armadillo who curls into a ball and rolls at huge speed, taunts enemies into attacking him with Defensive Ball Curl, and slams the ground in his ultimate Soaring Slam.",
+  "look": "big armadillo-like creature with a thick tan spiked shell, little round ears and stubby legs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "pull",
+   "adapt"
+  ],
+  "color": "#C8A878"
+ },
+ {
+  "names": [
+   "reksai",
+   "rek sai",
+   "void burrower"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Burrowing monster who tunnels under ground to knock up enemies, bites with Furious Bite, and tunnels across the map with Void Rush.",
+  "look": "large orange-red armoured sandworm-like creature with a huge toothy jaw, four big claws and spikes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "teleport",
+   "pull"
+  ],
+  "color": "#C8683C"
+ },
+ {
+  "names": [
+   "rell",
+   "rell the iron maiden"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Armoured knight who switches between mounted and on-foot form, shatters armour, pulls enemies in with magnetic force and crashes into them with Magnet Storm.",
+  "look": "armoured woman in heavy dark grey plate with a plumed helmet, a long lance and a metal horse",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "leap",
+   "pull"
+  ],
+  "color": "#8A9BA8"
+ },
+ {
+  "names": [
+   "renata glasc",
+   "renata",
+   "renata the chem baroness"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Chem baroness who fires a hook of goo, shields allies, and makes enemies attack each other with her ultimate Hostile Takeover.",
+  "look": "elegant woman with white hair in a purple and pink suit, big chemical tanks on her back and a long robotic glove",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "poison",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "pull",
+   "aura"
+  ],
+  "color": "#D83A8C"
+ },
+ {
+  "names": [
+   "renekton"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Crocodile warrior who builds fury, slams the ground, dives at enemies and becomes an enormous crocodile with his ultimate Dominus.",
+  "look": "huge muscular crocodile-headed fighter in gold and green armour with a big sword and a long tail",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [],
+  "color": "#8AC83A"
+ },
+ {
+  "names": [
+   "rengar",
+   "rengar the pridestalker"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Lion hunter who leaps out of bushes with extra damage, swipes with claws, roars to reveal foes and becomes invisible in his ultimate Thrill of the Hunt.",
+  "look": "lean lion-like hunter with a golden mane and orange fur, leather armour with feathers and long blade claws",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "leap"
+  ],
+  "color": "#E8883A"
+ },
+ {
+  "names": [
+   "riven",
+   "riven the exile",
+   "riven the broken blade"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Exile who chains three-hit dashing slashes with a broken runic sword, stuns, shields herself and unleashes a wide blast with Blade of the Exile.",
+  "look": "woman with white hair in a green and black armoured outfit with a huge cracked glowing runic sword",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "shield"
+  ],
+  "color": "#6AA88C"
+ },
+ {
+  "names": [
+   "rumble",
+   "rumble the mechanized menace"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Little pilot in a robot who burns enemies with Flamespitter, shields himself, throws harpoons and fires rockets in a wide line with Equalizer.",
+  "look": "small young pilot in a patched-up orange robot suit with a flame cannon, rocket launchers and a helmet with goggles",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E8A83A"
+ },
+ {
+  "names": [
+   "ryze",
+   "ryze the rune mage"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Rune mage who fires Overload bolts, traps with Rune Prison and opens portals to carry his team across the map with Realm Warp.",
+  "look": "old bald bearded mage in blue and gold robes with glowing runes floating around him and a glowing staff",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#8A3AE8"
+ },
+ {
+  "names": [
+   "samira",
+   "samira the desert rose"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Stylish gunslinger who builds style combos with pistol shots and sword slashes, dashes through enemies, and fires a storm of bullets in her ultimate Inferno Trigger.",
+  "look": "confident woman in a red-black outfit with a tall hat, a pistol and a curved sword",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#E83A8C"
+ },
+ {
+  "names": [
+   "sejuani",
+   "sejuani winters wrath"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Frost warrior riding a big boar who charges to stun, swings a chain flail to slow and throws an ice bola with Glacial Prison.",
+  "look": "woman in blue and white fur armour on a giant tusked boar with a big chain flail",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "ice",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "leap"
+  ],
+  "color": "#7AC8E8"
+ },
+ {
+  "names": [
+   "senna",
+   "senna the redeemer"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Gunner who shoots from a huge cannon, collects souls to grow, roots enemies in black mist and fires a global blast with Dawning Shadow.",
+  "look": "woman in a black coat with a green glowing lantern and a very long cannon",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [],
+  "color": "#4AE8B8"
+ },
+ {
+  "names": [
+   "seraphine",
+   "seraphine the starryeyed songstress"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Pop singer who sends out musical notes with High Note, shields friends with Surround Sound, charms with Beat Drop and ends with a big wave.",
+  "look": "cheerful girl with long pink hair in a sparkly star-covered outfit with a glowing microphone-like staff",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "shield"
+  ],
+  "color": "#F58AC8"
+ },
+ {
+  "names": [
+   "sett",
+   "sett the boss"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Brawler boss who throws two-punch combos, grits to take damage into a shield, pulls foes in with Haymaker, and slams one into others with The Show Stopper.",
+  "look": "huge broad-chested man with a black mohawk, big fists, a long scarf and gold and black clothes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "pull",
+   "leap"
+  ],
+  "color": "#E8683A"
+ },
+ {
+  "names": [
+   "shaco",
+   "shaco the demon jester"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Jester who hides with Deceive, makes a clone, leaves jack-in-the-box traps and backstabs with twin daggers.",
+  "look": "thin jester in a black and red outfit with a big white mask with a wide grin and two curved daggers",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport",
+   "clones"
+  ],
+  "color": "#C83A3A"
+ },
+ {
+  "names": [
+   "shen",
+   "shen the eye of twilight"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Ninja who throws a sword to taunt, dashes with Shadow Dash, shields allies and teleports to help any ally with Stand United.",
+  "look": "ninja in blue and black armour with a hooded mask and a long straight sword with glowing blue marks",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "teleport",
+   "shield"
+  ],
+  "color": "#4A3AB8"
+ },
+ {
+  "names": [
+   "shyvana",
+   "shyvana the halfdragon"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Half-dragon who burns foes with Burnout, breathes fire and changes into a huge fire-breathing dragon with Dragon's Descent.",
+  "look": "woman in red armour with a tail and small horns and a big sword; dragon form is a huge red winged dragon",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "grow"
+  ],
+  "color": "#E85A3A"
+ },
+ {
+  "names": [
+   "singed",
+   "singed the mad chemist"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Mad chemist who leaves a poison trail, flings enemies over his shoulder with Fling, and drinks a potion to power up with Insanity Potion.",
+  "look": "thin man in a green gas mask with big chemical tanks and pipes on his back",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "pull",
+   "aura"
+  ],
+  "color": "#5AE83A"
+ },
+ {
+  "names": [
+   "sion",
+   "sion the undead juggernaut"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Giant who smashes with a huge axe, builds a shield with Soul Furnace and charges across the map knocking foes up with Unstoppable Onslaught.",
+  "look": "huge stitched giant in rusty plate armour with a giant double-headed axe and pale blue eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#8A7A5A"
+ },
+ {
+  "names": [
+   "sivir",
+   "sivir the battle mistress"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Warrior with a boomerang blade that bounces between foes, blocks a spell with Spell Shield and speeds her team up with On the Hunt.",
+  "look": "woman in gold and black armour with short dark hair and a big boomerang-shaped blade",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "skarner",
+   "skarner the primal sentinel"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Crystal scorpion who rakes with claws, stuns with his tail and drags an enemy with him with Impale.",
+  "look": "huge scorpion made of blue-purple crystals with a long tail and a sparkling stinger",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "pull"
+  ],
+  "color": "#3A8CE8"
+ },
+ {
+  "names": [
+   "smolder",
+   "smolder the fiery fledgling"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Baby dragon who breathes fire that grows stronger with every kill, drops flame bombs with Super Scorcher Breath and fires a big flame blast with MMOOOMMMM.",
+  "look": "small orange baby dragon with little wings, a long tail and a fluffy yellow belly",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E8683A"
+ },
+ {
+  "names": [
+   "sona",
+   "sona maven of the strings"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Musician with a harp-like instrument who plays chords to heal and speed up friends or hurt enemies, with a big stunning ultimate Crescendo.",
+  "look": "elegant woman with long blue-green hair in a gold-trimmed dress holding a glowing harp-like instrument",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#6A8CE8"
+ },
+ {
+  "names": [
+   "soraka",
+   "soraka the starchild"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Star healer who calls stars from the sky, heals allies with Astral Infusion and heals the whole team with Wish.",
+  "look": "gentle woman with two curved horns, long pale hair, a white and blue dress, hooves and a staff",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#E8D8F5"
+ },
+ {
+  "names": [
+   "swain",
+   "swain the noxian grand general"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "General with a raven who throws bolts, drains life from nearby foes and becomes a huge demon bird with Demonic Ascension.",
+  "look": "man in a dark red coat with a raven on the shoulder and a cane",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "lifesteal"
+  ],
+  "color": "#C83A5A"
+ },
+ {
+  "names": [
+   "sylas",
+   "sylas the unshackled"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Rebel mage who whips chains, steals the enemy's ultimate spell with Hijack and uses it as his own.",
+  "look": "man with long hair, broken chains on his wrists and a dark brown coat",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "shield",
+   "pull"
+  ],
+  "color": "#6A8CC8"
+ },
+ {
+  "names": [
+   "syndra",
+   "syndra the dark sovereign"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Sovereign who creates dark spheres, throws them to hit all enemies, and fires a barrage of spheres with Unleashed Power.",
+  "look": "woman in a purple dress with white hair, surrounded by floating glowing orbs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#9A3AE8"
+ },
+ {
+  "names": [
+   "tahm kench",
+   "tahm kench the river king"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "River king who whips with his tongue, swallows an ally to protect them and swims across the map with Abyssal Voyage.",
+  "look": "giant green frog-like man in a purple suit with a huge hat and a wide mouth",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "shield"
+  ],
+  "color": "#6A8C3A"
+ },
+ {
+  "names": [
+   "taliyah",
+   "taliyah the stoneweaver"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Weaver who throws stone shards, makes earth walls with Weaver's Wall and surfs on a rock wave.",
+  "look": "young girl with dark braids in rocky leaf-patterned clothes and stone gloves, with floating stones",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "pull"
+  ],
+  "color": "#C8A83A"
+ },
+ {
+  "names": [
+   "talon",
+   "talon the blades shadow"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Assassin who throws knives, climbs walls and blasts out blades with Shadow Assault, disappearing in the dark.",
+  "look": "hooded man in a dark red cloak with blades on his wrists and a long dark blade",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#8A3A3A"
+ },
+ {
+  "names": [
+   "taric",
+   "taric the shield of valoran"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Gem knight who heals allies, stuns with Dazzle and makes everyone near him invulnerable with Cosmic Radiance.",
+  "look": "man in glowing pink and blue gem armour with a huge gem hammer",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E83AC8"
+ },
+ {
+  "names": [
+   "teemo",
+   "teemo the swift scout"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Tiny scout who blinds with Blinding Dart, runs fast, poisons enemies and plants mushroom traps that explode in poison.",
+  "look": "small furry creature in a green hat and goggles with a blowgun, small colourful mushrooms",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "poison",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#8AB83A"
+ },
+ {
+  "names": [
+   "thresh",
+   "thresh the chain warden"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Warden who hooks enemies with Death Sentence, throws a lantern for allies, flails and traps enemies in a box of ghosts with The Box.",
+  "look": "tall ghostly man in dark green armour with long chains and a glowing green lantern",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#3AE8A8"
+ },
+ {
+  "names": [
+   "tristana",
+   "tristana the megling gunner"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Tiny gunner who rocket-jumps, fires explosive shots and blasts enemies away with a huge cannonball with Buster Shot.",
+  "look": "small girl in a pointy hat with goggles and big boots, holding a huge cannon",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#E8683A"
+ },
+ {
+  "names": [
+   "trundle",
+   "trundle the troll king"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Troll king who smashes with an ice club, makes pillars of ice and steals stats from foes with Subjugate.",
+  "look": "huge grey-blue troll with a big club covered in ice and a crude crown",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "ice",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [],
+  "color": "#3AB8E8"
+ },
+ {
+  "names": [
+   "tryndamere",
+   "trynd",
+   "tryndamere the barbarian king"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Barbarian king who builds fury, heals with Bloodlust, spins with Spinning Slash and cannot fall for a short time with Undying Rage.",
+  "look": "muscular man with long dark hair, a big sword and a fur belt with a headband",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "shield"
+  ],
+  "color": "#E83A3A"
+ },
+ {
+  "names": [
+   "twisted fate",
+   "tf",
+   "twisted fate the card master"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Card master who throws three cards with Wild Cards, picks a gold card to stun, and teleports anywhere with Destiny.",
+  "look": "dapper man in a wide-brimmed hat and long coat with glowing playing cards",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport",
+   "pull"
+  ],
+  "color": "#3AC8E8"
+ },
+ {
+  "names": [
+   "twitch",
+   "twitch the plague rat"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Plague rat who hides, shoots poison bolts from a crossbow and shoots through everyone in a line with Spray and Pray.",
+  "look": "big green rat in a cloak with goggles and a huge crossbow",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "poison",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#8AC83A"
+ },
+ {
+  "names": [
+   "udyr",
+   "udyr the spirit walker"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Spirit walker who swaps between tiger, turtle, bear and phoenix stances for claws, shield, stun and fire.",
+  "look": "big man with a mohawk and tattoos, animal totems and fur-trimmed clothes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E8A83A"
+ },
+ {
+  "names": [
+   "urgot",
+   "urgot the dreadnought"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Walker with a huge gun who shoots, swings chains and in his ultimate pulls a weak enemy to him and executes them.",
+  "look": "huge rusty machine-man on legs with many chains and a big gun",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [],
+  "color": "#8A3A3A"
+ },
+ {
+  "names": [
+   "varus",
+   "varus the arrow of retribution"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Archer who draws his bow for a huge arrow with Piercing Arrow, coats foes in red goo and fires a chain of vines with Chain of Corruption.",
+  "look": "tall archer with red glowing eyes in red-black outfit with a long bow",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "pull",
+   "leap"
+  ],
+  "color": "#C83A8C"
+ },
+ {
+  "names": [
+   "vayne",
+   "vayne the night hunter"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Hunter who rolls and goes unseen, shoots silver bolts from a crossbow and pins foes to walls with Condemn.",
+  "look": "woman in a dark cloak with short dark hair and a hand crossbow",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#4A8C6A"
+ },
+ {
+  "names": [
+   "veigar"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Tiny wizard who traps enemies in a cage, throws dark balls and strikes foes down with Primordial Burst.",
+  "look": "tiny purple creature with a pointed hat and glowing eyes and a cape",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#8A3AC8"
+ },
+ {
+  "names": [
+   "velkoz",
+   "vel koz",
+   "the eye of the void"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Floating eye who fires Plasma Fission beams and a huge disintegration beam with Life Form Disintegration Ray.",
+  "look": "floating purple one-eyed creature with tentacles",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "dark",
+  "flies": true,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#C83AE8"
+ },
+ {
+  "names": [
+   "vex",
+   "vex the gloomist"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Gloomy girl who scares enemies with a roar, throws black mist and sends a seeking shadow with Shadow Surge.",
+  "look": "small gloomy girl in a black hoodie with pale blue eyes and a shadow companion",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#4A3A8C"
+ },
+ {
+  "names": [
+   "vi the piltover enforcer"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Brawler with huge gauntlets who charges with Vault Breaker, punches through walls and chases a foe with Cease and Desist.",
+  "look": "pink-haired woman with big metal gauntlets, goggles and a dark jacket",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap",
+   "pull"
+  ],
+  "color": "#E8683A"
+ },
+ {
+  "names": [
+   "viego",
+   "viego the ruined king"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Ghost king who dashes with his sword, possesses fallen foes with Spectral Maw and gains their powers.",
+  "look": "tall ghostly king in a dark crown with a long sword and tattered cloak and a teal mist",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#3AC8A8"
+ },
+ {
+  "names": [
+   "viktor",
+   "viktor the machine herald"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Machine herald who shoots a power-ray beam, makes a Gravity Field and unleashes Chaos Storm, a roaming storm of damage.",
+  "look": "thin man with a metallic robot arm and glowing chest, wearing a dark long coat and carrying a glowing staff",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "electric",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E8683A"
+ },
+ {
+  "names": [
+   "vladimir",
+   "vlad",
+   "vladimir the crimson reaper"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Vampire mage who drains life with Transfusion, turns into a red pool with Sanguine Pool and makes foes take more damage with Hemoplague.",
+  "look": "pale man in a long red coat with a high collar and swept-back dark hair, with red glowing swirls",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "lifesteal"
+  ],
+  "color": "#C83A3A"
+ },
+ {
+  "names": [
+   "volibear",
+   "volibear the relentless storm"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Giant bear with lightning who bites, roars and leaps with Stormbringer.",
+  "look": "huge white bear with blue lightning and big claws",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "electric",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [],
+  "color": "#3AB8E8"
+ },
+ {
+  "names": [
+   "warwick",
+   "ww"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Werewolf who howls, heals, tracks the weak and leaps at foes with Infinite Duress.",
+  "look": "large grey wolf-man with metal pipes and tubes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "lifesteal"
+  ],
+  "color": "#8A8A9A"
+ },
+ {
+  "names": [
+   "wukong",
+   "wukong the monkey king"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Monkey king who makes a clone, hits with a long staff and spins his staff in his ultimate Cyclone.",
+  "look": "monkey warrior in golden armour with a long red staff",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "clones"
+  ],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "xayah",
+   "xayah the rebel"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Bird warrior who throws feathers that come back, a feather storm with Featherstorm and shields herself.",
+  "look": "woman with a feathered cloak and twin curved blades",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "shield"
+  ],
+  "color": "#C83A8C"
+ },
+ {
+  "names": [
+   "xerath",
+   "xerath the magus ascendant"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Floating mage who fires a long arcane beam, locks enemies in place with Shocking Orb and fires from afar with Rite of the Arcane.",
+  "look": "floating figure of glowing blue energy in a golden cracked shell, with golden arms and a glowing core",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "electric",
+  "flies": true,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#3AB8E8"
+ },
+ {
+  "names": [
+   "xin zhao"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Spearman who strikes with three-hit spear combos, charges with Audacious Charge, and makes a ring of danger with Crescent Guard.",
+  "look": "man in gold and red armour with a plumed helmet and a long three-pronged spear",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap"
+  ],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "yasuo",
+   "yasuo the unforgiven"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Swordsman who throws tornadoes with Steel Tempest, blocks arrows with Wind Wall and dashes through foes with Sweeping Blade.",
+  "look": "man in a white and blue hooded cloak with a tied-back ponytail, a long curved sword and flowing scarf",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#6AC8E8"
+ },
+ {
+  "names": [
+   "yone",
+   "yone the unforgotten"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Swordsman who strikes with two swords, sends his spirit forward and dashes through foes with Fate Sealed.",
+  "look": "man in a horned pale mask with a long white ponytail, wearing a teal and white outfit and holding two swords, one pale and one dark",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#3AC8E8"
+ },
+ {
+  "names": [
+   "yorick",
+   "yorick shepherd of souls"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Gravedigger who calls ghouls to fight with Dark Procession, makes a wall of mist and calls a huge ghost with Eulogy of the Isles.",
+  "look": "tall hooded man in ragged dark robes with a big shovel and glowing green mist, with ghoul helpers",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "clones"
+  ],
+  "color": "#3AE8A8"
+ },
+ {
+  "names": [
+   "yuumi",
+   "yuumi the magical cat"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Magic cat who sticks onto allies to heal and shield them, fires Prowling Projectile and rains a huge wave of homing stars with Final Chapter.",
+  "look": "cute white cat with big blue eyes and a flowing magic book that floats beside her",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": true,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#E8A8C8"
+ },
+ {
+  "names": [
+   "yunara",
+   "yunara the unbroken faith",
+   "unbroken faith"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Marksman whose critical hits add extra magic damage. Her Arc of Judgment shots build stacks, Kanmei's Steps gives a speed burst, and Transcend One's Self upgrades all her abilities and turns her E into a dash.",
+  "look": "young woman with long pale hair, a flowing outfit in soft blue, green and gold, lotus flower decorations and a glowing bow made of light",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "zaahen",
+   "zaahen the unsundered",
+   "the unsundered"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Darkin warrior revived from his glaive prison. Attacks build Determination stacks that add damage and, when full, let him revive once. He dashes with Aureate Rush, slams with Dreaded Return and heals with his ultimate, Grim Deliverance.",
+  "look": "tall muscular warrior in heavy stone-grey and gold armour with a long tattered cloak like wings and a huge curved glaive",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#8A3A3A"
+ },
+ {
+  "names": [
+   "zac",
+   "zac the secret weapon"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Green goo man who stretches his arms to grab enemies with Stretching Strikes, bounces on enemies, and heals by picking up his pieces.",
+  "look": "tall gooey bright green blob-man with long stretchy arms, big hands and two glowing eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "heal"
+  ],
+  "color": "#3AE83A"
+ },
+ {
+  "names": [
+   "zed",
+   "zed the master of shadows"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Shadow ninja who throws shuriken, swaps places with his shadow clone and marks a foe in his ultimate Death Mark.",
+  "look": "ninja in a black and dark red outfit with a silver mask, glowing red eyes and shadow clones, two blades",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "teleport",
+   "clones"
+  ],
+  "color": "#3A3A8C"
+ },
+ {
+  "names": [
+   "zeri",
+   "zeri the spark of zaun"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Electric girl who shoots rapid electric bullets with Burst Fire, skates along walls and powers up with Lightning Crash.",
+  "look": "young girl with short light hair, headset and yellow-white outfit, a glowing electric blue gun, roller skates",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "electric",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E8E83A"
+ },
+ {
+  "names": [
+   "ziggs",
+   "ziggs the hexplosives expert"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Bomber who throws Bouncing Bomb, sets Satchel Charge to jump, and drops a giant Mega Inferno Bomb.",
+  "look": "small goggle-wearing bomber with a round furry face, big blue hat, orange and brown gear and many round bombs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E8A83A"
+ },
+ {
+  "names": [
+   "zilean",
+   "zilean the chronokeeper"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Time keeper who throws Time Bomb, rewinds cooldowns, slows foes and gives an ally a second chance with Chronoshift.",
+  "look": "small old man with a huge bushy beard and mustache, big blue clock-faced pack and floating clock",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [],
+  "color": "#3AE8E8"
+ },
+ {
+  "names": [
+   "zoe",
+   "zoe the aspect of twilight"
+  ],
+  "kind": "character",
+  "from": "League of Legends",
+  "facts": "Girl who throws bolts with Paddle Star, sleeps foes with a bubble, makes a portal with Portal Jump and shoots stars.",
+  "look": "young girl with huge pink and blue hair full of stars, a long dress, floating star-shaped orbs and bubbles",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#E83AC8"
+ },
+ {
+  "names": [
+   "zyra",
+   "zyra rise of the thorns"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Plant queen who grows thorny plants with Deadly Spines that fire poison, and calls Stranglethorns to throw foes into the air.",
+  "look": "woman made of vines with red and green leaves, thorny flowers sprouting from her body and long green hair",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "poison",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#3AE83A"
+ },
+ {
+  "names": [
+   "blade of the ruined king",
+   "bork",
+   "botrk",
+   "ruined king blade"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Sword that deals extra damage based on the target's health, steals life on every hit and slows the target with its first strike.",
+  "look": "long curved teal-glowing ghostly sword with a jagged dark blade and a spiked crossguard",
+  "use": "melee weapon",
+  "trait": "lifesteal",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "lifesteal"
+  ],
+  "color": "#3FE0C5"
+ },
+ {
+  "names": [
+   "liandrys torment",
+   "liandries",
+   "liandrys",
+   "liandry"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Magic item that burns enemies for a percentage of their health over time and deals more damage to those who are slowed or stuck.",
+  "look": "ornate dark red and gold rod topped with a swirling orange flame inside a cage of black metal",
+  "use": "ranged weapon",
+  "trait": "burn",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E8683A"
+ },
+ {
+  "names": [
+   "infinity edge",
+   "ie"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Huge sword that gives big critical strike damage, so each lucky hit lands much harder.",
+  "look": "enormous gleaming silver greatsword with a gold and blue glowing edge and an ornate crossguard",
+  "use": "melee weapon",
+  "trait": "heavy",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 2,
+  "specials": [],
+  "color": "#F5D86A"
+ },
+ {
+  "names": [
+   "rabadons deathcap",
+   "deathcap",
+   "dcap",
+   "rabadon"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Magic hat that gives huge ability power, increasing it by a lot more again.",
+  "look": "tall pointed purple wizard hat with a shiny dark band and glowing violet runes",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#9A4AE8"
+ },
+ {
+  "names": [
+   "trinity force",
+   "triforce"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Sword that gives a big hit after every spell, a speed boost and extra damage every attack.",
+  "look": "shining golden sword with three triangular gems on the hilt and a thick bright blade",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "zhonyas hourglass",
+   "zhonyas",
+   "zhonya",
+   "hourglass"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Golden hourglass that freezes the user in time for a few seconds, making them invulnerable but unable to act.",
+  "look": "golden hourglass with sand inside held in an ornate gold frame with glowing sand",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "guardian angel",
+   "ga"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Armour with a pair of angel wings that brings its wearer back to life with health after falling.",
+  "look": "shining gold-white chest armour with big feathered angel wings and a glowing halo",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 4,
+  "specials": [
+   "shield",
+   "heal"
+  ],
+  "color": "#F5E8A0"
+ },
+ {
+  "names": [
+   "thornmail",
+   "thorn mail"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Spiked armour that hits back anyone who attacks its wearer and reduces their healing.",
+  "look": "heavy dark green armour covered in sharp thorn-like spikes",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "aura"
+  ],
+  "color": "#6A8C5A"
+ },
+ {
+  "names": [
+   "heartsteel",
+   "heart steel"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Gives huge health and grows stronger after each hit, stacking more health the longer it is carried.",
+  "look": "chunky red crystal heart wrapped in dark metal bands, glowing red and pulsing",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "grow"
+  ],
+  "color": "#D83A5A"
+ },
+ {
+  "names": [
+   "kraken slayer",
+   "kraken"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Gun that every third shot deals bonus damage, which gets bigger against low-health foes.",
+  "look": "big curved gun with a barrel wrapped in tentacle-shaped teal metal and glowing sea-blue parts",
+  "use": "ranged weapon",
+  "trait": "heavy",
+  "attack": "ranged",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#3A8CB8"
+ },
+ {
+  "names": [
+   "black cleaver",
+   "cleaver"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Heavy axe that cuts enemies' armour with every hit, making them weaker to attacks.",
+  "look": "huge dark iron cleaver axe with a notched heavy edge and a red glowing seam",
+  "use": "melee weapon",
+  "trait": "heavy",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#6A6A7A"
+ },
+ {
+  "names": [
+   "sunfire aegis",
+   "sunfire cape",
+   "sunfire",
+   "aegis"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Armour that burns all enemies around its wearer with sun fire.",
+  "look": "shining golden-orange armour with glowing sun-like patterns, flaming around the shoulders",
+  "use": "self buff",
+  "trait": "burn",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "aura"
+  ],
+  "color": "#F58A3A"
+ },
+ {
+  "names": [
+   "ludens tempest",
+   "ludens",
+   "luden",
+   "ludens echo"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Magic item that sends out a burst of lightning, blasting nearby foes after a spell.",
+  "look": "crackling purple orb floating over a golden stand with swirling lightning",
+  "use": "ranged weapon",
+  "trait": "shock",
+  "attack": "blast",
+  "element": "electric",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#9A5AE8"
+ },
+ {
+  "names": [
+   "rylais crystal scepter",
+   "rylais",
+   "rylai"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Frosty scepter that slows foes hit by magic.",
+  "look": "icy crystal scepter with a pale-blue crystal head on a silver pole",
+  "use": "ranged weapon",
+  "trait": "freeze",
+  "attack": "blast",
+  "element": "ice",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#7ADCF5"
+ },
+ {
+  "names": [
+   "nashors tooth"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Fang-like item that gives faster attacks with extra magic damage.",
+  "look": "huge curved glowing purple fang with a jagged edge",
+  "use": "melee weapon",
+  "trait": "rapid",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#8A3AE8"
+ },
+ {
+  "names": [
+   "bloodthirster",
+   "bt",
+   "blood thirster"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Dark sword with high damage that heals its wielder and gives a shield when healing over full.",
+  "look": "dark crimson greatsword with a curved glowing red edge and spiky hilt",
+  "use": "melee weapon",
+  "trait": "lifesteal",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "lifesteal"
+  ],
+  "color": "#C8203A"
+ },
+ {
+  "names": [
+   "ravenous hydra",
+   "hydra"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Sword that hits everyone near its target and heals, with a wide spin.",
+  "look": "large green three-pronged sword shaped like heads of a serpent",
+  "use": "melee weapon",
+  "trait": "lifesteal",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "lifesteal"
+  ],
+  "color": "#6AB84A"
+ },
+ {
+  "names": [
+   "titanic hydra"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Huge hydra sword with extra damage based on health, swings in a cone.",
+  "look": "massive green and grey sword with a thick blade and ridges",
+  "use": "melee weapon",
+  "trait": "heavy",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#4A9A5A"
+ },
+ {
+  "names": [
+   "steraks gage",
+   "steraks"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Spiked gauntlet that gives a shield when low on health.",
+  "look": "big spiked iron gauntlet with leather straps",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#C8883A"
+ },
+ {
+  "names": [
+   "warmogs armor",
+   "warmogs",
+   "warmog"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Armour with huge health that heals fast out of combat.",
+  "look": "big green-pink armour with a glowing heart-like crystal",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 1,
+  "toughness": 5,
+  "specials": [
+   "heal"
+  ],
+  "color": "#E83A8C"
+ },
+ {
+  "names": [
+   "randuins omen",
+   "randuins",
+   "randuin"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Armour that slows nearby enemies and reduces damage from critical hits.",
+  "look": "heavy grey-blue plate armour with a glowing icy skull-like design",
+  "use": "self buff",
+  "trait": "freeze",
+  "attack": "blast",
+  "element": "ice",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "aura"
+  ],
+  "color": "#7AA8C8"
+ },
+ {
+  "names": [
+   "frozen heart"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Armour that slows enemy attacks around the wearer.",
+  "look": "glowing icy blue crystal heart held in a silver frame with frost",
+  "use": "self buff",
+  "trait": "freeze",
+  "attack": "blast",
+  "element": "ice",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "aura"
+  ],
+  "color": "#7ADCF5"
+ },
+ {
+  "names": [
+   "mercurial scimitar",
+   "qss",
+   "quicksilver sash",
+   "mercurial"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Curved sword that removes all crowd control and gives lifesteal.",
+  "look": "shiny silver-blue curved sword with quicksilver patterns",
+  "use": "melee weapon",
+  "trait": "lifesteal",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "shield"
+  ],
+  "color": "#C8D8E8"
+ },
+ {
+  "names": [
+   "youmuus ghostblade",
+   "youmuus",
+   "ghostblade"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Assassin sword with attack damage, lethality and ability haste. Its active, Wraith Step, gives a burst of speed and lets you slip through units; out of combat it makes you faster.",
+  "look": "pale thin blue-green sword with a ghostly glow",
+  "use": "melee weapon",
+  "trait": "rapid",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#4AE8D8"
+ },
+ {
+  "names": [
+   "duskblade of draktharr",
+   "duskblade",
+   "draktharr"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Assassin sword with attack damage, lethality and ability haste. Its Nightstalker passive adds extra damage the lower the enemy's health is.",
+  "look": "dark purple curved blade with a shadow aura",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#4A3A8C"
+ },
+ {
+  "names": [
+   "eclipse"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Fighter sword item with attack damage and ability haste. Its passive, Ever Rising Moon, adds bonus damage based on the target's max health and gives a short shield after you hit a champion twice quickly.",
+  "look": "curved golden sword with a crescent moon shape on the guard and a pale blue glowing edge",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "divine sunderer",
+   "sunderer",
+   "spellblade sunderer"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Holy hammer-blade whose Spellblade attack after a spell deals extra damage based on the target's health and heals the wielder.",
+  "look": "big gleaming gold and white hammer-sword with a radiant glow and a wide flat head",
+  "use": "melee weapon",
+  "trait": "heavy",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#F5E8A0"
+ },
+ {
+  "names": [
+   "sundered sky",
+   "sundered"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Sword whose Lightshield Strike makes the next hit after a spell a guaranteed critical that heals the wielder.",
+  "look": "broad golden sword with a split sky-blue blade, light streaming through the crack",
+  "use": "melee weapon",
+  "trait": "heavy",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#F5D86A"
+ },
+ {
+  "names": [
+   "stormsurge"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Magic item that gives speed when you hit an enemy hard, then calls a lightning strike on the target after a short delay.",
+  "look": "storm-blue staff with a swirling cloud at the top and a jagged bolt of lightning",
+  "use": "ranged weapon",
+  "trait": "shock",
+  "attack": "blast",
+  "element": "electric",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#5A8CE8"
+ },
+ {
+  "names": [
+   "shadowflame"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Mage item with huge ability power and magic penetration. Its Cinderbloom passive makes magic damage hit extra hard on enemies who are low on health.",
+  "look": "dark purple-black staff topped with a dark flame edged in purple",
+  "use": "ranged weapon",
+  "trait": "burn",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#8A3AB8"
+ },
+ {
+  "names": [
+   "void staff"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Magic staff that ignores a large part of enemies' magic resistance, so spells hurt tanks more.",
+  "look": "tall glowing violet staff with a swirling dark crystal at the tip",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#A83AE8"
+ },
+ {
+  "names": [
+   "morellonomicon",
+   "morello",
+   "morellos"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Spell book that burns enemies and cuts their healing, called grievous wounds.",
+  "look": "thick dark red spell book with black metal corners and a glowing flame on the cover",
+  "use": "ranged weapon",
+  "trait": "burn",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#C83A5A"
+ },
+ {
+  "names": [
+   "rod of ages"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Mage item with ability power, health and mana. Its Timeless passive adds more health, mana and ability power every minute, up to ten times, so it grows stronger the longer the game goes.",
+  "look": "golden rod topped with a wide golden crystal and old runes along the shaft",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "grow"
+  ],
+  "color": "#E8A83A"
+ },
+ {
+  "names": [
+   "runaans hurricane",
+   "runaans",
+   "hurricane"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Crossbow that fires extra bolts at two other nearby enemies with every attack.",
+  "look": "light blue crossbow with a triple-bolt head and swirling wind patterns",
+  "use": "ranged weapon",
+  "trait": "rapid",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [
+   "clones"
+  ],
+  "color": "#6AC8E8"
+ },
+ {
+  "names": [
+   "phantom dancer",
+   "pd"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Blade that gives fast attacks and speed, letting its wielder dance away from danger.",
+  "look": "pale silver and blue thin blade with a ghost-like shimmer and ribbons",
+  "use": "melee weapon",
+  "trait": "rapid",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#8AC8E8"
+ },
+ {
+  "names": [
+   "rapid firecannon",
+   "rapid fire cannon",
+   "rfc"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Cannon that gives a long range and a big energised shot after moving and hitting.",
+  "look": "chunky blue and silver hand cannon with electric sparks",
+  "use": "ranged weapon",
+  "trait": "shock",
+  "attack": "ranged",
+  "element": "electric",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#5AB8E8"
+ },
+ {
+  "names": [
+   "guinsoos rageblade",
+   "rageblade",
+   "guinsoo",
+   "guinsoos"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Blade that gets faster the longer it fights and adds fire damage on hit.",
+  "look": "red-orange sword with a flaming spiral edge and an angry glow",
+  "use": "melee weapon",
+  "trait": "rapid",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E8503A"
+ },
+ {
+  "names": [
+   "wits end"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Fast blade that burns magic damage per hit and steals magic resistance.",
+  "look": "light blue thin blade with a purple edge and silver guard",
+  "use": "melee weapon",
+  "trait": "rapid",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [],
+  "color": "#8A8AE8"
+ },
+ {
+  "names": [
+   "hextech rocketbelt",
+   "rocketbelt",
+   "rocket belt",
+   "hextech belt"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Belt that dashes the wearer forward and fires an explosive burst of rockets at enemies.",
+  "look": "chunky blue and brass belt with rocket tubes and glowing teal crystals",
+  "use": "self buff",
+  "trait": "knockback",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#5AC8E8"
+ },
+ {
+  "names": [
+   "statikk shiv",
+   "statikk",
+   "static shiv"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Dagger that makes an electrical arc jump between enemies and minions every few hits.",
+  "look": "blue and yellow short dagger crackling with blue lightning",
+  "use": "melee weapon",
+  "trait": "shock",
+  "attack": "melee",
+  "element": "electric",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#5AB8F5"
+ },
+ {
+  "names": [
+   "essence reaver"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Sword that gives extra damage after a spell and gives back mana.",
+  "look": "long thin golden-white sword with a swirling blue edge",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "manamune",
+   "muramana",
+   "muramune",
+   "mana mune"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Blade that turns mana into extra damage, growing stronger the more mana you have.",
+  "look": "long blue and silver sword with a glowing blue crystal in the hilt and a faint aura",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#5A8CE8"
+ },
+ {
+  "names": [
+   "seraphs embrace",
+   "seraphs",
+   "seraphs embrace item"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Mage item with big ability power, mana and ability haste. Awe turns extra mana into more ability power, and Lifeline gives a shield when your health drops low.",
+  "look": "white and gold chest armour with large angel-like wings",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#F5E8A0"
+ },
+ {
+  "names": [
+   "redemption"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Item that calls down a beam of light that heals allies and hurts enemies in the target area.",
+  "look": "gold chalice with a glowing white orb and wings",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#F5E8A0"
+ },
+ {
+  "names": [
+   "locket of the iron solari",
+   "locket"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Locket that gives a shield to all nearby allies when activated.",
+  "look": "gold round locket with a glowing amber jewel in the middle",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "banshees veil",
+   "banshee"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Item that blocks the next enemy spell, giving the wearer breathing room.",
+  "look": "pale teal ghostly veil with white spirits and silver lace",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#8AE8D8"
+ },
+ {
+  "names": [
+   "spirit visage"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Mask that gives bonus health and boosts all healing and shielding.",
+  "look": "green glowing carved mask with big eyes and silver trim",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "heal"
+  ],
+  "color": "#3AE8A8"
+ },
+ {
+  "names": [
+   "force of nature"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Tank item that gives lots of health, magic resistance and movement speed, built to survive enemy mages and run around in fights.",
+  "look": "green leafy chest armour with vines and a glowing green gem",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 4,
+  "specials": [],
+  "color": "#5AB85A"
+ },
+ {
+  "names": [
+   "dead mans plate"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Armour that builds speed as you move and unleashes a big shove with the next hit.",
+  "look": "big grey and brown plate armour with a spiked front and a red glowing eye",
+  "use": "self buff",
+  "trait": "knockback",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 4,
+  "specials": [],
+  "color": "#8A8A8A"
+ },
+ {
+  "names": [
+   "berserkers greaves",
+   "berserkers",
+   "zerkers"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Boots that give attack speed and some movement speed.",
+  "look": "red and black leather boots with spiked buckles",
+  "use": "self buff",
+  "trait": "rapid",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 1,
+  "toughness": 1,
+  "specials": [],
+  "color": "#C83A3A"
+ },
+ {
+  "names": [
+   "dorans blade"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Starter sword with some health and damage and a little life steal.",
+  "look": "short plain brown and iron sword with a leather grip",
+  "use": "melee weapon",
+  "trait": "lifesteal",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "lifesteal"
+  ],
+  "color": "#8A5A3A"
+ },
+ {
+  "names": [
+   "health potion",
+   "hp potion",
+   "red potion"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Consumable potion that heals over a few seconds.",
+  "look": "small round glass bottle with a bright red liquid and a cork",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 1,
+  "toughness": 1,
+  "specials": [
+   "heal"
+  ],
+  "color": "#E83A3A"
+ },
+ {
+  "names": [
+   "control ward",
+   "pink ward",
+   "stealth ward",
+   "wards"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Ward that shows nearby hidden enemies and stays on the ground.",
+  "look": "glowing pink eye on a small stick",
+  "use": "structure",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 1,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E83AC8"
+ },
+ {
+  "names": [
+   "hullbreaker",
+   "hull breaker"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Split-pushing blade that gives huge extra damage when alone and buffs nearby minions.",
+  "look": "big ship-anchor-shaped axe with an iron head and rope",
+  "use": "melee weapon",
+  "trait": "heavy",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#4A8CA8"
+ },
+ {
+  "names": [
+   "immortal shieldbow",
+   "shieldbow"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Bow that steals life and makes a shield when the wearer drops low.",
+  "look": "golden long bow with a large round shield on the string",
+  "use": "ranged weapon",
+  "trait": "lifesteal",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "shield",
+   "lifesteal"
+  ],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "maw of malmortius",
+   "maw"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Item that gives a shield against magic damage when low on health.",
+  "look": "dark purple big gauntlet with a wide jaw and a magic glow",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#C83A8C"
+ },
+ {
+  "names": [
+   "lich bane"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Item that makes the next hit after a spell deal bonus magic damage and gives speed.",
+  "look": "glowing purple and white wand with a round skull-shaped gem",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [],
+  "color": "#6A4AE8"
+ },
+ {
+  "names": [
+   "archangels staff",
+   "seraph staff"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Staff that turns mana into ability power and grows stronger.",
+  "look": "white and gold staff with feathered wings and a blue gem",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "grow"
+  ],
+  "color": "#8AB8F5"
+ },
+ {
+  "names": [
+   "deaths dance"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Axe that takes damage over time as a bleed and heals when you strike a weak foe.",
+  "look": "black and red big axe with a twirling ribbon pattern",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#8A3A3A"
+ },
+ {
+  "names": [
+   "lord dominiks regards",
+   "dominiks"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Gun that deals extra damage to tough enemies with lots of health.",
+  "look": "black and blue long rifle with a gold plated barrel",
+  "use": "ranged weapon",
+  "trait": "heavy",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 2,
+  "specials": [],
+  "color": "#6A6AE8"
+ },
+ {
+  "names": [
+   "galeforce"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Item that lets the user dash and fire a burst of missiles.",
+  "look": "light teal bow-gun with wind-blade wings",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#8AE8C8"
+ },
+ {
+  "names": [
+   "navori flickerblade",
+   "navori quickblades",
+   "navori"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Blade whose crits cut the cooldowns of abilities.",
+  "look": "thin red and gold twin blades with spiral engravings",
+  "use": "melee weapon",
+  "trait": "rapid",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#E8683A"
+ },
+ {
+  "names": [
+   "hextech gunblade",
+   "gunblade"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Gunblade that fires a bolt that slows an enemy and heals the user.",
+  "look": "blue and silver sword with a gun barrel on the back and glowing teal gems",
+  "use": "ranged weapon",
+  "trait": "lifesteal",
+  "attack": "blast",
+  "element": "electric",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "lifesteal"
+  ],
+  "color": "#5AC8E8"
+ },
+ {
+  "names": [
+   "gargoyle stoneplate",
+   "stoneplate"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Armour that grows bigger and tougher when fighting and shields the wearer.",
+  "look": "grey stone chest armour with a stone gargoyle face",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "shield"
+  ],
+  "color": "#8A9BA8"
+ },
+ {
+  "names": [
+   "abyssal mask"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Mask that lowers enemies' magic resistance and hurts nearby foes.",
+  "look": "dark purple mask with big glowing eyes",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "aura"
+  ],
+  "color": "#6A3AB8"
+ },
+ {
+  "names": [
+   "jaksho",
+   "jak sho",
+   "jak sho the protean",
+   "jaksho the protean"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Tank item with health, armour and magic resistance. Its Voidborn Resilience passive makes your armour and magic resistance grow stronger the longer you fight.",
+  "look": "purple crystal-covered armour with a swirling void-like centre and sharp spikes",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "adapt"
+  ],
+  "color": "#7A3AE8"
+ },
+ {
+  "names": [
+   "riftmaker"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Mage item with ability power, health and ability haste. Void Corruption makes you deal more damage the longer you fight champions and heal with omnivamp at full stacks; Void Infusion turns bonus health into ability power.",
+  "look": "pink and purple glowing crystal held in a dark metal ring with tiny cracks of void light",
+  "use": "ranged weapon",
+  "trait": "burn",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "lifesteal"
+  ],
+  "color": "#C83AE8"
+ },
+ {
+  "names": [
+   "mortal reminder"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Gun that cuts healing and shoots through armour.",
+  "look": "red and black pistol with long barrel",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#C83A3A"
+ },
+ {
+  "names": [
+   "boots of swiftness",
+   "swiftness"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Boots that give fast speed and slow resistance.",
+  "look": "light brown boots with golden wing symbols",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 1,
+  "toughness": 1,
+  "specials": [],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "plated steelcaps",
+   "steelcaps"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Boots that give armour and cut damage from enemy basic attacks, so auto-attackers hurt you less.",
+  "look": "grey steel boots with metal plates",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 1,
+  "toughness": 4,
+  "specials": [],
+  "color": "#8A9BA8"
+ },
+ {
+  "names": [
+   "mercurys treads",
+   "mercs",
+   "merc treads"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Boots that give magic resistance and Tenacity, which shortens stuns, slows and other crowd control used on you.",
+  "look": "silver-blue boots with a liquid-metal sheen and rolled cuffs",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 1,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#C8D8E8"
+ },
+ {
+  "names": [
+   "ionian boots of lucidity",
+   "ionian boots",
+   "lucidity"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Boots that give ability haste and movement speed, and also shorten summoner spell cooldowns by about twelve percent.",
+  "look": "teal and white boots with leaf-like cuffs",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 1,
+  "specials": [],
+  "color": "#8AB8F5"
+ },
+ {
+  "names": [
+   "sorcerers shoes"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Boots with movement speed and magic penetration, so your spells hurt enemies' magic resistance much less.",
+  "look": "purple boots with a star pattern",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#8A3AE8"
+ },
+ {
+  "names": [
+   "ninja tabi",
+   "tabi"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Old boots, since removed, with armour that blocked part of enemy basic attack damage and added movement speed.",
+  "look": "dark grey soft split-toe boots with a cloth wrap at the ankle and a small metal plate on the top",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 1,
+  "toughness": 3,
+  "specials": [],
+  "color": "#3A3A3A"
+ },
+ {
+  "names": [
+   "dorans ring"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Starter ring that gives ability power and some mana.",
+  "look": "small blue ring with a gem",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#5A8CE8"
+ },
+ {
+  "names": [
+   "dorans shield"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Starter shield that gives health and health regeneration, and heals you back over a few seconds after an enemy champion hurts you.",
+  "look": "small round wooden shield with iron rim",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 1,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#8A5A3A"
+ },
+ {
+  "names": [
+   "kaenic rookern",
+   "rookern"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Item that shields against magic damage when hurt.",
+  "look": "blue stony chest armour with silver stone plates",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#8A5AE8"
+ },
+ {
+  "names": [
+   "cosmic drive"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Mage item that gives ability power, health, ability haste and movement speed. Its Spelldance passive gives a burst of extra speed after you hit a champion with magic damage.",
+  "look": "glowing blue and purple star-like crystal with swirling cosmic trails inside a golden frame",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#6A8CE8"
+ },
+ {
+  "names": [
+   "hollow radiance"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Tank armour with lots of health and magic resistance. Its Immolate effect burns all nearby enemies with magic damage every second while you are fighting.",
+  "look": "heavy white and violet armour chestplate with a glowing violet ring in the middle and wisps of pale fire",
+  "use": "self buff",
+  "trait": "burn",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "aura"
+  ],
+  "color": "#8A5AE8"
+ },
+ {
+  "names": [
+   "cryptbloom"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Mage item with ability power, 30 percent magic penetration and ability haste. When you help take down an enemy champion, a healing burst blooms at that spot.",
+  "look": "dark green flower-shaped staff head with dark purple petals and a glowing pale-green core on a twisted stem",
+  "use": "ranged weapon",
+  "trait": "poison",
+  "attack": "blast",
+  "element": "poison",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "heal"
+  ],
+  "color": "#5AB85A"
+ },
+ {
+  "names": [
+   "summoner flash",
+   "flash spell"
+  ],
+  "kind": "ability",
+  "from": "League of Legends",
+  "facts": "Summoner spell that instantly blinks the user a short distance in the chosen direction.",
+  "look": "burst of bright yellow-white sparkles and a streak of light",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 1,
+  "toughness": 1,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#F5E83A"
+ },
+ {
+  "names": [
+   "ignite"
+  ],
+  "kind": "ability",
+  "from": "League of Legends",
+  "facts": "Summoner spell that sets an enemy champion on fire, dealing damage over time and reducing their healing.",
+  "look": "small bright orange fireball with a trail of flames",
+  "use": "ranged weapon",
+  "trait": "burn",
+  "attack": "ranged",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FF6A2A"
+ },
+ {
+  "names": [
+   "smite"
+  ],
+  "kind": "ability",
+  "from": "League of Legends",
+  "facts": "Summoner spell that deals a big strike of damage to a monster or minion.",
+  "look": "glowing golden strike of light slamming down in a flash",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E8A83A"
+ },
+ {
+  "names": [
+   "summoner heal"
+  ],
+  "kind": "ability",
+  "from": "League of Legends",
+  "facts": "Summoner spell that restores health to the user and a nearby ally and gives a short speed boost.",
+  "look": "soft green glowing cross of light with floating sparkles",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 2,
+  "strength": 1,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#5AE86A"
+ },
+ {
+  "names": [
+   "teleport",
+   "tp",
+   "summoner teleport"
+  ],
+  "kind": "ability",
+  "from": "League of Legends",
+  "facts": "Summoner spell that after a short delay teleports the user to a friendly structure or minion.",
+  "look": "swirling purple and blue portal of light that grows around a figure",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 1,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#8A5AE8"
+ },
+ {
+  "names": [
+   "summoner ghost"
+  ],
+  "kind": "ability",
+  "from": "League of Legends",
+  "facts": "Summoner spell that makes the user much faster for a few seconds.",
+  "look": "pale blue ghostly shimmer with streaks of speed lines",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 1,
+  "toughness": 1,
+  "specials": [],
+  "color": "#8AC8F5"
+ },
+ {
+  "names": [
+   "exhaust",
+   "summoner exhaust"
+  ],
+  "kind": "ability",
+  "from": "League of Legends",
+  "facts": "Summoner spell that slows an enemy and lowers the damage they deal.",
+  "look": "heavy grey drooping cloud with swirling sleepy lines around a target",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#8A8A9A"
+ },
+ {
+  "names": [
+   "cleanse",
+   "summoner cleanse"
+  ],
+  "kind": "ability",
+  "from": "League of Legends",
+  "facts": "Summoner spell that removes crowd control effects from the user.",
+  "look": "clear blue glowing ring of water and bubbles",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "water",
+  "flies": false,
+  "speed": 2,
+  "strength": 1,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#5AC8F5"
+ },
+ {
+  "names": [
+   "barrier",
+   "summoner barrier"
+  ],
+  "kind": "ability",
+  "from": "League of Legends",
+  "facts": "Summoner spell that creates a shield to absorb damage for a short time.",
+  "look": "glowing gold bubble shield around a figure",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 1,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E8C83A"
+ },
+ {
+  "names": [
+   "baron nashor",
+   "baron",
+   "big baron",
+   "nashor"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Huge purple epic monster of the pit who spits acid and slams with tentacles, and who gives a powerful team buff when defeated.",
+  "look": "giant purple worm-like monster with a huge toothy mouth, long spiked tentacles and glowing purple eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [],
+  "color": "#A83AE8"
+ },
+ {
+  "names": [
+   "elder dragon",
+   "elder drake"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Ancient dragon that burns and finishes with a deadly strike on weak foes and gives the team a big buff.",
+  "look": "huge golden-white dragon with wide wings, glowing orange eyes and flames in its mouth",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": true,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [],
+  "color": "#F5D83A"
+ },
+ {
+  "names": [
+   "drake",
+   "infernal dragon",
+   "ocean dragon",
+   "cloud dragon",
+   "mountain dragon",
+   "hextech dragon",
+   "chemtech dragon"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Epic monster that spits fire and swipes with a tail; each type grants a different team buff.",
+  "look": "big four-legged dragon with scales, curved horns, a long spiky tail and glowing eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E8683A"
+ },
+ {
+  "names": [
+   "rift herald",
+   "herald"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Eye-shaped monster that charges into turrets when ridden.",
+  "look": "giant crab-like monster with a big glowing blue eye and spiky legs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#8A8AE8"
+ },
+ {
+  "names": [
+   "voidgrubs",
+   "void grubs",
+   "voidgrub",
+   "void grub",
+   "grubs"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Small Void larvae in the river pit. Killing them gives your team a stacking buff and calls Voidmites that help break down towers.",
+  "look": "small purple grub-like bugs with spiky shells and many tiny legs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#A83AE8"
+ },
+ {
+  "names": [
+   "atakhan"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Former epic Darkin monster with a huge glaive. It appeared in two forms, Ruinous and Voracious, and the team that beat it earned a boost. Removed from the game in 2026.",
+  "look": "huge dark red horned monster with glowing cracks",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#C83A3A"
+ },
+ {
+  "names": [
+   "minion",
+   "minions",
+   "melee minion",
+   "caster minion",
+   "cannon minion",
+   "super minion"
+  ],
+  "kind": "creature",
+  "from": "League of Legends",
+  "facts": "Small soldiers that march down lanes and fight enemy minions and turrets.",
+  "look": "small armoured soldier with a round helmet holding a short sword",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 1,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#4A8CE8"
+ },
+ {
+  "names": [
+   "turret",
+   "nexus turret"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Stone tower that shoots a strong beam at enemies in its range.",
+  "look": "tall stone tower with a glowing orb on top",
+  "use": "structure",
+  "trait": "none",
+  "attack": "beam",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 4,
+  "toughness": 5,
+  "specials": [],
+  "color": "#8A9BA8"
+ },
+ {
+  "names": [
+   "nexus",
+   "the nexus"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Big crystal base that the team must protect, which spawns minions.",
+  "look": "large glowing blue crystal on a stone platform",
+  "use": "structure",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 2,
+  "toughness": 5,
+  "specials": [
+   "heal"
+  ],
+  "color": "#5AC8F5"
+ },
+ {
+  "names": [
+   "teemo shroom",
+   "teemo mushroom",
+   "shroom",
+   "shrooms",
+   "noxious trap"
+  ],
+  "kind": "item",
+  "from": "League of Legends",
+  "facts": "Hidden mushroom that explodes into poison when stepped on.",
+  "look": "little red-spotted mushroom with a green cloud",
+  "use": "thrown weapon",
+  "trait": "poison",
+  "attack": "blast",
+  "element": "poison",
+  "flies": false,
+  "speed": 1,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#8AB83A"
+ },
+ {
+  "names": [
+   "electrocute"
+  ],
+  "kind": "ability",
+  "from": "League of Legends",
+  "facts": "Rune that strikes with a lightning burst after three hits.",
+  "look": "blue lightning bolt crackling around a fist",
+  "use": "self buff",
+  "trait": "shock",
+  "attack": "blast",
+  "element": "electric",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#5AB8F5"
+ },
+ {
+  "names": [
+   "conqueror",
+   "conqueror rune"
+  ],
+  "kind": "ability",
+  "from": "League of Legends",
+  "facts": "Rune that stacks damage and heals in long fights.",
+  "look": "gold glowing sword emblem swirling around a fighter",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "heal"
+  ],
+  "color": "#E8A83A"
+ }
+]

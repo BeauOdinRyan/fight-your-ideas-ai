@@ -1,0 +1,5693 @@
+[
+ {
+  "names": [
+   "garama and madundung",
+   "garama madundung",
+   "garama",
+   "madundung"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Cosmic-tier brainrot in Steal a Brainrot, one of the highest money earners. A noisy chanting duo meme; fights by stomping and shouting rhythmic chants that stun.",
+  "look": "round chubby bronze clay pot creature with two big goofy eyes, tiny stubby legs and a smaller matching pot buddy riding on top, painted with red and gold patterns",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [],
+  "color": "#E0A030"
+ },
+ {
+  "names": [
+   "dragon cannelloni",
+   "dragon canneloni",
+   "cannelloni dragon"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Secret-tier brainrot, among the rarest and most expensive in Steal a Brainrot. A dragon made of pasta that breathes fire and coils around foes.",
+  "look": "long red-orange serpentine dragon with a body of tube-shaped pasta ridges, golden horns, small wings and a fiery open mouth",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#FF7A2E"
+ },
+ {
+  "names": [
+   "nuclearo dinossauro",
+   "nuclearo dinosaur",
+   "nuclear dinosaur brainrot"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Secret brainrot in Steal a Brainrot. A glowing radioactive dinosaur that stomps and spits toxic green energy.",
+  "look": "big green dinosaur with glowing neon green cracks, yellow-black hazard stripes on its back plates and a radiation symbol on its chest",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "poison",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "aura"
+  ],
+  "color": "#6CFF3A"
+ },
+ {
+  "names": [
+   "chimpanzini spiderini",
+   "spiderini",
+   "spider chimp"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Cosmic-tier brainrot. A chimp-banana with extra spider legs that skitters around and webs rivals. Climbs walls fast.",
+  "look": "chimpanzee with a banana-peel body and four extra black spider legs, creepy grin and a few web strands, fuzzy brown fur",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "pull"
+  ],
+  "color": "#E5D43A"
+ },
+ {
+  "names": [
+   "graipuss medussi",
+   "grapus medusi",
+   "grape medusa"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Cosmic-tier brainrot, a grape octopus with snaky tentacles that grabs and squeezes victims. Wraps targets and holds them still.",
+  "look": "purple grape-bunch octopus with wavy green tentacles like medusa hair, shiny round fruit body and sleepy eyes and glossy sheen",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#8A4FD0"
+ },
+ {
+  "names": [
+   "torrtuginni dragonfrutini",
+   "torrtuginni",
+   "dragonfruit turtle"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Secret brainrot, a turtle carrying a dragonfruit shell. Slow but tanky, rolls into the shell to protect itself.",
+  "look": "green turtle with a hot pink dragonfruit shell covered in green spikes and black seeds, small calm face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 3,
+  "toughness": 5,
+  "specials": [
+   "shield"
+  ],
+  "color": "#FF4FA0"
+ },
+ {
+  "names": [
+   "las tralaleritas",
+   "los tralaleritos",
+   "tralaleritos",
+   "tralaleritas"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Cosmic-tier pack of mini Tralalero sharks. They swarm foes in sneakers, biting and sprinting. Fast and hard to catch as a group.",
+  "look": "group of small blue sharks standing upright in oversized white sneakers with big round eyes and grey bellies",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#4A90E0"
+ },
+ {
+  "names": [
+   "los crocodillitos",
+   "crocodillitos"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Mythic brainrot pack of small bomber crocodiles that drop little bombs on rivals. Cheeky pack flyers from the meme.",
+  "look": "tiny green crocodiles wearing pilot goggles with bomb-shaped wings and a satchel of round black bombs with tiny propellers",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": true,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#4F9A3A"
+ },
+ {
+  "names": [
+   "tigroligre frutonni",
+   "tiger fruit brainrot"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Mythic brainrot, a tiger built from fruit that pounces and claws. Pounces and claws with surprising speed and a fruity roar.",
+  "look": "orange tiger with black stripes whose body is made of citrus slices and leaves, wide eyes and a playful grin, orange and pink tones",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "leap"
+  ],
+  "color": "#FF9A2E"
+ },
+ {
+  "names": [
+   "strawberrilli flamengilli",
+   "flamengilli",
+   "strawberry flamingo"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Epic brainrot, a flamingo with a strawberry body that kicks and pecks. Balances on one leg and strikes with a sharp, long beak.",
+  "look": "tall pink flamingo with a red strawberry body covered in seeds, green leafy hat and thin legs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FF4F6A"
+ },
+ {
+  "names": [
+   "cocofanto elefanto",
+   "coco elephant",
+   "coconut elephant"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Mythic brainrot, a huge coconut elephant that stomps and sprays milk from its trunk. Heavy and tough, uses its trunk to soak foes.",
+  "look": "grey elephant with a brown hairy coconut for a body, cracked white coconut meat visible at the front and a long trunk",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [],
+  "color": "#8B5A2B"
+ },
+ {
+  "names": [
+   "trenostruzzo turbo 3000",
+   "trenostruzzo",
+   "ostrich train"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Mythic brainrot, a speedy ostrich-train that charges in a straight line and runs people over.",
+  "look": "tall ostrich with a blue and white high-speed train body, headlights for eyes and fast striped legs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#4FA0E0"
+ },
+ {
+  "names": [
+   "girafa celestre",
+   "giraffa celeste",
+   "celestial giraffe"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Mythic brainrot, a glowing celestial giraffe with an extra-long neck that whips foes. Slow but stylish, strikes from above.",
+  "look": "tall pale blue giraffe with a glowing starry mane, galaxy patterned patches and a very long neck",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#8FD0FF"
+ },
+ {
+  "names": [
+   "tukanno bananno",
+   "toucan banana"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Mythic brainrot, a toucan with a banana beak that pecks and flings banana peels. Perches high and fires fruity peel shots.",
+  "look": "black toucan with a huge curved yellow banana as beak and bright orange feet, cheerful big eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": true,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FFE24A"
+ },
+ {
+  "names": [
+   "orcalero orcala",
+   "orca brainrot"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Mythic brainrot, an orca in shoes that charges and splashes. Slides forward, belly flops and splashes with a big tail slap in a funny way.",
+  "look": "black and white orca standing upright in big red sneakers with tiny arms and a wide smile",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#2A3A5A"
+ },
+ {
+  "names": [
+   "piccione macchina",
+   "pigeon car"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Mythic brainrot, a pigeon-car hybrid that drives forward at speed and honks. Revs up and rams foes, honking loudly to stun.",
+  "look": "grey pigeon with a small red sports car body, wheels for feet and round headlight eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#C04040"
+ },
+ {
+  "names": [
+   "tigrilini watermelini",
+   "tiger watermelon"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Legendary brainrot, a tiger with a watermelon body that pounces. Rolls like a melon before pouncing, then claws and bites.",
+  "look": "orange tiger with a green striped watermelon shell and pink fruit slice face patches, dark stripes, big yellow eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E0503A"
+ },
+ {
+  "names": [
+   "avocadorilla",
+   "avocado gorilla"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Legendary brainrot, a gorilla made from an avocado that pounds the ground. Slow but sturdy, with a ground-pound.",
+  "look": "big gorilla with a dark green bumpy avocado body, brown pit belly and strong long arms",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#3A7A2A"
+ },
+ {
+  "names": [
+   "lionel cactuseli",
+   "lion cactus"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Epic brainrot, a lion with a prickly cactus body. Hurts anything that grabs it. Strong against close attackers.",
+  "look": "tan lion with a thick green cactus body, tiny pink flowers on its mane and spikes on its back",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "aura"
+  ],
+  "color": "#5AA03A"
+ },
+ {
+  "names": [
+   "pandaccini bananini",
+   "panda banana"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Epic brainrot, a panda in a banana suit that rolls and slaps. Slippery with banana peels.",
+  "look": "chubby panda with a yellow banana peel costume partly peeled open and tiny black ears",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#F5E050"
+ },
+ {
+  "names": [
+   "blueberrinni octopussini",
+   "blueberry octopus"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Epic brainrot, a blueberry octopus that whips with tentacles. Squirts blue ink to blind foes and slows them in sticky goo.",
+  "look": "round deep blue berry-shaped octopus with a tiny green leaf crown and curly tentacles, round shiny surface and tiny wide eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#3A4AA0"
+ },
+ {
+  "names": [
+   "rhino toasterino",
+   "rhino toaster"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Legendary brainrot, a rhino built from a toaster that charges and pops hot toast. Charges into foes and pops hot toast to blast them.",
+  "look": "grey rhino with a silver toaster body, two slots on top with toast sticking out and a stout horn",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [],
+  "color": "#C0C0C8"
+ },
+ {
+  "names": [
+   "fragola la la la",
+   "fragola"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Secret brainrot, a strawberry singer with a high earning rate. Fights with sing-song sound waves.",
+  "look": "plump red strawberry character with seeds, green leafy hat, big open singing mouth and tiny arms",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#FF3A5A"
+ },
+ {
+  "names": [
+   "noobini cakenini",
+   "noobini",
+   "cakenini"
+  ],
+  "kind": "creature",
+  "from": "Steal a Brainrot",
+  "facts": "Common brainrot in Steal a Brainrot, a cake with a Noob face. Weak but funny.",
+  "look": "slice of white and pink cake with a blocky yellow blocky face and cherry on top",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FFA0C0"
+ },
+ {
+  "names": [
+   "raccoon grow a garden",
+   "garden raccoon"
+  ],
+  "kind": "creature",
+  "from": "Grow a Garden",
+  "facts": "Divine pet in Grow a Garden that can duplicate a harvested crop, boosting your fruit.",
+  "look": "grey raccoon with dark eye mask, ringed striped tail and tiny paws holding a basket of vegetables",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#9A9AA0"
+ },
+ {
+  "names": [
+   "disco bee",
+   "disco bee pet"
+  ],
+  "kind": "creature",
+  "from": "Grow a Garden",
+  "facts": "Prismatic-tier pet in Grow a Garden. A bee that turns fruit into shiny rainbow variants and dances.",
+  "look": "fuzzy yellow bee with a sparkling disco ball on its back, rainbow glitter wings and tiny sunglasses",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": true,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FF60F0"
+ },
+ {
+  "names": [
+   "queen bee pet",
+   "queen bee grow a garden"
+  ],
+  "kind": "creature",
+  "from": "Grow a Garden",
+  "facts": "Divine pet in Grow a Garden that boosts nearby plants. Buzzes in with a stinger and royal aura.",
+  "look": "large yellow and black striped bee with a tall golden crown, shimmering wings and a long stinger",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": true,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FFC83D"
+ },
+ {
+  "names": [
+   "kitsune grow a garden",
+   "garden kitsune"
+  ],
+  "kind": "creature",
+  "from": "Grow a Garden",
+  "facts": "Divine pet in Grow a Garden that boosts crop value, a nine-tailed fox spirit that unleashes foxfire.",
+  "look": "white fox with nine fluffy tails tipped in blue flame, red eye markings and a small charm necklace",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#4AD0FF"
+ },
+ {
+  "names": [
+   "lightning rod garden",
+   "garden lightning rod"
+  ],
+  "kind": "item",
+  "from": "Grow a Garden",
+  "facts": "Gear in Grow a Garden that attracts lightning strikes to mutate fruit. Zaps the target.",
+  "look": "tall metal rod with a pointed tip and a coil of copper wire, crackling yellow sparks",
+  "use": "melee weapon",
+  "trait": "shock",
+  "attack": "melee",
+  "element": "electric",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FFE040"
+ },
+ {
+  "names": [
+   "meteor shower garden",
+   "garden meteor event",
+   "jandel meteor"
+  ],
+  "kind": "event",
+  "from": "Grow a Garden",
+  "facts": "Weather event in Grow a Garden that rains meteors onto the garden and makes celestial crops.",
+  "look": "dark night sky with glowing orange meteors raining down in streaks and purple space dust",
+  "use": "disaster",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 1,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#A060FF"
+ },
+ {
+  "names": [
+   "rumble fruit",
+   "rumble blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Lightning Devil Fruit in Blox Fruits with strong area damage, moves like a thunder god and calls down bolts.",
+  "look": "glowing pale blue fruit with swirling lightning lines and tiny sparks around it, wrapped in glowing bolts",
+  "use": "ranged weapon",
+  "trait": "shock",
+  "attack": "beam",
+  "element": "electric",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#6AB4FF"
+ },
+ {
+  "names": [
+   "dragon fruit blox fruits",
+   "dragon fruit east",
+   "dragon fruit west"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Fruit in Blox Fruits that turns you into a dragon, with fire breath and wing flaps.",
+  "look": "red-orange fruit with scale patterns, spiky yellow outgrowths and a dragon horn shape, glowing orange eyes",
+  "use": "self buff",
+  "trait": "burn",
+  "attack": "blast",
+  "element": "fire",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#FF5A2E"
+ },
+ {
+  "names": [
+   "venom fruit",
+   "venom blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Fruit in Blox Fruits that turns you into a poison monster with toxic clouds. Poison clouds hurt foes standing close.",
+  "look": "purple fruit swirled with green toxic clouds and dripping neon goo, with a small skull-like shape on the front",
+  "use": "self buff",
+  "trait": "poison",
+  "attack": "blast",
+  "element": "poison",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "aura"
+  ],
+  "color": "#8A30D0"
+ },
+ {
+  "names": [
+   "shadow fruit",
+   "shadow blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Fruit in Blox Fruits that lets you use shadows to attack and teleport. Hides in darkness before it strikes.",
+  "look": "black purple fruit with dark wispy smoke and glowing violet eyes, swirling ghostly dark mist around it",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#5A30A0"
+ },
+ {
+  "names": [
+   "control fruit",
+   "control blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Fruit in Blox Fruits that lets you create rooms and swap places with objects. Spins a clear dome and swaps spots with objects.",
+  "look": "silver blue fruit with a thin glowing dome around it and small floating cubes, a faint bubble sheen",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "teleport",
+   "pull"
+  ],
+  "color": "#60E0FF"
+ },
+ {
+  "names": [
+   "spirit fruit",
+   "spirit blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Fruit in Blox Fruits that unleashes ghostly spirits with strong combos. Ghostly orbs spin around the user and strike in waves.",
+  "look": "pale ghostly fruit with swirling white spirit faces and blue flames, white spirit lights floating around",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#A0E0FF"
+ },
+ {
+  "names": [
+   "gravity fruit",
+   "gravity blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Fruit in Blox Fruits that bends gravity, creating black holes and crushing meteors. Pulls things down into a crushing field.",
+  "look": "dark purple fruit with swirling rings around it and floating rocks, dark glowing ring around it",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#7A5AD0"
+ },
+ {
+  "names": [
+   "blizzard fruit",
+   "blizzard blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Fruit in Blox Fruits that lets you freeze foes and make snowstorms. Freezing winds slow everything in range.",
+  "look": "pale blue icy fruit covered in snowflakes with sharp crystal spikes, frosty sparkle and snowy mist",
+  "use": "ranged weapon",
+  "trait": "freeze",
+  "attack": "blast",
+  "element": "ice",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#9AE0FF"
+ },
+ {
+  "names": [
+   "portal fruit",
+   "portal blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Fruit in Blox Fruits that creates portals to teleport quickly across the map. Opens a glowing doorway and steps through to appear behind foes.",
+  "look": "round purple-blue fruit with a swirling ring portal in the middle and star sparkles, with a bright spiral",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#A070FF"
+ },
+ {
+  "names": [
+   "kitsune fruit",
+   "kitsune blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Mythical fruit in Blox Fruits that turns you into a nine-tailed fox with blue fire dashes.",
+  "look": "teal fruit with a swirling fox-tail pattern, nine tails of blue fire and small fox ears",
+  "use": "self buff",
+  "trait": "burn",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#40E0FF"
+ },
+ {
+  "names": [
+   "t rex fruit",
+   "trex fruit blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Fruit in Blox Fruits that turns you into a big dinosaur with stomps and bites.",
+  "look": "green fruit shaped like a dinosaur head with sharp teeth and spiked ridges, huge jaw drawing",
+  "use": "self buff",
+  "trait": "heavy",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "grow"
+  ],
+  "color": "#4AA030"
+ },
+ {
+  "names": [
+   "mammoth fruit",
+   "mammoth blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Fruit in Blox Fruits that turns you into a giant furry mammoth with heavy slams.",
+  "look": "brown shaggy mammoth-shaped fruit with curved white tusks, thick shaggy brown fur, curved tusks, a trunk and a round heavy body that looks about ten feet tall",
+  "use": "self buff",
+  "trait": "heavy",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "grow"
+  ],
+  "color": "#A07A4A"
+ },
+ {
+  "names": [
+   "cursed dual katana",
+   "cdk blox fruits",
+   "cdk"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Top-tier sword in Blox Fruits made of Tushita and Yama. Fast slashes with dark and holy energy.",
+  "look": "two katanas, one with a bright golden-white blade and one with a dark purple glowing blade, black grips with spiky crossguards",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#9A60FF"
+ },
+ {
+  "names": [
+   "true triple katana",
+   "ttk blox fruits",
+   "ttk",
+   "triple katana"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Powerful sword in Blox Fruits combining three katanas. Fast three-hit slashes. Spins all three blades in a flashing storm of slashes.",
+  "look": "set of three katanas with different handle colours, blue, red and green wraps and silver blades",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#40A0FF"
+ },
+ {
+  "names": [
+   "dark blade yoru",
+   "yoru blox fruits",
+   "yoru sword"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Dark Blade (Yoru), a legendary sword in Blox Fruits that fires long-range black slashes. Fires a dark wave slash from afar.",
+  "look": "long black sword with a red glowing edge, curved guard and a long wrapped handle",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#C03040"
+ },
+ {
+  "names": [
+   "hallow scythe",
+   "hallow scythe blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Hallow Scythe, a rare sword in Blox Fruits with a spooky skull and sweeping arcs.",
+  "look": "tall scythe with a purple curved blade and a skull on the neck, thin dark staff with orange glow",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FF7A2E"
+ },
+ {
+  "names": [
+   "sanguine art",
+   "sanguine art blox fruits"
+  ],
+  "kind": "item",
+  "from": "Blox Fruits",
+  "facts": "Fighting style in Blox Fruits with crimson energy kicks and punches. Heavy fast strikes with crimson energy that heal the user a little.",
+  "look": "bright red glowing gauntlets and boots with swirling crimson mist, with glowing red energy flowing around wrists and ankles and a crimson fighter pose",
+  "use": "self buff",
+  "trait": "lifesteal",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "lifesteal"
+  ],
+  "color": "#D02030"
+ },
+ {
+  "names": [
+   "godhuman",
+   "godhuman blox fruits",
+   "god human"
+  ],
+  "kind": "ability",
+  "from": "Blox Fruits",
+  "facts": "Top fighting style in Blox Fruits with strong combos, elemental punches and fast knockbacks. Mixes elemental punches and kicks.",
+  "look": "fighter with glowing golden fists, white wrapped hands and bright aura bursting around the body",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#FFE040"
+ },
+ {
+  "names": [
+   "electric claw",
+   "electric claw blox fruits"
+  ],
+  "kind": "ability",
+  "from": "Blox Fruits",
+  "facts": "Fighting style in Blox Fruits with electric slashes and quick dashes. Dashes forward, claws crackling, and shocks foes it hits.",
+  "look": "metal claws on both hands crackling with bright blue lightning, sharp silver claws, bright blue sparks around the arms and a speedy crouched stance",
+  "use": "self buff",
+  "trait": "shock",
+  "attack": "melee",
+  "element": "electric",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#4AB0FF"
+ },
+ {
+  "names": [
+   "sharkman karate",
+   "sharkman blox fruits"
+  ],
+  "kind": "ability",
+  "from": "Blox Fruits",
+  "facts": "Fighting style in Blox Fruits using water strikes with shark-themed punches and kicks. Strikes with a splash of water and shark-fin kicks that push enemies away.",
+  "look": "fighter with blue water swirls around fists and shark fin shapes on forearms, a flowing swirl of blue water around the whole body",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#2A90E0"
+ },
+ {
+  "names": [
+   "garou strongest battlegrounds",
+   "hero hunter garou",
+   "tsb garou"
+  ],
+  "kind": "character",
+  "from": "The Strongest Battlegrounds",
+  "facts": "Hero Hunter character in Strongest Battlegrounds with water stream fighting style, counters, and a fast final ultimate with flurries.",
+  "look": "man with spiky black and white hair, dark blue combat gi trousers, bandaged hands and sharp gaze",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#3A5AA0"
+ },
+ {
+  "names": [
+   "deadly ninja",
+   "deadly ninja tsb"
+  ],
+  "kind": "character",
+  "from": "The Strongest Battlegrounds",
+  "facts": "Playable fighter in Strongest Battlegrounds with kunai dashes, smoke bombs and ultimate that strikes ragdolled foes.",
+  "look": "ninja in a dark purple outfit with face mask, red scarf, short sword and shuriken pouch",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#6A30A0"
+ },
+ {
+  "names": [
+   "brutal demon",
+   "brutal demon tsb"
+  ],
+  "kind": "character",
+  "from": "The Strongest Battlegrounds",
+  "facts": "Strongest Battlegrounds character with heavy fire punches and a fiery rage ultimate. Roars and ignites fists for big smashes.",
+  "look": "large horned demon with dark red body, glowing orange eyes, spiked black armour and flaming fists",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E03A20"
+ },
+ {
+  "names": [
+   "bald hero",
+   "bald hero tsb"
+  ],
+  "kind": "character",
+  "from": "The Strongest Battlegrounds",
+  "facts": "Saitama-style hero character in Strongest Battlegrounds with fast flurry punches and a one-hit finishing ultimate.",
+  "look": "bald man in a yellow jumpsuit with a white cape, red gloves and red boots, calm face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 5,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FFD020"
+ },
+ {
+  "names": [
+   "honored one jujutsu shenanigans",
+   "honored one",
+   "sorcerer roblox honored one"
+  ],
+  "kind": "character",
+  "from": "Jujutsu Shenanigans",
+  "facts": "Gojo-like character in Jujutsu Shenanigans with blue push-pull attacks, red blasts, purple orb and a domain expansion.",
+  "look": "tall white-haired man with black blindfold, dark uniform jacket and a glowing blue orb in one hand",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#6AB4FF"
+ },
+ {
+  "names": [
+   "blood manipulator",
+   "blood manipulator jujutsu shenanigans"
+  ],
+  "kind": "character",
+  "from": "Jujutsu Shenanigans",
+  "facts": "Roblox character with crimson liquid moves like piercing shots and convergence waves. Controls crimson liquid to spear and bind enemies.",
+  "look": "young man in dark uniform whose hands drip glowing crimson liquid orbs floating around him",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#D02030"
+ },
+ {
+  "names": [
+   "puppet master roblox",
+   "puppet master jujutsu shenanigans",
+   "puppet master"
+  ],
+  "kind": "character",
+  "from": "Jujutsu Shenanigans",
+  "facts": "Character in Jujutsu Shenanigans who fights with a puppet partner. Attacks with strings and wooden strikes.",
+  "look": "slim person in dark robes with a wooden mechanical puppet with a round head and jointed limbs beside them",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "clones"
+  ],
+  "color": "#8A6A3A"
+ },
+ {
+  "names": [
+   "ten shadows roblox",
+   "ten shadows jujutsu shenanigans",
+   "divine dogs"
+  ],
+  "kind": "character",
+  "from": "Jujutsu Shenanigans",
+  "facts": "Roblox character who summons shadow shikigami like black and white divine dogs and a toad.",
+  "look": "teen in dark uniform shaping hand signs with two shadowy black and white wolf-dogs beside them",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "clones"
+  ],
+  "color": "#303040"
+ },
+ {
+  "names": [
+   "star rage jujutsu",
+   "star rage"
+  ],
+  "kind": "character",
+  "from": "Jujutsu Shenanigans",
+  "facts": "Roblox character with the Star Rage technique, giving huge mass-based punches and virtual mass flying blasts.",
+  "look": "tall woman with long pale blonde hair in a black coat with a glowing purple star pattern on her fist",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#B070FF"
+ },
+ {
+  "names": [
+   "one x one x one x one",
+   "1x1x1x1",
+   "1x1x1x1 forsaken",
+   "oneoneoneone"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Forsaken killer who slashes with glitch and poison, infects survivors, throws a sword and can turn fallen survivors into zombies.",
+  "look": "tall glitchy figure with a pale mask-like face, dark green tattered robes with neon green digital glitch outlines and a long curved sword",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#40FF60"
+ },
+ {
+  "names": [
+   "c00lkidd",
+   "coolkidd",
+   "cool kidd",
+   "c00l kidd"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Forsaken killer that charges and punches, fires a slowing projectile and sends pizza delivery bots.",
+  "look": "blocky character with red cap and sunglasses, black and red jacket and a white mask with a smirk",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#E03030"
+ },
+ {
+  "names": [
+   "john doe forsaken",
+   "john doe roblox",
+   "john doe"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Forsaken killer who slashes with claws, smashes the ground, lays traps and reveals living survivors.",
+  "look": "tall pale blocky character in dark blue robes with a hooded dark head, claw-like hands and corrupted purple cracks",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#7A40C0"
+ },
+ {
+  "names": [
+   "noli forsaken",
+   "noli roblox",
+   "noli"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Forsaken killer who impales foes, charges for hallucinations, makes a void star that pulls players in and reveals generators.",
+  "look": "slim dark figure with a long coat, purple galaxy-coloured void swirling around and a glowing white mask with an unsettling smile",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#6A30C0"
+ },
+ {
+  "names": [
+   "jason forsaken",
+   "slasher forsaken",
+   "the slasher roblox"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Starter Forsaken killer. Heavy slashes, multi-slash combo and a speed boost; hits cause bleeding damage.",
+  "look": "tall large figure with a white hockey mask, dark green hoodie, heavy boots and a big machete",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [],
+  "color": "#406040"
+ },
+ {
+  "names": [
+   "shedletsky",
+   "shedletsky forsaken",
+   "shedletsky roblox"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Easy Forsaken survivor with a sword slash that damages and stuns the killer and a healing item.",
+  "look": "blocky man with short brown hair, red and white shirt, brown trousers and a long glowing sword",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#E0A030"
+ },
+ {
+  "names": [
+   "guest 1337",
+   "guest 1337 forsaken",
+   "guest1337"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Forsaken survivor who blocks then dashes, locks killer abilities and punches. Blocks first then sprints in to punish.",
+  "look": "blocky character in simple grey shirt and white trousers with smiling face, red bandana and fists up",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#A0A0A8"
+ },
+ {
+  "names": [
+   "builderman forsaken",
+   "builderman roblox"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Forsaken survivor who builds a damaging sentry and a healing dispenser. Builds helpful gear to support the team.",
+  "look": "blocky man in a blue hard hat, orange vest and tool belt carrying a wrench",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#E08030"
+ },
+ {
+  "names": [
+   "two time forsaken",
+   "two time",
+   "twotime"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Forsaken survivor who throws a dagger and revives at a ritual respawn marker. Plays dangerous tricks and rises again after falling.",
+  "look": "blocky character in a dark hoodie with glowing purple eyes, dagger in hand and a stitched smile",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#7A40C0"
+ },
+ {
+  "names": [
+   "chance forsaken",
+   "chance roblox gambler",
+   "chance flintlock"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Forsaken survivor who flips coins for random bonuses and uses an unreliable flintlock. Luck decides if the next move helps or hurts.",
+  "look": "blocky gambler in a dark vest and top hat with a gold coin and old-time pistol",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E0C040"
+ },
+ {
+  "names": [
+   "taph forsaken",
+   "taph"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Forsaken survivor with a tripwire that weakens the killer and a tripmine that leaves them helpless.",
+  "look": "blocky character in dark tactical clothes with grey hood and a glowing wire and mine device",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#C0C0C8"
+ },
+ {
+  "names": [
+   "elliot forsaken",
+   "elliot pizza"
+  ],
+  "kind": "character",
+  "from": "Forsaken",
+  "facts": "Forsaken survivor who throws pizza to heal teammates and gets short speed boosts. Throws slices to heal friends and zooms away fast.",
+  "look": "blocky delivery person in a red cap and jacket carrying a flat pizza box in a bright cheerful uniform",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "heal"
+  ],
+  "color": "#E04030"
+ },
+ {
+  "names": [
+   "chainsaw rivals",
+   "rivals chainsaw"
+  ],
+  "kind": "item",
+  "from": "Rivals",
+  "facts": "Top melee in Rivals that revs and rips through opponents with rapid hits. Revving chainsaw that shreds foes fast.",
+  "look": "orange and black chainsaw with a long chain bar and a yellow handle, with a loud roaring engine",
+  "use": "melee weapon",
+  "trait": "rapid",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FF8A20"
+ },
+ {
+  "names": [
+   "scythe rivals",
+   "rivals scythe"
+  ],
+  "kind": "item",
+  "from": "Rivals",
+  "facts": "Strong melee in Rivals, a wide-sweeping scythe with a long reach. Sweeps wide arcs that hit several foes.",
+  "look": "long black scythe with a curved silver blade and a dark wooden staff, a sharp edge and a long grip",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [],
+  "color": "#3A3A44"
+ },
+ {
+  "names": [
+   "godly knife mm2",
+   "mm2 godly",
+   "chroma knife"
+  ],
+  "kind": "item",
+  "from": "Murder Mystery 2",
+  "facts": "Godly knife in Murder Mystery 2, a rare murderer knife with fancy effects and a thrown throw.",
+  "look": "shiny knife with a rainbow-gradient chroma blade, black handle and sparkling edge, glowing neon edge and a tiny sparkle trail",
+  "use": "thrown weapon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FF60FF"
+ },
+ {
+  "names": [
+   "mm2 gun",
+   "sheriff gun mm2",
+   "mm2 sheriff"
+  ],
+  "kind": "item",
+  "from": "Murder Mystery 2",
+  "facts": "Sheriff's revolver in Murder Mystery 2; one shot to stop the murderer. Fires one accurate shot to stop the murderer.",
+  "look": "silver revolver with a wooden grip and a polished barrel, a gleaming metal body and a classic revolver shape",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#B0B0B8"
+ },
+ {
+  "names": [
+   "dead rails train",
+   "dead rails",
+   "dead rail train"
+  ],
+  "kind": "vehicle",
+  "from": "Dead Rails",
+  "facts": "Train in Dead Rails that carries players west through zombie lands. Needs coal and bonds, and has a cannon car.",
+  "look": "old steam locomotive in dark green and black with brass trim, smokestack puffing grey smoke and wooden cars",
+  "use": "vehicle",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [],
+  "color": "#4A3A2A"
+ },
+ {
+  "names": [
+   "fisch rod",
+   "fisch fishing rod",
+   "ethereal prism rod"
+  ],
+  "kind": "item",
+  "from": "Fisch",
+  "facts": "Fishing rods in Fisch let players catch mutated fish; high-end rods glow with magical effects.",
+  "look": "long fishing rod with glowing prism-coloured rings along the shaft, a sparkling reel and a bright line",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 1,
+  "specials": [
+   "pull"
+  ],
+  "color": "#60D0FF"
+ },
+ {
+  "names": [
+   "megalodon fisch",
+   "fisch megalodon"
+  ],
+  "kind": "creature",
+  "from": "Fisch",
+  "facts": "Giant legendary fish in Fisch. Huge shark that bites hard. Giant prehistoric shark that rams boats and bites hard.",
+  "look": "enormous grey shark with a pale belly, huge jaws with rows of teeth and a thick tail, scarred hide",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [],
+  "color": "#6A7A90"
+ },
+ {
+  "names": [
+   "blade ball sword",
+   "blade ball",
+   "deflect ball"
+  ],
+  "kind": "event",
+  "from": "Blade Ball",
+  "facts": "Blade Ball is a deflect game; a deadly homing ball speeds up after every parry and eliminates whoever misses.",
+  "look": "glowing metallic ball with red energy trail that speeds up, wrapped in a swirling targeting ring",
+  "use": "disaster",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FF4040"
+ },
+ {
+  "names": [
+   "blade ball telekinesis",
+   "telekinesis ability blade ball"
+  ],
+  "kind": "ability",
+  "from": "Blade Ball",
+  "facts": "Top Blade Ball ability that redirects the ball with mind power. Grabs the ball with the mind and flings it back with high speed.",
+  "look": "player with a glowing purple hand raised and a ball held in a purple energy sphere",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#A060FF"
+ },
+ {
+  "names": [
+   "blade ball rapture",
+   "rapture ability"
+  ],
+  "kind": "ability",
+  "from": "Blade Ball",
+  "facts": "Blade Ball ability that freezes the ball in place for a moment, then flings it.",
+  "look": "swirling golden-white ring surrounding a ball, hovering in the air with cosmic light, golden rings and starry light",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#FFE080"
+ },
+ {
+  "names": [
+   "slap battles glove",
+   "slap battles",
+   "slap glove"
+  ],
+  "kind": "item",
+  "from": "Slap Battles",
+  "facts": "Slap Battles is a Roblox game about slapping players off the arena with gloves that have special abilities.",
+  "look": "oversized white cartoon glove with a big open palm and colourful trim, rounded thumb and a thick wrist cuff",
+  "use": "melee weapon",
+  "trait": "knockback",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FFFFFF"
+ },
+ {
+  "names": [
+   "natural disaster survival",
+   "nds tornado",
+   "tornado roblox"
+  ],
+  "kind": "event",
+  "from": "Natural Disaster Survival",
+  "facts": "Roblox game where players survive random disasters like tornados, tsunamis, volcanoes and meteors. Roblox survival game. Tornado sucks in and flings objects.",
+  "look": "huge swirling grey funnel tornado spinning on a green field, throwing debris, flying debris all around",
+  "use": "disaster",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [
+   "aura",
+   "pull"
+  ],
+  "color": "#7A8A90"
+ },
+ {
+  "names": [
+   "tsunami brainrots",
+   "escape tsunami wave",
+   "escape tsunami for brainrots"
+  ],
+  "kind": "event",
+  "from": "Escape Tsunami for Brainrots",
+  "facts": "Roblox game where giant waves of different types sweep across the map as players race to save brainrots.",
+  "look": "enormous curling blue ocean wave towering over a bright base with tiny characters running, glowing foam on the top",
+  "use": "disaster",
+  "trait": "none",
+  "attack": "blast",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [],
+  "color": "#2A90E0"
+ },
+ {
+  "names": [
+   "arsenal roblox",
+   "arsenal rocket",
+   "arsenal gun"
+  ],
+  "kind": "item",
+  "from": "Arsenal",
+  "facts": "Roblox shooter where players gain a new gun after every kill; ends with the golden knife. Last weapon on the ladder, throws fast and stuns foes with high damage.",
+  "look": "pixel-style golden throwing knife with a glowing handle, a golden sparkling blade, bright trails and a short black grip",
+  "use": "thrown weapon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FFD84A"
+ },
+ {
+  "names": [
+   "piggy",
+   "piggy roblox",
+   "george pig"
+  ],
+  "kind": "creature",
+  "from": "Piggy",
+  "facts": "Roblox horror where players escape a hostile pig using items, keys and mazes; the pig swings a bat.",
+  "look": "pink pig mascot with hungry eyes, a ragged black cloth outfit and a wooden baseball bat",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#F080B0"
+ },
+ {
+  "names": [
+   "rainbow friends",
+   "rainbow friends blue",
+   "blue rainbow friends"
+  ],
+  "kind": "creature",
+  "from": "Rainbow Friends",
+  "facts": "Roblox horror where players avoid colourful monsters like tall Blue, Green, Orange, Purple and Yellow.",
+  "look": "tall blue blocky monster with a wide white mouth, thin arms, small yellow eyes and a crown",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#3A60E0"
+ },
+ {
+  "names": [
+   "dress to impress",
+   "dti",
+   "dress to impress runway",
+   "fashion show"
+  ],
+  "kind": "event",
+  "from": "Dress to Impress",
+  "facts": "Fashion game where players style themes on a runway for votes; funny and non-combat. Only for jokes.",
+  "look": "stage with a long pink runway, colourful lights and a cheering crowd on the sides",
+  "use": "structure",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 1,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FF70C0"
+ },
+ {
+  "names": [
+   "99 nights",
+   "99 nights in the forest",
+   "99 nights forest"
+  ],
+  "kind": "event",
+  "from": "99 Nights in the Forest",
+  "facts": "Roblox survival where players spend 99 nights in a dark forest, gather resources, build a campfire and avoid monsters like the deer and owl.",
+  "look": "dark pine forest at night with a small campfire, glowing eyes in the trees and mist",
+  "use": "structure",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [],
+  "color": "#305A30"
+ },
+ {
+  "names": [
+   "pressure roblox",
+   "pressure angler",
+   "angler pressure"
+  ],
+  "kind": "creature",
+  "from": "Pressure",
+  "facts": "Roblox horror game where players travel deep in an underwater facility. The Angler is the first dangerous entity, a big glowing deep-sea fish.",
+  "look": "huge dark fish monster with a glowing blue lure on its head, wide jaws full of teeth and tiny white eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#2A60A0"
+ },
+ {
+  "names": [
+   "doors giggle",
+   "giggle doors",
+   "giggle floor 2"
+  ],
+  "kind": "creature",
+  "from": "DOORS",
+  "facts": "Small DOORS floor 2 entity that hides in ceilings and drops to hurt when approached.",
+  "look": "small pale smiling face with dark empty eyes and a wide toothy grin on a tiny black body",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 1,
+  "specials": [
+   "leap"
+  ],
+  "color": "#E8E0D0"
+ },
+ {
+  "names": [
+   "grumble doors",
+   "queen grumble",
+   "grumble floor 2"
+  ],
+  "kind": "creature",
+  "from": "DOORS",
+  "facts": "Floor 2 DOORS entity, Grumble guards generators; Queen Grumble is a larger boss with more attacks.",
+  "look": "round brown stone-looking creature with many tiny arms and a big wide mouth, queen version with a crown",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#8A6A4A"
+ },
+ {
+  "names": [
+   "huntrix",
+   "huntr x",
+   "huntrx"
+  ],
+  "kind": "character",
+  "from": "KPop Demon Hunters",
+  "facts": "Idol trio of demon hunters whose singing powers a golden barrier against demons. They fight as a team with a sword, a polearm and knives.",
+  "look": "three stylish singers in matching black and neon outfits with glowing coloured hair streaks of purple, pink and cyan, ready to fight on stage",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "clones",
+   "shield"
+  ],
+  "color": "#C060FF"
+ },
+ {
+  "names": [
+   "rumi",
+   "rumi huntrix",
+   "rumi kpop demon hunters"
+  ],
+  "kind": "character",
+  "from": "KPop Demon Hunters",
+  "facts": "Lead singer of Huntrix and wielder of a sword. Her voice powers the honmoon barrier; she hides half-demon markings.",
+  "look": "young woman with long purple-to-blue hair in a high ponytail, dark stage outfit with a glowing pink sword and faint violet patterns on her arm",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#B060FF"
+ },
+ {
+  "names": [
+   "mira",
+   "mira huntrix",
+   "mira kpop demon hunters"
+  ],
+  "kind": "character",
+  "from": "KPop Demon Hunters",
+  "facts": "Dancer of Huntrix with a long curved polearm. A fierce, cool fighter who strikes in wide sweeps.",
+  "look": "tall young woman with long black hair with straight bangs, dark red and black stage outfit, tall boots and a long curved polearm",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E04060"
+ },
+ {
+  "names": [
+   "zoey",
+   "zoey huntrix",
+   "zoey kpop demon hunters"
+  ],
+  "kind": "character",
+  "from": "KPop Demon Hunters",
+  "facts": "Rapper and youngest of Huntrix; fights with throwing knives and bursts of fast strikes. Plays tricks.",
+  "look": "young woman with teal and silver short wavy hair, bright casual stage clothes, sneakers and throwing knives in each hand, tall boots and a mischievous grin",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#40D0C0"
+ },
+ {
+  "names": [
+   "jinu",
+   "jinu saja boys",
+   "jinu kpop demon hunters"
+  ],
+  "kind": "character",
+  "from": "KPop Demon Hunters",
+  "facts": "Leader of the Saja Boys, a demon idol with a sword and dark mist powers who lures fans with a charming voice.",
+  "look": "slim young man with swept dark hair and a handsome face, stylish black suit with a long coat, glowing pale violet eyes and a sword",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#8A40C0"
+ },
+ {
+  "names": [
+   "saja boys",
+   "saja boy",
+   "sajaboys"
+  ],
+  "kind": "character",
+  "from": "KPop Demon Hunters",
+  "facts": "Demon boy band who steal fans' souls to weaken the barrier. Five stylish demons that attack with spirit energy.",
+  "look": "five handsome boy-band singers in matching dark suits with jewelry and colourful hair, matching glowing pale eyes and confident poses",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "clones"
+  ],
+  "color": "#7A30B0"
+ },
+ {
+  "names": [
+   "gwi ma",
+   "gwima",
+   "demon king gwi ma"
+  ],
+  "kind": "character",
+  "from": "KPop Demon Hunters",
+  "facts": "Demon king, a massive dark entity that commands demons and steals souls with a looming purple mist.",
+  "look": "giant dark purple swirling mist figure with a huge glowing white face, red burning eyes and long clawed shadow arms",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": true,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "aura"
+  ],
+  "color": "#7A1A9A"
+ },
+ {
+  "names": [
+   "derpy tiger",
+   "derpy and sussie",
+   "derpy kpop demon hunters"
+  ],
+  "kind": "creature",
+  "from": "KPop Demon Hunters",
+  "facts": "Cute tiger mascot from KPop Demon Hunters that makes funny faces and a magpie friend; a kid favourite.",
+  "look": "chubby blue tiger with silly crossed eyes and wide grin, tiny stripes and a goofy tongue sticking out",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [],
+  "color": "#4090E0"
+ },
+ {
+  "names": [
+   "honmoon",
+   "golden honmoon",
+   "golden barrier kpop"
+  ],
+  "kind": "ability",
+  "from": "KPop Demon Hunters",
+  "facts": "Magic barrier powered by Huntrix's singing that protects humans from demons. Glows gold and blocks demons.",
+  "look": "huge shimmering golden dome-shaped energy barrier with glowing musical-note-like waves, bright golden light pulsing like music beats",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 1,
+  "strength": 1,
+  "toughness": 5,
+  "specials": [
+   "shield"
+  ],
+  "color": "#FFD84A"
+ },
+ {
+  "names": [
+   "golden song",
+   "golden kpop demon hunters",
+   "golden huntrix"
+  ],
+  "kind": "ability",
+  "from": "KPop Demon Hunters",
+  "facts": "Huntrix's hit song and ability, a burst of singing energy that powers up the team and strikes demons.",
+  "look": "swirling golden sound waves bursting from a stage microphone with bright sparkles, ringing like a concert",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "beam",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#FFD84A"
+ },
+ {
+  "names": [
+   "pomni",
+   "pomni tadc",
+   "pomni digital circus"
+  ],
+  "kind": "character",
+  "from": "The Amazing Digital Circus",
+  "facts": "Newest trapped human in the Digital Circus, a jester who fights panic. She can abstract if she breaks down, causing glitchy chaos.",
+  "look": "small jester with a red and blue split hat with a single bell, red and blue puffy outfit, big mismatched eyes and a nervous grin",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E04040"
+ },
+ {
+  "names": [
+   "jax tadc",
+   "jax digital circus"
+  ],
+  "kind": "character",
+  "from": "The Amazing Digital Circus",
+  "facts": "Mean prankster rabbit in the Digital Circus who teases others and uses speed and sarcasm.",
+  "look": "tall purple rabbit with long ears, wide yellow teeth and a sly grin, white gloves, purple jacket and tiny tail",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#A060D0"
+ },
+ {
+  "names": [
+   "caine",
+   "caine tadc",
+   "caine digital circus"
+  ],
+  "kind": "character",
+  "from": "The Amazing Digital Circus",
+  "facts": "AI ringmaster of the Digital Circus who creates adventures and makes rules. Floats and can bend the world.",
+  "look": "floating giant mouth with a top hat and cane, glowing red eyes in the tooth rows, with a colourful bright circus-ringmaster style",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": true,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E04060"
+ },
+ {
+  "names": [
+   "ragatha",
+   "ragatha tadc",
+   "ragatha digital circus"
+  ],
+  "kind": "character",
+  "from": "The Amazing Digital Circus",
+  "facts": "Kind rag doll in the Digital Circus who looks after others; mends and heals with a bright smile.",
+  "look": "red-haired rag doll with two long braids, red and white patchwork dress with visible button eyes and stitches",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#E04040"
+ },
+ {
+  "names": [
+   "gangle",
+   "gangle tadc",
+   "gangle digital circus"
+  ],
+  "kind": "character",
+  "from": "The Amazing Digital Circus",
+  "facts": "Comedy-and-tragedy mask ribbon character in the Digital Circus with long ribbon arms that bend and wrap.",
+  "look": "tall thin ribbon person with a long white mask showing a happy or sad face, floaty ribbon arms and legs in white and pink",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "pull"
+  ],
+  "color": "#FFB0D0"
+ },
+ {
+  "names": [
+   "kinger",
+   "kinger tadc",
+   "kinger digital circus"
+  ],
+  "kind": "character",
+  "from": "The Amazing Digital Circus",
+  "facts": "Chess-piece king character in the Digital Circus, a big protective softie who builds a fortress.",
+  "look": "tall chunky chess-king man in a red cape with a gold crown, purple pointy beard, blue tunic and round glasses",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#8A60C0"
+ },
+ {
+  "names": [
+   "zooble",
+   "zooble tadc",
+   "zooble digital circus"
+  ],
+  "kind": "character",
+  "from": "The Amazing Digital Circus",
+  "facts": "Mismatched toy character in the Digital Circus built from a mix of parts, with a spring-like body, grumpy personality and quick punches.",
+  "look": "mix-and-match toy with a blue-grey rounded head with big eyes, mismatched coloured limbs and bits like bolts and springs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#60A0E0"
+ },
+ {
+  "names": [
+   "bubble tadc",
+   "bubble digital circus"
+  ],
+  "kind": "creature",
+  "from": "The Amazing Digital Circus",
+  "facts": "Caine's assistant, a giant bubble with sharp teeth and big googly eyes. Floats around and bites with sharp teeth and pops loudly.",
+  "look": "huge shiny soap bubble with wobbly googly eyes and little sharp teeth, shiny rainbow shine",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": true,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#A0E0FF"
+ },
+ {
+  "names": [
+   "abstraction",
+   "abstracted tadc",
+   "abstracted digital circus"
+  ],
+  "kind": "creature",
+  "from": "The Amazing Digital Circus",
+  "facts": "A glitchy, broken mind in the Digital Circus. An abstracted character is a chaotic shape that lashes out and spreads glitch.",
+  "look": "swirling mass of mismatched glitchy colourful shapes and pixel streaks with several blank eyes, glitchy pixels flying everywhere",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "aura"
+  ],
+  "color": "#FF30C0"
+ },
+ {
+  "names": [
+   "n murder drones",
+   "n worker drone",
+   "murder drones n"
+  ],
+  "kind": "character",
+  "from": "Murder Drones",
+  "facts": "Disassembly Drone in Murder Drones with a sword, blaster tail and regeneration. Friendly but powerful.",
+  "look": "slim robot with a white face plate and glowing blue eyes, dark armour with wings and a blue visor and a long tail with blaster",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#40A0E0"
+ },
+ {
+  "names": [
+   "v murder drones",
+   "v disassembly drone"
+  ],
+  "kind": "character",
+  "from": "Murder Drones",
+  "facts": "Murder Drones drone who fires missiles, sprays nanite acid and heals quickly. Wings let her fly and strike from above.",
+  "look": "slim robot girl with a white face plate with glowing green eyes, black armour with a tail that has a launcher, small wings",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "poison",
+  "flies": true,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#30E080"
+ },
+ {
+  "names": [
+   "uzi doorman",
+   "uzi murder drones",
+   "uzi"
+  ],
+  "kind": "character",
+  "from": "Murder Drones",
+  "facts": "Worker drone with a reality-warping virus. Tails with tentacle-like cables that smash things; powers grow when angry.",
+  "look": "small robot girl with pink and purple hair buns, black dress, glowing purple eyes and a long tail with cables",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "grow"
+  ],
+  "color": "#B040E0"
+ },
+ {
+  "names": [
+   "cyn murder drones",
+   "cyn absolute solver"
+  ],
+  "kind": "character",
+  "from": "Murder Drones",
+  "facts": "Worker drone who hosts the Absolute Solver. Controls lights, drones and the environment with huge power.",
+  "look": "round-faced robot with a pale body, glowing purple eyes, dark purple dress and a wide scary smile",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": true,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#8A30B0"
+ },
+ {
+  "names": [
+   "doll murder drones",
+   "doll telekinesis"
+  ],
+  "kind": "character",
+  "from": "Murder Drones",
+  "facts": "Doll uses telekinesis from the Absolute Solver to lift and fling. Lifts and throws foes with the mind.",
+  "look": "small robot with a pale blue face, pigtails of gears, glowing orange eyes, blue dress and floating knives",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#E0A030"
+ },
+ {
+  "names": [
+   "anxiety inside out",
+   "anxiety inside out 2"
+  ],
+  "kind": "character",
+  "from": "Inside Out 2",
+  "facts": "New emotion from Inside Out 2 who works herself into a frenzy; fast, fidgety, with jumpy energy.",
+  "look": "small orange creature with wild frizzy orange hair, wide round eyes and a long thin body with a big smile",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#FF9A30"
+ },
+ {
+  "names": [
+   "joy inside out",
+   "inside out joy"
+  ],
+  "kind": "character",
+  "from": "Inside Out",
+  "facts": "Cheerful emotion who spreads bright light and bounces. Lights up the area and heals friends with warm light and cheerful energy.",
+  "look": "small glowing yellow-skinned girl with short bright blue hair, light blue dress and star-shaped sparkle aura",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "holy",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "heal"
+  ],
+  "color": "#FFE040"
+ },
+ {
+  "names": [
+   "sadness inside out",
+   "inside out sadness"
+  ],
+  "kind": "character",
+  "from": "Inside Out",
+  "facts": "Blue emotion whose tears slow enemies and heal friends. Calm slow healer, slows enemies with sad tears and sad looks.",
+  "look": "short round blue girl with big round glasses, blue hair and a long blue sweater, sad eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "water",
+  "flies": false,
+  "speed": 2,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#4A80E0"
+ },
+ {
+  "names": [
+   "anger inside out",
+   "inside out anger"
+  ],
+  "kind": "character",
+  "from": "Inside Out",
+  "facts": "Red fiery emotion who explodes with flames when angry. Gets red hot, then blasts fire from his head.",
+  "look": "short stocky red man with a flat top of flames on his head, white shirt with a tie and fists up",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E03030"
+ },
+ {
+  "names": [
+   "disgust inside out",
+   "inside out disgust"
+  ],
+  "kind": "character",
+  "from": "Inside Out",
+  "facts": "Green emotion who sneers and throws food as attacks. Sassy fighter who throws gross stuff and rolls her eyes at foes in a clever way.",
+  "look": "slim green girl with long green hair, green dress, green scarf and a disgusted expression",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "poison",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#70D040"
+ },
+ {
+  "names": [
+   "fear inside out",
+   "inside out fear"
+  ],
+  "kind": "character",
+  "from": "Inside Out",
+  "facts": "Purple jumpy emotion who panics and runs from danger. Jumps at shadows, flees quickly and shouts in fright, startling nearby foes.",
+  "look": "thin purple man with messy purple hair, big eyes, bow tie and a trembling look",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 1,
+  "toughness": 1,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#8A60C0"
+ },
+ {
+  "names": [
+   "minecraft movie steve",
+   "jack black steve"
+  ],
+  "kind": "character",
+  "from": "A Minecraft Movie",
+  "facts": "Steve in the Minecraft movie is a mining adventurer who builds with blocks, crafts weapons and fights piglins.",
+  "look": "stocky miner with blocky look in a teal shirt and blue trousers, chunky pickaxe and a red cape-like scarf and a blocky face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#40C0E0"
+ },
+ {
+  "names": [
+   "malgosha",
+   "malgosha piglin",
+   "piglin queen"
+  ],
+  "kind": "character",
+  "from": "A Minecraft Movie",
+  "facts": "Piglin leader in the Minecraft movie who rules the Nether and loves gold. Commands piglin armies.",
+  "look": "tall piglin queen with a pink pig face and tusks, gold armour, a big crown, dark pig ears and a long lava-orange cape",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [
+   "clones"
+  ],
+  "color": "#FFD040"
+ },
+ {
+  "names": [
+   "chicken jockey minecraft movie",
+   "chicken jockey piglin"
+  ],
+  "kind": "creature",
+  "from": "A Minecraft Movie",
+  "facts": "Famous meme from the Minecraft movie; a baby zombie rides on a chicken and charges.",
+  "look": "small baby zombie with green face riding a white chicken with a red comb, both with angry eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 2,
+  "toughness": 1,
+  "specials": [
+   "leap"
+  ],
+  "color": "#80B040"
+ },
+ {
+  "names": [
+   "shadow the hedgehog sonic 3",
+   "shadow sonic 3"
+  ],
+  "kind": "character",
+  "from": "Sonic the Hedgehog 3",
+  "facts": "Dark, powerful hedgehog from Sonic 3 with Chaos Control and Chaos Spear, skating fast on air shoes.",
+  "look": "black hedgehog with red stripes on quills, white chest fur, gold rings on wrists and hover skates with rocket jets",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#E04040"
+ },
+ {
+  "names": [
+   "krypto superman",
+   "krypto dog"
+  ],
+  "kind": "creature",
+  "from": "Superman (2025)",
+  "facts": "Superman's super-powered dog in the 2025 movie. Flies, tackles and is very rowdy. Super hearing and strength.",
+  "look": "white fluffy dog with a small red cape flowing behind and a red S mark and happy tongue out",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": true,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "leap"
+  ],
+  "color": "#F0F0F0"
+ },
+ {
+  "names": [
+   "mister terrific",
+   "mr terrific superman"
+  ],
+  "kind": "character",
+  "from": "Superman (2025)",
+  "facts": "Genius hero from Superman (2025) who fights with floating T-shaped spheres and gadgets. Super genius who uses gadgets.",
+  "look": "tall hero in a black costume with a white T on the chest, white mask over eyes and floating metallic silver spheres around him",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E0E0E0"
+ },
+ {
+  "names": [
+   "the engineer superman",
+   "engineer superman 2025"
+  ],
+  "kind": "character",
+  "from": "Superman (2025)",
+  "facts": "Villain in Superman (2025) who has a nanotech-infused body and can reshape into weapons. Rebuilds her body into tools.",
+  "look": "woman in a sleek silver and teal suit with glowing nano-lines and a tight bun, body shapes into blade tools",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "adapt"
+  ],
+  "color": "#40D0C0"
+ },
+ {
+  "names": [
+   "hawkgirl superman 2025",
+   "hawkgirl"
+  ],
+  "kind": "character",
+  "from": "Superman (2025)",
+  "facts": "Flying hero with a mace and wings. Swoops down with a big mace and swings it hard, using wings for speed.",
+  "look": "young woman in a gold and brown outfit with large golden feathered wings and a spiky mace",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": true,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#E0A030"
+ },
+ {
+  "names": [
+   "metamorpho",
+   "metamorpho superman"
+  ],
+  "kind": "character",
+  "from": "Superman (2025)",
+  "facts": "Shape-shifting hero who turns his body into chemical elements like metal, acid and gas. Turns arms into hammers or acid.",
+  "look": "tall man with a body in patched colours of silver, orange and green with chunky rock-like textured arms and a calm face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "adapt"
+  ],
+  "color": "#8AC070"
+ },
+ {
+  "names": [
+   "mister fantastic fantastic four 2025",
+   "reed richards"
+  ],
+  "kind": "character",
+  "from": "The Fantastic Four: First Steps",
+  "facts": "Stretching genius hero from 2025 who bends into any shape and invents gadgets. Wraps around enemies and stretches to hit from far away.",
+  "look": "tall slim man in a blue and white four-themed suit with grey-streaked hair and arms stretching long",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#4090E0"
+ },
+ {
+  "names": [
+   "invisible woman fantastic four",
+   "sue storm"
+  ],
+  "kind": "character",
+  "from": "The Fantastic Four: First Steps",
+  "facts": "Fantastic Four hero who makes force fields and invisibility. Makes force bubbles to protect friends and blast enemies away.",
+  "look": "woman with light hair in a blue and white four-themed suit with a glowing transparent shield bubble around her",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#80C0FF"
+ },
+ {
+  "names": [
+   "human torch fantastic four",
+   "johnny storm"
+  ],
+  "kind": "character",
+  "from": "The Fantastic Four: First Steps",
+  "facts": "Fiery flying hero, sets himself aflame and throws fireballs. Flies, throws fireballs and burns bright while zooming around foes.",
+  "look": "young man in a blue and white four-themed suit completely wrapped in orange and yellow flames, flying",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": true,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FF7A20"
+ },
+ {
+  "names": [
+   "the thing fantastic four",
+   "ben grimm thing"
+  ],
+  "kind": "character",
+  "from": "The Fantastic Four: First Steps",
+  "facts": "Rock-skinned strongman of the Fantastic Four with huge punches. Smashes with rocky fists and shrugs off hits, slow but brutal.",
+  "look": "very large orange rocky man with lumpy rock plates all over, blue trunks and a calm blocky face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [],
+  "color": "#E08030"
+ },
+ {
+  "names": [
+   "galactus fantastic four 2025"
+  ],
+  "kind": "character",
+  "from": "The Fantastic Four: First Steps",
+  "facts": "Planet-eating giant villain in the Fantastic Four film, huge and cosmic with a helmet. Eats planets.",
+  "look": "enormous cosmic giant in purple and blue armour with huge horned helmet, glowing white eyes and a cape",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "none",
+  "flies": true,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 5,
+  "specials": [
+   "grow",
+   "aura"
+  ],
+  "color": "#9A50E0"
+ },
+ {
+  "names": [
+   "silver surfer fantastic four",
+   "shalla bal"
+  ],
+  "kind": "character",
+  "from": "The Fantastic Four: First Steps",
+  "facts": "Silver cosmic surfer from the Fantastic Four film who rides a board and fires cosmic blasts.",
+  "look": "sleek metallic silver humanoid riding a silver surfboard in the sky, glowing white eyes and a smooth face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "none",
+  "flies": true,
+  "speed": 5,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#C0E0FF"
+ },
+ {
+  "names": [
+   "elphaba",
+   "elphaba wicked"
+  ],
+  "kind": "character",
+  "from": "Wicked",
+  "facts": "Green witch with strong magic who flies, casts spells and levitates objects. Flies on a broom and casts powerful spells.",
+  "look": "green-faced young woman in a black witch hat, long black dress, dark hair and a broomstick",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#3A8A3A"
+ },
+ {
+  "names": [
+   "glinda",
+   "glinda wicked",
+   "glinda the good"
+  ],
+  "kind": "character",
+  "from": "Wicked",
+  "facts": "Bubbly good witch with bubble wand magic who floats inside a pink bubble. Floats in a bubble and casts sparkly protective spells.",
+  "look": "young woman with long blonde hair, tall sparkling tiara and a pink bubbly gown holding a wand",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "holy",
+  "flies": true,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#FFB0D0"
+ },
+ {
+  "names": [
+   "gary desnake",
+   "gary de snake",
+   "gary snake zootopia"
+  ],
+  "kind": "character",
+  "from": "Zootopia 2",
+  "facts": "New pit viper in Zootopia 2 who is on the run, with fast strikes and a slippery slithering body.",
+  "look": "blue pit viper wearing a brown jacket and a messy scarf, bright yellow eyes and a long coiled tail",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#4A90C0"
+ },
+ {
+  "names": [
+   "nibbles maplestick",
+   "nibbles zootopia"
+  ],
+  "kind": "character",
+  "from": "Zootopia 2",
+  "facts": "Beaver podcast host in Zootopia 2 who loves conspiracy theories and builds with logs. Gnaws and builds quick log barriers.",
+  "look": "short brown beaver in glasses and a green flannel shirt with large front teeth and a flat tail",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [],
+  "color": "#8A5A3A"
+ },
+ {
+  "names": [
+   "judy hopps",
+   "judy zootopia"
+  ],
+  "kind": "character",
+  "from": "Zootopia",
+  "facts": "Rabbit police officer who is fast and tricky, with a police taser and quick kicks.",
+  "look": "small grey bunny in a blue police uniform with long ears and big purple eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#80A0C0"
+ },
+ {
+  "names": [
+   "nick wilde",
+   "nick zootopia"
+  ],
+  "kind": "character",
+  "from": "Zootopia",
+  "facts": "Fox con artist and police partner who is smooth and sneaky with tranquilizer darts. Teases foes and tricks them.",
+  "look": "orange fox in a green shirt and loose tie with a smirk and half-lidded green eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FF9A40"
+ },
+ {
+  "names": [
+   "varang avatar",
+   "ash people varang",
+   "mangkwan"
+  ],
+  "kind": "character",
+  "from": "Avatar: Fire and Ash",
+  "facts": "Fiery Ash People leader in Avatar: Fire and Ash. Rides a dark flying beast and burns enemies.",
+  "look": "tall blue-skinned alien warrior woman with ash-grey markings, glowing orange embers around her, black war paint and feathers and a fire bow",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#FF5A2E"
+ },
+ {
+  "names": [
+   "nightwraith",
+   "varang nightwraith"
+  ],
+  "kind": "creature",
+  "from": "Avatar: Fire and Ash",
+  "facts": "Flying beast from Avatar: Fire and Ash ridden by the Ash People, with dark wings and a fiery look.",
+  "look": "dark grey winged flying beast with black mottled wings, glowing orange eye lines and a long thin tail",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#D04020"
+ },
+ {
+  "names": [
+   "navi warrior",
+   "navi avatar",
+   "jake sully"
+  ],
+  "kind": "character",
+  "from": "Avatar",
+  "facts": "Blue alien Na'vi with a bow, who can ride flying beasts and link with creatures.",
+  "look": "tall blue-skinned alien with cat-like ears, striped markings, a long braid, a bow and glowing yellow eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "leap"
+  ],
+  "color": "#3A90E0"
+ },
+ {
+  "names": [
+   "ilu avatar",
+   "ilu creature"
+  ],
+  "kind": "creature",
+  "from": "Avatar: The Way of Water",
+  "facts": "Gentle sea creature from Avatar that carries Metkayina riders across waves. Strong swimmer and diver, calm, rams in with head.",
+  "look": "large teal sea-dwelling creature with big fins and a long neck, bright patterns and gentle eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#30B0C0"
+ },
+ {
+  "names": [
+   "tulkun",
+   "payakan",
+   "tulkun avatar"
+  ],
+  "kind": "creature",
+  "from": "Avatar: The Way of Water",
+  "facts": "Giant intelligent whale-like Tulkun. Sings, tail slaps, swims fast. Huge peaceful whale with a loud song, slams foes with tail and flippers and tough hide.",
+  "look": "gigantic dark blue-grey whale with glowing blue marks, long fins and a calm face, scars and small glowing spots",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [],
+  "color": "#2A60A0"
+ },
+ {
+  "names": [
+   "vecna stranger things 5"
+  ],
+  "kind": "character",
+  "from": "Stranger Things",
+  "facts": "Powerful psychic villain from Stranger Things who attacks minds with telekinesis, strikes with vines and a creepy clock-curse.",
+  "look": "tall dark figure covered in dark red vines and roots, long clawed hands and a gnarled burnt face with glowing eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#A02020"
+ },
+ {
+  "names": [
+   "mind flayer stranger things"
+  ],
+  "kind": "creature",
+  "from": "Stranger Things",
+  "facts": "Huge shadow monster from the Upside Down, with spider-like legs and dark smoke. Spreads shadow smoke over everything.",
+  "look": "enormous dark red spider-shaped shadow with many long thin legs and a smoky body with a glowing eye",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "aura",
+   "clones"
+  ],
+  "color": "#7A1A1A"
+ },
+ {
+  "names": [
+   "demodog",
+   "demodogs"
+  ],
+  "kind": "creature",
+  "from": "Stranger Things",
+  "facts": "Four-legged monsters from the Upside Down with petal-shaped faces, that hunt in packs. Fast packs that pounce and open flower-like mouths.",
+  "look": "dark grey animal with four legs and a flower-shaped face that opens into rows of teeth",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#5A5A6A"
+ },
+ {
+  "names": [
+   "eleven stranger things",
+   "el stranger things"
+  ],
+  "kind": "character",
+  "from": "Stranger Things",
+  "facts": "Girl with psychic powers, flings objects and crushes monsters; nosebleeds when she overuses. Throws objects with her mind and can freeze foes in place.",
+  "look": "young woman with short brown hair, pink dress with small collar and denim jacket, hand raised in a glowing gesture",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#E080A0"
+ },
+ {
+  "names": [
+   "front man squid game",
+   "frontman squid game"
+  ],
+  "kind": "character",
+  "from": "Squid Game",
+  "facts": "Masked leader in Squid Game, who oversees the games with a calm voice. Commands guards and fights with sharp tactics.",
+  "look": "tall man in a black uniform and a black hexagon-patterned mask with a hood and a pistol at the hip",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#30303A"
+ },
+ {
+  "names": [
+   "giant doll squid game",
+   "younghee doll"
+  ],
+  "kind": "character",
+  "from": "Squid Game",
+  "facts": "Giant red light green light doll from Squid Game; its head turns and scans players, laser-eyed.",
+  "look": "huge doll girl in an orange dress with two black braids and an expressionless face that turns around",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [],
+  "color": "#FF8A30"
+ },
+ {
+  "names": [
+   "wednesday addams season 2"
+  ],
+  "kind": "character",
+  "from": "Wednesday",
+  "facts": "Gothic girl with psychic visions and fast fencing and archery skill; deadpan; throws knives. Fences with a sword and dryly insults. Fast, calm. Has visions.",
+  "look": "girl with long black braids, black dress with white collar, pale face, dark eyes and a black cello case",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#303040"
+ },
+ {
+  "names": [
+   "enid sinclair",
+   "enid wednesday"
+  ],
+  "kind": "character",
+  "from": "Wednesday",
+  "facts": "Friendly werewolf who fights as a fast wolf with claws and howls. Turns into a fluffy werewolf and charges.",
+  "look": "cheerful girl with long bright rainbow hair in a pink and purple outfit, claws on hands and wolf ears showing",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "leap"
+  ],
+  "color": "#FF70C0"
+ },
+ {
+  "names": [
+   "distortus rex",
+   "d rex jurassic",
+   "dist rex"
+  ],
+  "kind": "creature",
+  "from": "Jurassic World Rebirth",
+  "facts": "Mutant dinosaur from Jurassic World Rebirth. A huge hybrid with extra arms and a hunting rush.",
+  "look": "huge dark grey T-rex-like dinosaur with a long ridged skull, four long clawed arms and a pale body with orange eye glow",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [],
+  "color": "#5A4A5A"
+ },
+ {
+  "names": [
+   "mutadon",
+   "mutadon jurassic"
+  ],
+  "kind": "creature",
+  "from": "Jurassic World Rebirth",
+  "facts": "Flying mutant from Jurassic World Rebirth, a cross between a raptor and pterosaur that swoops.",
+  "look": "grey-brown winged creature with a long toothy beak, bat-like wings and claws, a long neck and a hooked beak",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": true,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#7A5A4A"
+ },
+ {
+  "names": [
+   "titanosaurus jurassic rebirth",
+   "titanosaurus"
+  ],
+  "kind": "creature",
+  "from": "Jurassic World Rebirth",
+  "facts": "Gigantic long-necked plant eater from Jurassic World Rebirth. Huge herbivore whose stomps shake the ground and tail sweeps foes aside with ease.",
+  "look": "giant long-necked grey-green dinosaur with a tiny head, heavy legs and a thick tail with a wrinkled grey hide and a small head",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 5,
+  "specials": [],
+  "color": "#6A8A6A"
+ },
+ {
+  "names": [
+   "godzilla minus one",
+   "godzilla minus"
+  ],
+  "kind": "creature",
+  "from": "Godzilla Minus One",
+  "facts": "Godzilla of Minus One is a huge, scary kaiju whose atomic breath is a spiral of destruction.",
+  "look": "huge dark charcoal kaiju with jagged dorsal plates that glow blue, a thick tail and an angry face with sharp teeth",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [],
+  "color": "#40A0FF"
+ },
+ {
+  "names": [
+   "kokushibo upper moon one",
+   "upper moon one",
+   "upper rank one kokushibo"
+  ],
+  "kind": "character",
+  "from": "Demon Slayer",
+  "facts": "Upper Moon One, a six-eyed swordsman with Moon Breathing: crescent-shaped blades that extend and multiply in huge arcs. Regenerates fast.",
+  "look": "tall six-eyed swordsman with long dark ponytail, ornate purple-black robe, a curved katana with many eye-like blade marks and crescent glints",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#8A60FF"
+ },
+ {
+  "names": [
+   "doma upper moon two",
+   "douma upper moon two",
+   "doma"
+  ],
+  "kind": "character",
+  "from": "Demon Slayer",
+  "facts": "Upper Moon Two who makes freezing ice petals, ice dolls and cold breath; always smiling.",
+  "look": "smiling young man with white-ish hair with rainbow-coloured eyes, ornate light robe with golden folding fans and chilling frosty mist",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "ice",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "clones"
+  ],
+  "color": "#B0E8FF"
+ },
+ {
+  "names": [
+   "akaza upper moon three",
+   "akaza infinity castle"
+  ],
+  "kind": "character",
+  "from": "Demon Slayer",
+  "facts": "Upper Moon Three, a martial artist who fights with Destructive Death compass needle and fast punches; sense the opponent's power.",
+  "look": "muscular man with short pink hair and blue tattoo lines on his body, white trousers with a dark sash and glowing compass pattern under his feet",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#60C0FF"
+ },
+ {
+  "names": [
+   "nakime upper moon four",
+   "nakime biwa",
+   "infinity castle nakime"
+  ],
+  "kind": "character",
+  "from": "Demon Slayer",
+  "facts": "Upper Moon Four, a biwa-playing woman who controls the shifting infinity fortress by strumming and can teleport warriors.",
+  "look": "pale woman with long dark hair covering one eye, ornate dark kimono and a golden biwa instrument, standing in shifting rooms",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#C0A060"
+ },
+ {
+  "names": [
+   "daki",
+   "gyutaro",
+   "daki and gyutaro",
+   "upper moon six"
+  ],
+  "kind": "character",
+  "from": "Demon Slayer",
+  "facts": "Siblings Upper Moon Six who fight with silk-like obi ribbons and sickles on the Entertainment District.",
+  "look": "pair of siblings, a woman with long white hair and flowing ribbon sashes and a man crouched with curved sickles in both hands",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "poison",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "pull",
+   "clones"
+  ],
+  "color": "#E04070"
+ },
+ {
+  "names": [
+   "kaigaku",
+   "kaigaku upper moon"
+  ],
+  "kind": "character",
+  "from": "Demon Slayer",
+  "facts": "Lightning swordsman demon who uses a corrupted Thunder Breathing with dark lightning slashes. Quick lightning slashes.",
+  "look": "young man with black and yellow short hair and tattered clothes, curved black blade crackling with dark purple lightning",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "electric",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#8A60FF"
+ },
+ {
+  "names": [
+   "hashira gathering",
+   "infinity castle hashira",
+   "breath of the sun"
+  ],
+  "kind": "event",
+  "from": "Demon Slayer",
+  "facts": "In the Infinity Castle the demons' fortress floors shift and rotate; Hashira face the Upper Moons.",
+  "look": "enormous twisting fortress of wooden rooms and stairs floating and rotating in a dark void",
+  "use": "disaster",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#B09060"
+ },
+ {
+  "names": [
+   "tank solo leveling",
+   "tank ice bear",
+   "tusk solo leveling"
+  ],
+  "kind": "character",
+  "from": "Solo Leveling",
+  "facts": "Shadow soldiers of Sung Jinwoo. Tank is a huge ice bear and Tusk is a mighty orc shaman; both fight with brute power.",
+  "look": "huge bear-shaped dark shadow figure with glowing purple eyes, thick claws and a heavy body made of black smoke",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [],
+  "color": "#8A40E0"
+ },
+ {
+  "names": [
+   "iron solo leveling",
+   "kaisel",
+   "shadow wyvern"
+  ],
+  "kind": "character",
+  "from": "Solo Leveling",
+  "facts": "Iron is a shielded tank and Kaisel is Sung Jinwoo's shadow wyvern mount that flies with glowing purple eyes.",
+  "look": "dark armoured heavy shadow knight with glowing violet eyes and a giant shield, with a purple-tinted black dragon beside him",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#8A40E0"
+ },
+ {
+  "names": [
+   "bellion solo leveling",
+   "grand marshal bellion",
+   "bellion"
+  ],
+  "kind": "character",
+  "from": "Solo Leveling",
+  "facts": "Strongest shadow of Sung Jinwoo, Grand Marshal in a dark fantasy; commands shadows and slashes with a sword.",
+  "look": "tall dark knight with black plate armour, glowing purple eyes, long dark cape and a huge black sword with a jagged blade",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "clones"
+  ],
+  "color": "#8A40E0"
+ },
+ {
+  "names": [
+   "antares monarch",
+   "dragon monarch antares"
+  ],
+  "kind": "character",
+  "from": "Solo Leveling",
+  "facts": "Monarch of Destruction in Solo Leveling, a giant dragon whose roar crushes and breath destroys shadows.",
+  "look": "giant black dragon with red glowing eyes, horned head, huge wings and burning breath, ragged wings",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "fire",
+  "flies": true,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [],
+  "color": "#E04030"
+ },
+ {
+  "names": [
+   "monarch of shadows",
+   "ashborn"
+  ],
+  "kind": "character",
+  "from": "Solo Leveling",
+  "facts": "Sung Jinwoo's final form, ruling shadows. Raises fallen enemies as shadow soldiers. Rises shadow soldiers.",
+  "look": "tall man in black armour with a flowing black cape, glowing purple eyes and purple smoke curling around him",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "clones",
+   "teleport"
+  ],
+  "color": "#9A50FF"
+ },
+ {
+  "names": [
+   "sakamoto taro",
+   "taro sakamoto",
+   "sakamoto days",
+   "sakamoto"
+  ],
+  "kind": "character",
+  "from": "Sakamoto Days",
+  "facts": "Retired legendary hitman who runs a shop. Fast, strong when working; uses everyday items as weapons.",
+  "look": "very large round man in a grey shop apron with a mustache and bald head; in battle he becomes lean in a black suit",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "adapt"
+  ],
+  "color": "#303040"
+ },
+ {
+  "names": [
+   "shin asakura",
+   "shin sakamoto days",
+   "shin psychic"
+  ],
+  "kind": "character",
+  "from": "Sakamoto Days",
+  "facts": "Psychic assistant of Sakamoto who can read minds and fights with a pole. Reads minds to dodge.",
+  "look": "slim boy with spiky black hair, bright eyes and dark jacket with an orange shirt, holding a plain pole",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E08030"
+ },
+ {
+  "names": [
+   "nagumo sakamoto",
+   "nagumo"
+  ],
+  "kind": "character",
+  "from": "Sakamoto Days",
+  "facts": "Skilled fighter who can use clubs and moves at fast speed. Strikes with surprising speed.",
+  "look": "tall man with long white-grey hair in a dark suit with a stylish scarf, holding twin short clubs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#6090E0"
+ },
+ {
+  "names": [
+   "evil eye dandadan",
+   "evil eye",
+   "dandadan evil eye"
+  ],
+  "kind": "character",
+  "from": "Dandadan",
+  "facts": "Vengeful yokai from Dandadan, an Evil Eye that possesses Jiji and fires glowing eye lasers and curses.",
+  "look": "dark purple floating giant eyeball with many small eye tendrils, red glowing pupil and shadowy mist",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "dark",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#B030E0"
+ },
+ {
+  "names": [
+   "acrobatic silky",
+   "aira silky",
+   "silky dandadan"
+  ],
+  "kind": "character",
+  "from": "Dandadan",
+  "facts": "Yokai power in Dandadan that gives Aira a long prehensile hair, high agility and acrobatic whips.",
+  "look": "girl with long flowing white hair strands that move like arms, yellow-gold eyes and an agile crouched pose",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "pull",
+   "leap"
+  ],
+  "color": "#F0F0FF"
+ },
+ {
+  "names": [
+   "kaiju no 8 transformation",
+   "kaiju number 8"
+  ],
+  "kind": "character",
+  "from": "Kaiju No. 8",
+  "facts": "Hero who turns into a powerful humanoid kaiju with huge strength and regeneration; punches through monsters.",
+  "look": "huge dark grey humanoid with a skull-like mask face with spiky teeth and black and white muscular body with orange eye glow",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "heal"
+  ],
+  "color": "#E06030"
+ },
+ {
+  "names": [
+   "hoshina kaiju",
+   "hoshina soshiro"
+  ],
+  "kind": "character",
+  "from": "Kaiju No. 8",
+  "facts": "Elite captain of the Defense Force who uses a fast sword attack to cut kaiju.",
+  "look": "tall man with dark short hair and a goatee, dark battle suit and a long sword with glowing white blade",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#E0E0E0"
+ },
+ {
+  "names": [
+   "sakura haruka",
+   "haruka sakura",
+   "wind breaker sakura"
+  ],
+  "kind": "character",
+  "from": "Wind Breaker",
+  "facts": "Delinquent brawler with fast fighting style and sharp reflexes who protects the town with quick kicks.",
+  "look": "young man with half-black half-white hair, a green short jacket over a hoodie and stylish fighting stance",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#70C060"
+ },
+ {
+  "names": [
+   "rudo gachiakuta",
+   "rudo surebrec",
+   "rudo"
+  ],
+  "kind": "character",
+  "from": "Gachiakuta",
+  "facts": "Boy who fights with the glove-shaped vital instrument made from junk that can smash with strong punches.",
+  "look": "teenage boy with white spiky hair, goggles, black clothes and a big metal glove made of scrap parts",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E0A030"
+ },
+ {
+  "names": [
+   "kenjaku culling game",
+   "kenjaku"
+  ],
+  "kind": "character",
+  "from": "Jujutsu Kaisen",
+  "facts": "Mastermind of the Culling Game who uses brain-body tricks and cursed spirit manipulation to control spirits.",
+  "look": "man with a long coat, a visible stitched line across his forehead, long dark hair and calm smile",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "clones"
+  ],
+  "color": "#8A60A0"
+ },
+ {
+  "names": [
+   "higuruma",
+   "higuruma hiromi",
+   "judgeman"
+  ],
+  "kind": "character",
+  "from": "Jujutsu Kaisen",
+  "facts": "Lawyer who gets a courtroom domain with a judge, deadly gavel and verdict that confiscates abilities.",
+  "look": "man in a suit with glasses and short dark hair standing in a courtroom with a gavel and a large judge figure",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "shield"
+  ],
+  "color": "#B0A090"
+ },
+ {
+  "names": [
+   "kashimo",
+   "kashimo hajime"
+  ],
+  "kind": "character",
+  "from": "Jujutsu Kaisen",
+  "facts": "Lightning-wielding sorcerer who becomes an electric fast force, hitting with lightning claws. Zaps foes with electric fists.",
+  "look": "tall man with spiky black hair and a headband, tattered robes and glowing white-blue lightning crawling over his body",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "electric",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#60D0FF"
+ },
+ {
+  "names": [
+   "hana kurusu",
+   "angel jujutsu",
+   "angel jjk"
+  ],
+  "kind": "character",
+  "from": "Jujutsu Kaisen",
+  "facts": "Sorceress who hosts an ancient sorcerer; uses a halo-shaped cursed technique to destroy cursed techniques.",
+  "look": "young woman with short bright hair, glowing white halo over her head, white robes with golden trim and floating small wings",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "holy",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#FFF0A0"
+ },
+ {
+  "names": [
+   "sternritter",
+   "quincy bleach",
+   "yhwach quincy"
+  ],
+  "kind": "character",
+  "from": "Bleach: TYBW",
+  "facts": "Quincy elite soldiers from Bleach; each wears a white cape and has a letter and power; they fire spirit arrows.",
+  "look": "soldier in a long white coat with a high collar and glowing blue bow with spirit arrows, fine silver cross symbol",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "holy",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#B0E0FF"
+ },
+ {
+  "names": [
+   "haschwalth",
+   "jugram haschwalth",
+   "the balance"
+  ],
+  "kind": "character",
+  "from": "Bleach: TYBW",
+  "facts": "Yhwach's second-in-command, who uses his power to swap and shifts destiny with balancing power; wields a bow of black spirit.",
+  "look": "tall man with long blonde hair in a white and gold coat with a large bow that glows white and black",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "holy",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#F0E0A0"
+ },
+ {
+  "names": [
+   "gerard valkyrie",
+   "gerard bleach",
+   "the miracle"
+  ],
+  "kind": "character",
+  "from": "Bleach: TYBW",
+  "facts": "Quincy with miraculous powers, a huge miracle strike with a bright energy blast and big regeneration.",
+  "look": "tall large man with spiky grey-blond hair in a white and gold cape and glowing yellow energy at his hands",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "heal"
+  ],
+  "color": "#FFE060"
+ },
+ {
+  "names": [
+   "chainsaw man reze arc",
+   "reze bomb devil",
+   "bomb devil"
+  ],
+  "kind": "character",
+  "from": "Chainsaw Man",
+  "facts": "Bomb Devil Reze who explodes at will, a fast fighter with explosive punches. Sets off explosions with a kiss-like spark.",
+  "look": "girl with short dark hair and a red choker, in a plain light outfit with a small pin, glowing explosion marks and a blast of orange sparks",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FF5030"
+ },
+ {
+  "names": [
+   "my hero academia final season",
+   "all for one final",
+   "deku final"
+  ],
+  "kind": "character",
+  "from": "My Hero Academia",
+  "facts": "Deku in the final season is a hero using One For All with lightning-shaped dark whips and blackwhip tendrils.",
+  "look": "teen hero with green fluffy hair, a green hero suit with white and orange lines, glowing green lightning aura",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "electric",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#40E080"
+ },
+ {
+  "names": [
+   "egghead saturn",
+   "saturn one piece",
+   "five elders saturn"
+  ],
+  "kind": "character",
+  "from": "One Piece",
+  "facts": "Elder Saturn, a Five Elders member and fiend who uses an Eldritch Shapeshift, a glowing blade and a demonic power.",
+  "look": "very tall old man in a long dark robe, long black hair and a beard, a glowing curved sword and a horned demonic shadow",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [],
+  "color": "#8A40A0"
+ },
+ {
+  "names": [
+   "elbaf giants",
+   "giant elbaf",
+   "loki one piece"
+  ],
+  "kind": "character",
+  "from": "One Piece",
+  "facts": "Giants of Elbaf are huge warriors who wield big axes and swords and drink heavily; Loki the prince is a huge war leader.",
+  "look": "huge muscular warrior twice the size of a house in viking-style furs and horned helmet, carrying a giant axe",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 5,
+  "toughness": 5,
+  "specials": [
+   "grow"
+  ],
+  "color": "#B07A3A"
+ },
+ {
+  "names": [
+   "gear 5 luffy joyboy",
+   "joyboy"
+  ],
+  "kind": "character",
+  "from": "One Piece",
+  "facts": "Gear 5 is Luffy as the Sun God Nika, with a rubbery cartoon body, freedom, stretchy attacks and white hair.",
+  "look": "boy with white fluffy hair, a white cloud-like scarf, rubbery stretching arms and a huge happy grin",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 5,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#FFFFFF"
+ },
+ {
+  "names": [
+   "luna snow",
+   "luna snow rivals"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Marvel Rivals healer who sings, skates on ice and heals allies with a freezing beat.",
+  "look": "young woman with long blue-white hair, icy stage outfit with a glittering cape, skates on ice and a microphone-like mace",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "ice",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "heal",
+   "shield"
+  ],
+  "color": "#8AE0FF"
+ },
+ {
+  "names": [
+   "jeff the land shark",
+   "jeff land shark"
+  ],
+  "kind": "creature",
+  "from": "Marvel Rivals",
+  "facts": "Cute land shark healer in Marvel Rivals who swallows enemies and spits them out; rolls into a ball.",
+  "look": "friendly blue shark with a pale belly, little fins, wide grin and a small tail",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "water",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [
+   "heal",
+   "pull"
+  ],
+  "color": "#4A90E0"
+ },
+ {
+  "names": [
+   "mantis rivals",
+   "mantis marvel rivals"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Strategist in Marvel Rivals who heals and puts enemies to sleep with spores. Calm spore healer who puts foes to sleep.",
+  "look": "woman with antennae on her head in a green leaf-like outfit with hair in pigtails and glowing green spore particles",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "heal"
+  ],
+  "color": "#60E070"
+ },
+ {
+  "names": [
+   "adam warlock",
+   "adam warlock rivals"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Cosmic Marvel Rivals hero who flies, heals and revives, with soul gem energy. Cocoon of healing light.",
+  "look": "man with a golden face, a golden cape and glowing yellow forehead gem, flowing red and gold cosmic coat",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "holy",
+  "flies": true,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "heal",
+   "shield"
+  ],
+  "color": "#FFD040"
+ },
+ {
+  "names": [
+   "cloak and dagger",
+   "cloak dagger rivals"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Marvel Rivals duo, Cloak teleports and drains while Dagger heals using light knives. Cloak sneaks into shadows while Dagger heals friends.",
+  "look": "pair of young heroes, one in a dark hooded cloak with swirling darkness and one in a white outfit with glowing crystal daggers",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "holy",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "heal",
+   "teleport"
+  ],
+  "color": "#FFE0FF"
+ },
+ {
+  "names": [
+   "squirrel girl",
+   "squirrel girl rivals"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Marvel Rivals hero who commands squirrels, throws acorns and has a bushy tail. Squirrel friends swarm foes and she hits with her tail and nuts.",
+  "look": "cheerful girl with a big brown bushy tail, squirrel-ear headband, green and brown costume and a swarm of squirrel pals",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [
+   "clones"
+  ],
+  "color": "#B07A3A"
+ },
+ {
+  "names": [
+   "psylocke",
+   "psylocke rivals"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Marvel Rivals ninja with a psychic blade that strikes fast and turns invisible. Slashes fast and vanishes in a shimmer.",
+  "look": "ninja woman with long purple hair, purple and black outfit with a headband and a glowing pink-purple psychic blade",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#C060F0"
+ },
+ {
+  "names": [
+   "magik rivals",
+   "magik illyana",
+   "magik marvel"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Sorceress who opens portals to teleport and wields a bright soul sword. Opens circles to hop around fast.",
+  "look": "young woman with blonde hair, silver armoured bodysuit and a glowing red and silver sword with glowing circular portal circles",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#E04060"
+ },
+ {
+  "names": [
+   "gambit rivals",
+   "gambit marvel"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Marvel Rivals hero who charges and throws glowing playing cards that explode. Charges cards that explode and flicks them quickly.",
+  "look": "man with spiky brown hair in a long brown coat, glowing pink cards in both hands and a bo-staff",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "fire",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#FF60A0"
+ },
+ {
+  "names": [
+   "emma frost",
+   "emma frost rivals"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Telepath who turns into hard diamond; strong and tough in Marvel Rivals. Hard diamond form blocks most damage but is slow.",
+  "look": "woman with long platinum blonde hair in a white outfit with a high collar and body of glittering transparent diamond",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "ice",
+  "flies": false,
+  "speed": 2,
+  "strength": 3,
+  "toughness": 5,
+  "specials": [
+   "shield"
+  ],
+  "color": "#E0F0FF"
+ },
+ {
+  "names": [
+   "peni parker",
+   "peni parker rivals",
+   "sp dr"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Young spider hero in a robot suit in Marvel Rivals, who plants webs, mines and sticky traps.",
+  "look": "small girl with short dark hair and glasses in a pink spider-themed suit with a giant robot mech with pink glowing eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#FF60A0"
+ },
+ {
+  "names": [
+   "punisher rivals",
+   "the punisher marvel rivals"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Marvel Rivals duelist with machine gun, shotgun and grenades. Shoots with a shotgun, rifle and grenades.",
+  "look": "man in a black tactical outfit with a white skull emblem on chest, heavy gun and ammo belts",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#2A2A30"
+ },
+ {
+  "names": [
+   "iron fist rivals",
+   "iron fist marvel"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Martial artist who punches with a glowing golden chi fist and quick kicks. Charges glowing golden fists and hits with fast kicks.",
+  "look": "man in a green and gold martial arts uniform with a dragon design, fists glowing bright golden and a focused stance",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#FFD040"
+ },
+ {
+  "names": [
+   "angela marvel rivals",
+   "angela asgardian"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Winged warrior who fights with a halberd and fierce charges. Flies in and spins a huge halberd.",
+  "look": "tall woman with white hair in gold and white armour with feathered wings and a long glowing halberd",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "leap"
+  ],
+  "color": "#FFE080"
+ },
+ {
+  "names": [
+   "black cat rivals",
+   "felicia hardy"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Thief hero who brings bad luck to enemies and leaps and claws with quick steps.",
+  "look": "woman with white hair in a sleek black catsuit with a white fur collar and a mask, sharp claws on gloves",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#303040"
+ },
+ {
+  "names": [
+   "cyclops rivals",
+   "cyclops marvel"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Leader who fires powerful optic blasts from his visor. Fires a thick optic beam in a line.",
+  "look": "man in a blue and yellow suit with a red visor with a thick red beam shooting from it",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#FF3030"
+ },
+ {
+  "names": [
+   "thor rivals ragnarok",
+   "thor marvel rivals"
+  ],
+  "kind": "character",
+  "from": "Marvel Rivals",
+  "facts": "Marvel Rivals vanguard who throws his hammer and calls down lightning. Hammer throws, lightning strikes and flight.",
+  "look": "tall man with long blonde hair, a red cape, silver armour, a hammer and crackling blue lightning",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "electric",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#6AB4FF"
+ },
+ {
+  "names": [
+   "helldiver",
+   "helldivers 2 soldier",
+   "super earth soldier"
+  ],
+  "kind": "character",
+  "from": "Helldivers 2",
+  "facts": "Super Earth soldier who calls stratagems from orbit such as eagle airstrikes and orbital lasers and spreads managed democracy.",
+  "look": "soldier in heavy green and silver armour with a large helmet, a red cape, backpack and a big rifle",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#4AA040"
+ },
+ {
+  "names": [
+   "eagle airstrike",
+   "eagle 500kg",
+   "500kg bomb"
+  ],
+  "kind": "ability",
+  "from": "Helldivers 2",
+  "facts": "Stratagem that calls a fighter jet to drop huge bombs on the marked target. Strafes first.",
+  "look": "fast grey fighter jet flying overhead dropping big bombs that explode in huge orange fireballs",
+  "use": "disaster",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": true,
+  "speed": 5,
+  "strength": 5,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FF7A20"
+ },
+ {
+  "names": [
+   "hellpod",
+   "hellbomb",
+   "helldivers hellbomb"
+  ],
+  "kind": "ability",
+  "from": "Helldivers 2",
+  "facts": "Giant hellbomb that must be armed and then explodes in a huge blast, destroying bases.",
+  "look": "large metal bomb with red glowing lights, a keypad and heavy fins sitting on a plate",
+  "use": "thrown weapon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FF4040"
+ },
+ {
+  "names": [
+   "terminid bug",
+   "terminid",
+   "helldivers bug",
+   "bile titan"
+  ],
+  "kind": "creature",
+  "from": "Helldivers 2",
+  "facts": "Giant insectoid enemy in Helldivers 2; Bile Titan is a huge one that spits acid.",
+  "look": "giant brown-tan insect creature with huge claws, a glossy shell and a big acid-spitting mouth",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "poison",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [],
+  "color": "#A0802A"
+ },
+ {
+  "names": [
+   "automaton helldivers",
+   "automaton robot",
+   "hulk automaton"
+  ],
+  "kind": "character",
+  "from": "Helldivers 2",
+  "facts": "Red-eyed robot enemy of Helldivers 2; Hulk is a heavy bruiser with a flamethrower. Marches in groups.",
+  "look": "heavy red-eyed robot with a grey metal body, glowing red optics and large rotary guns",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "fire",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [],
+  "color": "#C03030"
+ },
+ {
+  "names": [
+   "anubis palworld",
+   "palworld anubis"
+  ],
+  "kind": "creature",
+  "from": "Palworld",
+  "facts": "Palworld pal, a strong ground-type pal that crafts and fights with a sword and a gust of sand.",
+  "look": "tall jackal-headed warrior with dark fur, gold jewellery and a desert-looking sword and shield with strong arms",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [],
+  "color": "#D0A040"
+ },
+ {
+  "names": [
+   "jetragon",
+   "jetragon palworld"
+  ],
+  "kind": "creature",
+  "from": "Palworld",
+  "facts": "Fast flying dragon pal in Palworld that breathes strong dragon energy and is the fastest ride.",
+  "look": "long white dragon with a pointed head and blue eyes, tail ending in a fin and long white body",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "none",
+  "flies": true,
+  "speed": 5,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E8F0FF"
+ },
+ {
+  "names": [
+   "frostallion",
+   "frostallion palworld"
+  ],
+  "kind": "creature",
+  "from": "Palworld",
+  "facts": "Icy unicorn-like horse pal with frozen manes and ice attacks. Runs fast and stomps ice crystals onto the ground and breathes freezing wind.",
+  "look": "ice-blue horse with a frosty crystal horn, flowing blue-white mane of frost and glowing icicle hooves",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "ice",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#9AE0FF"
+ },
+ {
+  "names": [
+   "shadowbeak",
+   "shadowbeak palworld"
+  ],
+  "kind": "creature",
+  "from": "Palworld",
+  "facts": "Dark-type pal with a dragon-like beak that flies and fires dark rays. Dives from above in dark storms.",
+  "look": "dark purple flying dragon with a long sharp beak, glowing violet eyes and large black wings",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "dark",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#7A30B0"
+ },
+ {
+  "names": [
+   "paladius",
+   "paladius palworld"
+  ],
+  "kind": "creature",
+  "from": "Palworld",
+  "facts": "Strong, defensive knight pal with a shield and sword. Guards friends with a huge shield and strikes with a blessed sword.",
+  "look": "tall white and gold armoured knight pal with a glowing sword, a large shield, a plume and golden wings",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#FFE080"
+ },
+ {
+  "names": [
+   "destined one wukong",
+   "black myth wukong",
+   "sun wukong black myth"
+  ],
+  "kind": "character",
+  "from": "Black Myth: Wukong",
+  "facts": "The Destined One uses a staff that grows long, spells like immobilize and clones, and can transform into beasts.",
+  "look": "monkey warrior with a golden crown and armour, a long glowing staff and a tail, wearing a wooden bead necklace",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "clones",
+   "grow"
+  ],
+  "color": "#E0B030"
+ },
+ {
+  "names": [
+   "tiger vanguard",
+   "tiger vanguard black myth"
+  ],
+  "kind": "creature",
+  "from": "Black Myth: Wukong",
+  "facts": "Boss in Black Myth: Wukong; a tiger warrior with fast claws and a bow. Leaps and slashes.",
+  "look": "huge tiger-headed warrior in golden armour with a big sword, orange tiger stripes and glowing amber eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E08030"
+ },
+ {
+  "names": [
+   "hornet silksong",
+   "hornet silk",
+   "silksong hornet"
+  ],
+  "kind": "character",
+  "from": "Hollow Knight: Silksong",
+  "facts": "Playable protagonist of Silksong who throws her needle and silk, hooks to dash and heals with silk.",
+  "look": "small red-cloaked insect warrior with a white mask-like face, tiny horns and a long needle sword with a red cape",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "teleport",
+   "pull",
+   "heal"
+  ],
+  "color": "#E04050"
+ },
+ {
+  "names": [
+   "lace silksong",
+   "lace hollow knight"
+  ],
+  "kind": "character",
+  "from": "Hollow Knight: Silksong",
+  "facts": "Fast rival fighter in Silksong who wields a needle and dashes with sharp slashes. Throws sharp needle slashes and dashes with speed.",
+  "look": "slim insect-like fighter in a white and black cloak with a pale mask and a long thin needle blade",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#E0E0E0"
+ },
+ {
+  "names": [
+   "moorwing",
+   "moorwing silksong"
+  ],
+  "kind": "creature",
+  "from": "Hollow Knight: Silksong",
+  "facts": "Giant winged boss in Silksong that swoops and flies high. Swoops with sharp wings and glides in tight circles over fields in the night sky.",
+  "look": "huge pale moth-like creature with large grey wings, glowing eyes and thin legs, fluffy chest",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#B0B0C0"
+ },
+ {
+  "names": [
+   "gustave expedition 33",
+   "gustave"
+  ],
+  "kind": "character",
+  "from": "Clair Obscur: Expedition 33",
+  "facts": "Engineer and expedition leader in Clair Obscur who wields a sword and an arm gauntlet that fires charge bolts.",
+  "look": "young man in a long red coat with short dark brown hair and a sword and a mechanical arm gauntlet",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "electric",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E04040"
+ },
+ {
+  "names": [
+   "maelle expedition 33",
+   "maelle"
+  ],
+  "kind": "character",
+  "from": "Clair Obscur: Expedition 33",
+  "facts": "Fast fencer in Clair Obscur who uses stances and quick slashes; fights with a rapier.",
+  "look": "young woman with short red hair in a white and black fencing outfit with a long rapier and a flowing cape",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "fire",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E06040"
+ },
+ {
+  "names": [
+   "lune expedition 33",
+   "lune clair obscur"
+  ],
+  "kind": "character",
+  "from": "Clair Obscur: Expedition 33",
+  "facts": "Mage who casts elemental spells and magic stains in Clair Obscur. Calls ice and lightning.",
+  "look": "woman in a long dark robe with long black hair and a pointed hat, floating elemental stones of fire and ice",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#80B0FF"
+ },
+ {
+  "names": [
+   "monoco expedition 33",
+   "monoco gestral"
+  ],
+  "kind": "character",
+  "from": "Clair Obscur: Expedition 33",
+  "facts": "Playable gestral in Clair Obscur who copies skills from monsters. Mimics monsters to copy attacks.",
+  "look": "tall bull-like creature with fur, a long coat, walking stick and a large friendly smile",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "adapt"
+  ],
+  "color": "#C09060"
+ },
+ {
+  "names": [
+   "verso expedition 33",
+   "verso clair obscur"
+  ],
+  "kind": "character",
+  "from": "Clair Obscur: Expedition 33",
+  "facts": "Mysterious fighter in Clair Obscur who uses a mix of sword and bow skills for control.",
+  "look": "man in a dark coat with a scarf, a sword and a bow with a mysterious calm face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#6A4AB0"
+ },
+ {
+  "names": [
+   "nevron",
+   "nevron expedition 33"
+  ],
+  "kind": "creature",
+  "from": "Clair Obscur: Expedition 33",
+  "facts": "Weird monster enemies in Clair Obscur with strange bodies, some with huge weapons and tricky attacks.",
+  "look": "strange monster with a bulky body of tangled shapes and a mask-like face carrying a big weapon",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#6A6AA0"
+ },
+ {
+  "names": [
+   "tenna deltarune",
+   "mr tenna",
+   "tenna tv"
+  ],
+  "kind": "character",
+  "from": "Deltarune",
+  "facts": "TV host villain of Deltarune Chapter 3 who runs a chaotic game show with flashy bright attacks.",
+  "look": "TV-headed host in a bow tie and gloves with a white wide-smiling face on the screen and a flashy suit",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "electric",
+  "flies": false,
+  "speed": 4,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#FF70C0"
+ },
+ {
+  "names": [
+   "rouxls kaard",
+   "rouxls deltarune"
+  ],
+  "kind": "character",
+  "from": "Deltarune",
+  "facts": "Duke of Puzzles who is flustered and can only be calmed by ACTing, shouts about puzzles.",
+  "look": "dapper card-shaped duke in a purple coat with ruffles, tall hat and a mustache, a ruffled collar",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 3,
+  "specials": [],
+  "color": "#8A60E0"
+ },
+ {
+  "names": [
+   "roaring knight",
+   "roaring knight deltarune"
+  ],
+  "kind": "character",
+  "from": "Deltarune",
+  "facts": "Secret strong knight boss in Deltarune with a powerful sword and fast slashes. Rushes in with huge slashes.",
+  "look": "dark knight in black armour with a huge crowned helmet and a long black sword with glowing white edges",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#A0A0FF"
+ },
+ {
+  "names": [
+   "wylder nightreign",
+   "nightreign wylder"
+  ],
+  "kind": "character",
+  "from": "Elden Ring Nightreign",
+  "facts": "Nightfarer who uses a grappling hook and a greatsword; balanced adventurer. Hooks across gaps and swings a huge blade.",
+  "look": "man in light armour with an eye mask and a heavy greatsword and a chain with a grappling hook",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#C09040"
+ },
+ {
+  "names": [
+   "guardian nightreign",
+   "nightreign guardian"
+  ],
+  "kind": "character",
+  "from": "Elden Ring Nightreign",
+  "facts": "Winged knight with a halberd and big shield that protects teammates and can fly down.",
+  "look": "tall armoured knight with bird-like wings on the back, long halberd and big round shield",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [
+   "shield"
+  ],
+  "color": "#7A8AA0"
+ },
+ {
+  "names": [
+   "ironeye nightreign",
+   "ironeye"
+  ],
+  "kind": "character",
+  "from": "Elden Ring Nightreign",
+  "facts": "Archer Nightfarer who fires arrows from a long way and marks targets. Shoots huge arrows from afar.",
+  "look": "hooded archer in dark armour with a face mask and a long bow with piercing arrows",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#8A8A60"
+ },
+ {
+  "names": [
+   "duchess nightreign",
+   "duchess elden ring"
+  ],
+  "kind": "character",
+  "from": "Elden Ring Nightreign",
+  "facts": "Stealth Nightfarer who dodges, turns invisible and copies attacks. Slips away and returns in quick stabs.",
+  "look": "slim woman in a layered dress with a shawl and a thin curved dagger, hair tied back",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "teleport"
+  ],
+  "color": "#A090C0"
+ },
+ {
+  "names": [
+   "recluse nightreign",
+   "recluse elden ring"
+  ],
+  "kind": "character",
+  "from": "Elden Ring Nightreign",
+  "facts": "Mage Nightfarer who casts magic spells and combines elements. Casts long-range magic, changes element often to hit weak spots.",
+  "look": "mage in a long cloak with a tall pointed hat and a glowing staff with a crystal",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#6A60E0"
+ },
+ {
+  "names": [
+   "raider nightreign",
+   "raider elden ring"
+  ],
+  "kind": "character",
+  "from": "Elden Ring Nightreign",
+  "facts": "Tanky brawler Nightfarer with a giant axe and big spin attacks. Spins an axe and takes many hits.",
+  "look": "very large armoured warrior with heavy plate armour, a large axe and a thick red beard",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [],
+  "color": "#A0603A"
+ },
+ {
+  "names": [
+   "revenant nightreign",
+   "revenant elden ring"
+  ],
+  "kind": "character",
+  "from": "Elden Ring Nightreign",
+  "facts": "Nightfarer who summons spirit allies and uses a spooky scythe attack. Calls helpful ghosts and drains foes.",
+  "look": "ghostly figure in a long hooded robe with pale glowing eyes and a staff, spirits floating around",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "clones"
+  ],
+  "color": "#80E0E0"
+ },
+ {
+  "names": [
+   "executor nightreign",
+   "executor elden ring"
+  ],
+  "kind": "character",
+  "from": "Elden Ring Nightreign",
+  "facts": "Samurai-like Nightfarer who parries with a katana and fights fast. Waits for the right moment, then counters with a quick sharp strike of a katana.",
+  "look": "masked samurai with a long katana, dark armour and a red scarf, long hair, a mask over half the face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#B04040"
+ },
+ {
+  "names": [
+   "arkveld",
+   "arkveld monster hunter"
+  ],
+  "kind": "creature",
+  "from": "Monster Hunter Wilds",
+  "facts": "White Wyvern from Monster Hunter Wilds with chain blades on its wings and strong strikes and a glowing red eye.",
+  "look": "pale white-and-gold wyvern with blade-like glowing wings, chains and a long tail with red glowing eye lines",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": true,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 4,
+  "specials": [],
+  "color": "#FFE0A0"
+ },
+ {
+  "names": [
+   "rathalos wilds",
+   "rathalos monster hunter",
+   "rathalos"
+  ],
+  "kind": "creature",
+  "from": "Monster Hunter",
+  "facts": "Fire wyvern known as the king of the skies, spits fire balls and strikes with a poisonous tail spike.",
+  "look": "red flying wyvern with large wings, long tail with spikes and a toothy beak with glowing fire in its mouth",
+  "use": "summon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "fire",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [],
+  "color": "#E04030"
+ },
+ {
+  "names": [
+   "gore magala",
+   "gore magala monster hunter"
+  ],
+  "kind": "creature",
+  "from": "Monster Hunter",
+  "facts": "Black scaly wyvern that spreads frenzy virus and has dark swirling dust. Spreads a glowing virus cloud and strikes fast.",
+  "look": "dark black dragon with glowing red eyes, scaly wings with spiky edges and swirling dust around it",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": true,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "aura"
+  ],
+  "color": "#6A30A0"
+ },
+ {
+  "names": [
+   "doshaguma",
+   "doshaguma wilds"
+  ],
+  "kind": "creature",
+  "from": "Monster Hunter Wilds",
+  "facts": "Big ape-like fanged beast in Monster Hunter Wilds that charges and roars in packs. Hunts in packs.",
+  "look": "huge fur-covered beast with dark purple and brown fur, long fangs and big claws, with tough front arms",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "clones"
+  ],
+  "color": "#7A5A8A"
+ },
+ {
+  "names": [
+   "kingdom key",
+   "keyblade fortnite",
+   "sora fortnite"
+  ],
+  "kind": "item",
+  "from": "Fortnite",
+  "facts": "Kingdom Key from Fortnite's Kingdom Hearts collab. A key-shaped sword that smashes with light magic.",
+  "look": "large silver key-shaped sword with a golden crown-shaped handle and teeth along the tip, with a heart-shaped keychain",
+  "use": "melee weapon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "holy",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FFE080"
+ },
+ {
+  "names": [
+   "sonic power sneakers",
+   "sonic sneakers fortnite"
+  ],
+  "kind": "item",
+  "from": "Fortnite",
+  "facts": "Power sneakers in Fortnite from the Sonic collab; lets you sprint like the hedgehog and spin attacks.",
+  "look": "pair of bright red sneakers with white straps and a golden buckle, with blue speed trails",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 2,
+  "toughness": 1,
+  "specials": [
+   "leap"
+  ],
+  "color": "#4A80E0"
+ },
+ {
+  "names": [
+   "mega man buster",
+   "mega buster fortnite",
+   "mega man"
+  ],
+  "kind": "item",
+  "from": "Mega Man",
+  "facts": "Arm cannon that fires charged plasma shots, from the robot hero in the Fortnite collab.",
+  "look": "bright blue arm cannon with a round yellow glowing muzzle and a metal wrist cuff",
+  "use": "ranged weapon",
+  "trait": "none",
+  "attack": "blast",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 1,
+  "specials": [],
+  "color": "#40A0FF"
+ },
+ {
+  "names": [
+   "coil head",
+   "coilhead",
+   "coil head lethal company"
+  ],
+  "kind": "creature",
+  "from": "Lethal Company",
+  "facts": "Lethal Company monsters. The Bracken sneaks behind you and the Coil-Head moves only when unwatched.",
+  "look": "tall thin monster with a head on a spring coil, a mannequin body and a hunched pose",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 4,
+  "toughness": 2,
+  "specials": [],
+  "color": "#C0A090"
+ },
+ {
+  "names": [
+   "minecraft breeze",
+   "breeze mob"
+  ],
+  "kind": "creature",
+  "from": "Minecraft",
+  "facts": "Whirlwind mob in Minecraft's Trial Chambers that shoots wind charges to knock you around. Hops around and launches gusts.",
+  "look": "small whirlwind creature made of blue-white swirling air with rods and glowing eyes, swirly rods",
+  "use": "summon",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": true,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#A0E0FF"
+ },
+ {
+  "names": [
+   "wind charge",
+   "wind charge minecraft"
+  ],
+  "kind": "item",
+  "from": "Minecraft",
+  "facts": "Throwable item in Minecraft that bursts into a gust that launches you and knocks mobs.",
+  "look": "small swirling white-blue ball of air with a wind swirl pattern, small and round with a green rim",
+  "use": "thrown weapon",
+  "trait": "knockback",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 1,
+  "specials": [],
+  "color": "#C0F0FF"
+ },
+ {
+  "names": [
+   "mace minecraft"
+  ],
+  "kind": "item",
+  "from": "Minecraft",
+  "facts": "Heavy weapon in Minecraft that deals a large smash damage after a long fall. Falling smash.",
+  "look": "heavy black mace with a spiral engraved head and chunky handle, spiky metal ring around the head, a short heavy dark grip and glints of grey metal",
+  "use": "melee weapon",
+  "trait": "heavy",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 1,
+  "strength": 5,
+  "toughness": 1,
+  "specials": [],
+  "color": "#303040"
+ },
+ {
+  "names": [
+   "mario kart world cow",
+   "cow mario kart",
+   "mkw cow"
+  ],
+  "kind": "creature",
+  "from": "Mario Kart World",
+  "facts": "A playable cow in Mario Kart World who races around at normal kart speed; funny fan favourite.",
+  "look": "friendly black and white cow wearing racing goggles driving a small kart with a happy face",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#F0F0F0"
+ },
+ {
+  "names": [
+   "coin coffer",
+   "mario kart coin coffer"
+  ],
+  "kind": "creature",
+  "from": "Mario Kart World",
+  "facts": "Walking coin purse character that debuted in a Mario Kart game; bounces and collects coins.",
+  "look": "small brown coin sack with a gold coin-patterned top, wide eyes and tiny feet, a golden clasp",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 2,
+  "toughness": 2,
+  "specials": [],
+  "color": "#E0B030"
+ },
+ {
+  "names": [
+   "wiggler mario",
+   "wiggler"
+  ],
+  "kind": "creature",
+  "from": "Mario Kart World",
+  "facts": "Long yellow caterpillar who becomes angry and red if stomped. Stomps trigger fury and fast dashes with its body in an angry rush.",
+  "look": "long yellow segmented caterpillar with an orange flower on the head, round blue eyes and a stripy body",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [
+   "grow"
+  ],
+  "color": "#FFD020"
+ },
+ {
+  "names": [
+   "mega mushroom",
+   "super mushroom mario",
+   "mario mega mushroom"
+  ],
+  "kind": "item",
+  "from": "Mario",
+  "facts": "Mushroom power-up that makes you giant; stomps small foes. Giant size smashes foes and stomps bad guys flat, then slowly shrinks back.",
+  "look": "large red mushroom with white spots and eyes on the stem, a small face with bright eyes and a chunky stem",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 2,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "grow"
+  ],
+  "color": "#E04040"
+ },
+ {
+  "names": [
+   "zygarde",
+   "zygarde 100 percent",
+   "zygarde cells"
+  ],
+  "kind": "creature",
+  "from": "Pokemon",
+  "facts": "Order Pokemon from Z-A, a large snake-dragon; has cells and cores that can attack as many forms.",
+  "look": "huge green serpent dragon with black and teal glowing patterns, many small cell clones, glowing cell dots",
+  "use": "summon",
+  "trait": "none",
+  "attack": "beam",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 5,
+  "toughness": 4,
+  "specials": [
+   "heal"
+  ],
+  "color": "#40D0A0"
+ },
+ {
+  "names": [
+   "lily lovebraids",
+   "lily poppy playtime"
+  ],
+  "kind": "character",
+  "from": "Poppy Playtime",
+  "facts": "Poppy Playtime Chapter 5 antagonist; a toy with long braids that move like living ropes and grab players.",
+  "look": "toy doll with a big round smiling head and long braids made of ropey hair stretching along the floor",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 4,
+  "toughness": 3,
+  "specials": [
+   "pull"
+  ],
+  "color": "#C060A0"
+ },
+ {
+  "names": [
+   "the prototype",
+   "prototype poppy playtime",
+   "experiment 1006"
+  ],
+  "kind": "character",
+  "from": "Poppy Playtime",
+  "facts": "Giant tall toy villain of Poppy Playtime made of mechanical parts; grabs with long arms.",
+  "look": "enormous dark metallic toy with long cabled arms, a round mechanical head and glowing yellow eyes",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "dark",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [
+   "pull"
+  ],
+  "color": "#8A8A60"
+ },
+ {
+  "names": [
+   "banban",
+   "banban garten",
+   "garten of banban"
+  ],
+  "kind": "character",
+  "from": "Garten of Banban",
+  "facts": "Big friendly mascot of Garten of Banban who guards the kindergarten and is a creepy tall pink and blue monster.",
+  "look": "tall monster with a big smiling face, orange-pink body with a round head and tiny crown and big arms",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 4,
+  "specials": [],
+  "color": "#F08070"
+ },
+ {
+  "names": [
+   "capuchina assassina",
+   "capuccino assassino ballerina",
+   "ballerina capuchina"
+  ],
+  "kind": "creature",
+  "from": "Italian Brainrot",
+  "facts": "Coffee-cup character who is a ballerina assassin in the meme; dances and attacks with a sharp kick.",
+  "look": "ballerina with a coffee cup for a head, white tutu and ballet slippers and a tiny sharp kitchen knife",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [],
+  "color": "#C09060"
+ },
+ {
+  "names": [
+   "tung tung tung tung sahur",
+   "tung sahur bat"
+  ],
+  "kind": "character",
+  "from": "Italian Brainrot",
+  "facts": "Wooden log with a bat and a face; shows up at sunrise bashing a drum.",
+  "look": "tall tan wooden log creature with a face, tiny arms holding a baseball bat, long legs",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 3,
+  "strength": 3,
+  "toughness": 3,
+  "specials": [],
+  "color": "#B07A3A"
+ },
+ {
+  "names": [
+   "six seven meme",
+   "67 meme"
+  ],
+  "kind": "ability",
+  "from": "Internet meme",
+  "facts": "Viral 67 gesture and number meme from 2025; players hold both hands out and wobble.",
+  "look": "player with both palms up, moving hands up and down alternately, with bold numbers 6 and 7 floating",
+  "use": "self buff",
+  "trait": "none",
+  "attack": "ranged",
+  "element": "none",
+  "flies": false,
+  "speed": 4,
+  "strength": 2,
+  "toughness": 1,
+  "specials": [],
+  "color": "#FFD020"
+ },
+ {
+  "names": [
+   "pizza tower peppino",
+   "peppino spaghetti"
+  ],
+  "kind": "character",
+  "from": "Pizza Tower",
+  "facts": "Panicking pizza chef who runs through levels at high speed and runs at foes with grab moves.",
+  "look": "short stocky chef with a tall white hat, a big nose, a white apron with blue trim and a mustache",
+  "use": "summon",
+  "trait": "none",
+  "attack": "melee",
+  "element": "none",
+  "flies": false,
+  "speed": 5,
+  "strength": 3,
+  "toughness": 2,
+  "specials": [
+   "leap"
+  ],
+  "color": "#E04030"
+ }
+]
