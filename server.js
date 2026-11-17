@@ -230,8 +230,12 @@ RULES:
   ("superman" alone summons him). When self is true the phrase is ALWAYS the character as a creature ("ice human",
   "fast ninja"), never a disaster, weapon or buff, even if their power is ice, fire or storms: "make me an ice
   hero" is the hero, not a blizzard.
-- "skin": when "self" is true, ALSO fill in "skin": how to dress the player's blocky Roblox avatar as that
-  character. Every colour is a hex code like "#1E3A8A"; use "" for "none / not there". Be accurate to the character:
+- "skin": fill in "skin" whenever the idea is ONE KIND of human-shaped character: when "self" is true (the player
+  becomes it), AND ALSO when a human-shaped character is summoned ("superman", "goku", "3 ninjas", "a knight",
+  "yasuo", "a wizard", "robot soldier"). Human-shaped means it stands on two legs with two arms and a head, about
+  the build of a person: heroes, villains, anime and game characters, soldiers, wizards, humanoid robots and
+  aliens. The game then dresses a blocky Roblox character in this outfit, which can really walk, run, punch and
+  fly. It is how to dress a blocky Roblox avatar as that character. Every colour is a hex code like "#1E3A8A"; use "" for "none / not there". Be accurate to the character:
     skin_color (face and any bare limbs; green, blue, grey etc. for non-human skin), hair (none, short, spiky, long,
     ponytail, twin_tails) and hair_color, top_color (shirt or suit torso), sleeves (long = arms covered in the top
     colour, short = upper arms only, none = bare arms), gloves_color, pants_color, boots_color, emblem (none, circle,
@@ -240,7 +244,9 @@ RULES:
     eye_glow_color (only for glowing eyes or mask lenses), headgear (none, headband, horns, crown, helmet, hat,
     halo, ears) and headgear_color, back (none, cape, wings, sword, shell, tail, jetpack) and back_color, aura_color
     (a glowing aura, e.g. gold for a powered-up martial artist).
-  When "self" is false, set every skin colour to "" and every choice to "none".
+  For anything that is NOT human-shaped (animals, dragons, kaiju, monsters with other body shapes, giants many
+  times a person's size, vehicles, objects, weapons, disasters, buffs), set every skin colour to "" and every
+  choice to "none": those keep their own generated 3D model.
 - VEHICLES the player can drive have their own words. A plain car, truck, bike or other road vehicle -> "car". A
   plain plane, jet, helicopter or bomber -> "plane". A plain tank or killdozer -> "killdozer". A plain "bulldozer"
   stays "bulldozer" (it drives itself and fights for the player). Use the single word alone, with self false and
@@ -478,7 +484,11 @@ async function interpret(text, doodle) {
     if (parsed.character && parsed.character.is_character === true) character = parsed.character;
     self = parsed.self === true;
     if (character) character.special = (character.specials && character.specials[0]) || "none"; // older game versions read one
-    if (self && parsed.skin && typeof parsed.skin === "object") skin = parsed.skin;
+    // an outfit: for the player becoming a character, and for human-shaped summons (which get a real animated body)
+    const hex = (v) => /^#[0-9a-fA-F]{6}$/.test(String(v ?? ""));
+    if (parsed.skin && typeof parsed.skin === "object" && hex(parsed.skin.skin_color) && hex(parsed.skin.top_color) && hex(parsed.skin.pants_color)) {
+      skin = parsed.skin;
+    }
     if (parsed.vehicle && parsed.vehicle.is_vehicle === true) vehicle = parsed.vehicle;
     if (/^#[0-9a-fA-F]{6}$/.test(String(parsed.color ?? ""))) color = parsed.color;
     if (typeof parsed.trait === "string" && parsed.trait !== "none") trait = parsed.trait;
